@@ -35,8 +35,6 @@ const joyItems = [
 ];
 
 const AboutBanner = () => {
-  const [expandedIndex, setExpandedIndex] = useState(null);
-
   const settings = {
     dots: false,
     infinite: true,

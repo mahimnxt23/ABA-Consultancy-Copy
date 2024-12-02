@@ -15,12 +15,11 @@ const ServiceBanner = () => {
       md:px-[32px] lg:px-[60px]  xl:px-[100px]  2xl:px-[150px] 
           "
         >
-          <h1 className="headTwo text-white pb-[12px]">About us</h1>
+          <h1 className="headTwo text-white pb-[12px]">Service</h1>
 
           <p className=" bodyText text-white">
-            We are committed to delivering high-quality services and exceptional
-            experiences. Our team is focused on innovation and customer
-            satisfaction, striving to be your trusted partner.
+            Never ever think of giving up. Winners never quit and quitters never
+            win. Take all negative words out of your mental dictionary.
           </p>
         </div>
       </div>
@@ -31,7 +30,7 @@ const ServiceBanner = () => {
         className="relative top-[-50px] grid grid-col-1 lg:grid-cols-3 gap-[20px]  px-[10px] md:px-[32px] lg:px-[60px] 
    xl:px-[100px] 2xl:px-[150px] "
       >
-        <div className="bg-[#FFFFFF] py-[20px] px-[30px]  rounded-[8px] h-[300px] relative overflow-hidden ">
+        <div className="bg-[#FFFFFF] py-[20px] px-[30px]  xl:py-[44px] xl:pl-[56px] xl:pr-[30px] rounded-[8px] h-[300px] relative overflow-hidden ">
           <div className=" h-[50px] w-[50px]  pb-[10px]   flex justify-center items-center z-10">
             <svg
               width="50"
@@ -67,7 +66,7 @@ const ServiceBanner = () => {
           </ul>
         </div>
 
-        <div className="bg-[#FFFFFF] h-[300px] py-[20px] px-[30px] rounded-[8px] relative overflow-hidden ">
+        <div className="bg-[#FFFFFF] h-[300px] py-[20px] px-[30px] xl:py-[44px] xl:pl-[56px] xl:pr-[30px] rounded-[8px] relative overflow-hidden ">
           <div className=" h-[50px] w-[50px]  pb-[10px]   flex justify-center items-center z-10">
             <svg
               width="50"
@@ -117,7 +116,7 @@ const ServiceBanner = () => {
           </ul>
         </div>
 
-        <div className="bg-[#FFFFFF] h-[300px] py-[20px] px-[30px] rounded-[8px]   relative overflow-hidden ">
+        <div className="bg-[#FFFFFF] h-[300px] py-[20px] px-[30px] xl:py-[44px] xl:pl-[56px] xl:pr-[30px] rounded-[8px]   relative overflow-hidden ">
           <div className=" h-[50px] w-[50px]  pb-[10px]   flex justify-center items-center z-10">
             <svg
               width="50"
@@ -173,7 +172,7 @@ const ServiceBanner = () => {
             </svg>
           </div>
 
-          <h1 className=" aboutUacard pb-[5px]  ">Comprehensive Package</h1>
+          <h1 className=" aboutUacard pb-[10px]  ">Comprehensive Package</h1>
           <ul>
             <li className="pb-[5px]  list-disc list-inside marker:text-[#FF8C00]">
               Mock Audits

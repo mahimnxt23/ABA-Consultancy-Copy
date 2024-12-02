@@ -39,5 +39,5 @@
 }
 
 .aboutUacard {
-  @apply text-[24px] text-[#0E0D0D] leading-[30px];
+  @apply text-[24px] text-[#0E0D0D] leading-[30px] font-semibold;
 }
