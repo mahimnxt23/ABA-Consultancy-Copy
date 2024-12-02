@@ -28,7 +28,13 @@ const Drive = () => {
   ];
 
   return (
-    <div className="grid  grid-cols-1 lg:grid-cols-2 gap-[50px] sectionGap">
+    <div
+      className="grid  grid-cols-1 lg:grid-cols-2 gap-[50px] mt-[10px] px-[30px]
+   md:mt-[10px] md:px-[32px]
+   lg:px-[60px] lg:mt-[30px]
+   xl:px-[100px] xl:mt-[50px]
+   2xl:px-[150px] 2xl:mt-[50px]"
+    >
       <div className="max-w-1/2 h-[554px] ">
         <img
           src="/Images/DriveService.webp"

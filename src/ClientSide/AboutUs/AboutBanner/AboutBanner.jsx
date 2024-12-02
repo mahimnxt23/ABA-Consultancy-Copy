@@ -81,7 +81,7 @@ const AboutBanner = () => {
           style={{
             backgroundImage: `url("https://i.ibb.co.com/6m1SZHM/About-Us-Banner.webp")`,
           }}
-          className="bg-no-repeat  bg-center bg-cover w-full md:h-[420px] 
+          className="bg-no-repeat  bg-center bg-cover w-full  
 h-[420px] flex justify-center items-center"
         ></div>
 
@@ -92,7 +92,7 @@ h-[420px] flex justify-center items-center"
         >
           <h1 className="headTwo text-white pb-[12px]">About us</h1>
 
-          <p className=" bodyText text-white">
+          <p className=" bodyText text-white md:max-w-[550px]">
             We are committed to delivering high-quality services and exceptional
             experiences. Our team is focused on innovation and customer
             satisfaction, striving to be your trusted partner.

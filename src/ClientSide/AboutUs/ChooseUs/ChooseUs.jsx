@@ -1,6 +1,12 @@
 const ChooseUs = () => {
   return (
-    <div className="sectionGap ">
+    <div
+      className="mt-[10px] px-[30px]
+   md:mt-[10px] md:px-[32px]
+   lg:px-[60px] lg:mt-[30px]
+   xl:px-[100px] xl:mt-[50px]
+   2xl:px-[150px] 2xl:mt-[50px] "
+    >
       <div className="max-w-[600px]">
         <h1 className="headTwo pb-[10px] text-[#0E0D0D]">Why Choose Us</h1>
         <p className="bodyText text-[#0E0D0DCC]/[.8] pb-[50px]">
