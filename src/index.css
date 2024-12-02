@@ -11,19 +11,20 @@
 }
 
 .headOne {
-  @apply text-[80px] leading-[104px];
+  @apply text-[80px] leading-[104px] font-semibold;
 }
 
 .headTwo {
-  @apply text-[50px] leading-[64px];
+  @apply xl:text-[50px] xl:leading-[64px] 
+  text-[40px] leading-[50px] font-semibold;
 }
 
 .headThree {
-  @apply text-[30px] leading-[38px];
+  @apply text-[30px] leading-[38px] font-semibold;
 }
 
 .menuText {
-  @apply text-[18px];
+  @apply text-[18px] leading-[22px];
 }
 
 .bodyText {
