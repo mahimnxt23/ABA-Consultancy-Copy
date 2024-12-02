@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .sectionGap {
-  @apply mt-[60px] px-[30px]
+	@apply mt-[60px] px-[30px]
    md:mt-[60px] md:px-[32px]
    lg:px-[60px] lg:mt-[80px]
    xl:px-[100px] xl:mt-[100px]
@@ -11,26 +13,26 @@
 }
 
 .headOne {
-  @apply text-[80px] leading-[104px] font-semibold;
+	@apply text-[80px] leading-[104px] font-semibold;
 }
 
 .headTwo {
-  @apply xl:text-[50px] xl:leading-[64px] 
+	@apply xl:text-[50px] xl:leading-[64px] 
   text-[40px] leading-[50px] font-semibold;
 }
 
 .headThree {
-  @apply text-[30px] leading-[38px] font-semibold;
+	@apply text-[30px] leading-[38px] font-semibold;
 }
 
 .menuText {
-  @apply text-[18px] leading-[22px];
+	@apply text-[18px] leading-[22px];
 }
 
 .bodyText {
-  @apply text-[16px] leading-[24px];
+	@apply text-[16px] leading-[24px];
 }
 
 .smallBodyText {
-  @apply text-[12px];
+	@apply text-[12px];
 }
