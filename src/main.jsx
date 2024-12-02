@@ -6,6 +6,7 @@ import Navbar from "./ClientSide/Shared/Navbar/Navbar";
 import Footer from "./ClientSide/Shared/Footer/Footer";
 import Home from "./ClientSide/Home/Home";
 import AboutUs from "./ClientSide/AboutUs/AboutUs";
+import Service from "./ClientSide/Service/Service";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/aboutUs",
     element: <AboutUs></AboutUs>,
+  },
+  {
+    path: "/service",
+    element: <Service></Service>,
   },
   {
     path: "/footer",

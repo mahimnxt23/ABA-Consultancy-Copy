@@ -16,7 +16,8 @@
 
 .headTwo {
   @apply xl:text-[50px] xl:leading-[64px] 
-  text-[40px] leading-[50px] font-semibold;
+  text-[40px] leading-[50px] 
+  font-semibold;
 }
 
 .headThree {
@@ -33,4 +34,8 @@
 
 .smallBodyText {
   @apply text-[12px];
+}
+
+.aboutUacard {
+  @apply text-[24px] text-[#0E0D0D] leading-[30px];
 }
