@@ -202,8 +202,8 @@ const Home = () => {
                 </div>
             </div>
             {/*  */}
-            <div className="max-w-[1440px] mx-auto expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[740px] mt-[50px]">
-                <div className="flex flex-wrap gap-[24px] justify-center px-[30px] lg:px-0">
+            <div className="max-w-[1440px] sectionGap mx-auto expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[740px] mt-[50px]">
+                <div className=" flex flex-wrap gap-[24px] justify-center lg:justify-start px-[30px] lg:px-0">
                     {experts.map((expert, index) => (
                         <div
                             key={index}
@@ -262,7 +262,7 @@ const Home = () => {
                 </div>
             </div>
             {/*  */}
-            <div className="sectionGap max-w-[1440px] mx-auto flex justify-between flex-wrap items-center ">
+            <div className="sectionGap mt-10 max-w-[1440px] mx-auto flex justify-between gap-4 flex-wrap lg:flex-nowrap items-center ">
                 <img
                     src="/images/home/hero/clientSay.jpg"
                     alt=""
@@ -363,10 +363,10 @@ export const Services = () => {
                 {data.map((service, index) => (
                     <div
                         key={index}
-                        className="flex  items-center gap-[15px] xl:gap-[35px] mx-auto"
+                        className="flex items-center gap-[15px] xl:gap-[35px] lg:items-start mx-auto"
                     >
                         <div
-                            className={`flex flex-col ${
+                            className={`flex flex-col lg:mt-[32px]  ${
                                 index === data.length - 1
                                     ? "justify-center"
                                     : ""
