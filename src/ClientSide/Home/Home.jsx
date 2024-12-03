@@ -9,10 +9,10 @@ const Home = () => {
    md:mt-[90px] md:px-[32px]
    lg:px-[90px] lg:mt-[80px]
    xl:px-[100px] xl:mt-[100px]
-   2xl:px-[150px] 2xl:mt-[100px] max-w-[1440px] mx-auto pt-[30px] text-[#0E0D0D]"
+   2xl:px-[150px] 2xl:mt-[100px] pt-[30px] text-[#0E0D0D]"
                 >
-                    <div className=" max-w-[1440px] mx-auto">
-                        <h1 className="text-[30px] md:text-[80px] leading-[50px] md:leading-[104px] font-outfit max-w-[996px] font-semibold">
+                    <div className=" ">
+                        <h1 className="text-[30px] md:text-[80px] leading-[50px] md:leading-[104px] font-outfit max-w-[996px] 2xl:max-w-auto font-semibold">
                             Helping You Give <br /> Therapy Beyond Belief
                         </h1>
                         <div className="flex justify-between flex-col md:flex-row gap-2">
@@ -69,15 +69,15 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-[150px] max-w-[1440px] mx-auto px-[30px] md:px-0">
-                <div className=" flex items-center justify-between flex-wrap lg:flex-nowrap gap-8">
-                    <div className="max-w-[486px] mx-auto gap-2">
+            <div className="mt-[150px] sectionGap ">
+                <div className=" flex items-center justify-center lg:justify-between 2xl:justify-normal 2xl:gap-[150px] flex-wrap lg:flex-nowrap gap-8">
+                    <div className="max-w-[486px] 2xl:min-w-[700px] gap-2">
                         <img
                             src="/images/home/hero/consulting.png"
                             className="w-full"
                         />
                     </div>
-                    <div className="max-w-[523px] mx-auto">
+                    <div className="max-w-[523px] 2xl:max-w-[800px]">
                         <div>
                             <SectionIndicator status={"About Us"} />
                             <h2 className="text-[30px] md:headTwo mt-[15px] font-semibold">
@@ -110,8 +110,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="max-w-[1440px] mx-auto">
-                <div className="ourservices sectionGap max-w-[900px]">
+            <div className="sectionGap">
+                <div className="ourservices max-w-[900px]">
                     <SectionIndicator status={"Our Service"} />
                     <h2 className="text-[30px] md:headTwo font-semibold mt-[15px]">
                         Our Services for You
@@ -127,9 +127,9 @@ const Home = () => {
 
             <Services />
             {/*  */}
-            <div className="max-w-[1440px] mx-auto">
-                <div className="whychooseus sectionGap flex-wrap justify-center lg:flex-nowrap flex items-center lg:justify-between">
-                    <div className="max-w-[530px]">
+            <div className="sectionGap">
+                <div className="whychooseus flex-wrap justify-center lg:flex-nowrap flex items-center lg:justify-between">
+                    <div className="max-w-[530px] 2xl:min-w-[700px]">
                         <SectionIndicator status={"Choose us"} />
                         <div className="">
                             <h2 className="headTwo font-semibold mt-[15px]">
@@ -182,13 +182,17 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <img src="/images/home/hero/aunty.jpg" alt="" />
+                        <img
+                            src="/images/home/hero/aunty.jpg"
+                            alt=""
+                            className="2xl:min-w-[800px] 2xl:mr-[80px]"
+                        />
                     </div>
                 </div>
             </div>
             {/*  */}
-            <div className="max-w-[1440px] mx-auto meet-experts">
-                <div className="ourservices sectionGap max-w-[900px]">
+            <div className="sectionGap meet-experts">
+                <div className="ourservices max-w-[900px]">
                     <SectionIndicator status={"Our Team"} />
                     <h2 className="headTwo font-semibold mt-[15px]">
                         Meet the Experts
@@ -202,18 +206,18 @@ const Home = () => {
                 </div>
             </div>
             {/*  */}
-            <div className="max-w-[1440px] sectionGap mx-auto expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[740px] mt-[50px]">
-                <div className=" flex flex-wrap gap-[24px] justify-center px-[30px] lg:px-0">
+            <div className=" sectionGap mx-auto expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[740px] mt-[50px]">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
                     {experts.map((expert, index) => (
                         <div
                             key={index}
-                            className="relative group overflow-hidden rounded-lg shadow-lg"
+                            className="relative group overflow-hidden rounded-lg w-full"
                         >
                             {/* Expert Image */}
                             <img
                                 alt="experts"
                                 src={expert.img}
-                                className="group-hover:scale-110 transition-transform duration-500"
+                                className="group-hover:scale-110 transition-transform duration-500 w-full"
                             />
 
                             {/* Overlay */}
@@ -262,13 +266,13 @@ const Home = () => {
                 </div>
             </div>
             {/*  */}
-            <div className="sectionGap mt-10 max-w-[1440px] mx-auto flex justify-between gap-4 flex-wrap lg:flex-nowrap items-center ">
+            <div className="sectionGap mt-10 flex justify-between gap-4 flex-wrap lg:flex-nowrap items-center ">
                 <img
                     src="/images/home/hero/clientSay.jpg"
                     alt=""
-                    className="max-w-[453px] w-full mx-auto"
+                    className="max-w-[453px] 2xl:max-w-[40%] w-full"
                 />
-                <div className="max-w-[580px] mx-auto mt-5 ">
+                <div className="max-w-[580px] 2xl:max-w-[800px] 2xl:mr-20 mt-5 ">
                     <SectionIndicator status={"Testimonials"} />
                     <h2 className="headTwo font-semibold mt-[15px]">
                         What Our Clients Saying
