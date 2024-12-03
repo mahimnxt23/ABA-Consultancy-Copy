@@ -100,99 +100,226 @@ import { ImPhone } from "react-icons/im";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-[#1a2633] body-font">
-        <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
-          <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-            <div className="flex h-[56px] w-[50px] title-font font-medium items-center md:justify-start justify-center text-gray-900 pb-2">
-              <img src="/images/ABA-Consulting-Logo.webp" className="" alt="" />
+      <footer
+        className="bg-[#1a2633] body-font  px-[30px]
+    md:px-[32px]
+   lg:px-[60px] 
+   xl:px-[100px] 
+   2xl:px-[150px] "
+      >
+        <div className="hidden lg:block">
+          <div className="w-full px-5 py-24 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div className="w-64 flex-shrink-0 lg:mx-0 mx-auto text-center lg:text-left">
+              <div className="flex h-[56px] w-[50px] title-font font-medium items-center md:justify-start justify-center text-gray-900 pb-2">
+                <img
+                  src="/images/ABA-Consulting-Logo.webp"
+                  className=""
+                  alt=""
+                />
+              </div>
+              <p className="mt-2 text-[#FFFFFFCC]/[.8] font-normal">
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
+                commodo ligula eget dolor.
+              </p>
             </div>
-            <p className="mt-2 text-[#FFFFFFCC]/[.8] font-normal">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
-              commodo ligula eget dolor.
-            </p>
-          </div>
-          <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
-            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-[#FF8C00] menuText tracking-widest text-sm mb-3">
-                Quick Links
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-[#FFFFFFCC]/[.8] font-normal">Home</a>
-                </li>
-                <li>
-                  <a className="text-[#FFFFFFCC]/[.8] font-normal">About us</a>
-                </li>
-                <li>
-                  <a className="text-[#FFFFFFCC]/[.8] font-normal">Service</a>
-                </li>
-                <li>
-                  <a className="text-[#FFFFFFCC]/[.8] font-normal">
-                    Contact us
-                  </a>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-[#FF8C00] menuText tracking-widest text-sm mb-3">
-                Services
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-[#FFFFFFCC]/[.8] font-normal">
-                    Compliance Assistance
-                  </a>
-                </li>
-                <li>
-                  <a className="text-[#FFFFFFCC]/[.8] font-normal">
-                    Staffing Solutions
-                  </a>
-                </li>
-                <li>
-                  <p className="text-[#FFFFFFCC]/[.8] font-normal">
-                    Compliance Assistance
-                  </p>
-                </li>
-              </nav>
-            </div>
-            <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-              <h2 className="title-font font-medium text-[#FF8C00] menuText tracking-widest text-sm mb-3">
-                Contact Info
-              </h2>
-              <nav className="list-none mb-10">
-                <li>
-                  <a className="text-[#FFFFFFCC]/[.8] font-normal gap-x-[4px] flex justify-start items-center">
-                    <ImPhone className="text-[#FF8C00]" />{" "}
-                    <span className="text-[#FFFFFFCC]/[.8]">01879011892</span>
-                  </a>
-                </li>
-                <li>
-                  <a className="text-[#FFFFFFCC]/[.8] font-normal  gap-x-[4px] flex justify-start items-center">
-                    <CiGlobe className="text-[#FF8C00]" />{" "}
-                    <span className="text-[#FFFFFFCC]/[.8]">
-                      abaconsulting.org
-                    </span>
-                  </a>
-                </li>
-                <li>
-                  <a className="text-[#FFFFFFCC]/[.8] font-normal  gap-x-[4px] flex justify-start items-center ">
-                    <HiOutlineMail className="text-[#FF8C00]" />{" "}
-                    <span className=" "> info@abaconsulting.org</span>
-                  </a>
-                </li>
+            <div className="flex-grow flex flex-wrap lg:pl-20 -mb-10 lg:mt-0 mt-10 lg:text-left text-center ">
+              <div className="lg:w-1/3 md:w-1/2 w-full px-4 ">
+                <h2 className="title-font font-medium text-[#FF8C00] menuText tracking-widest text-sm mb-3">
+                  Quick Links
+                </h2>
+                <nav className="list-none mb-10">
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">Home</a>
+                  </li>
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                      About us
+                    </a>
+                  </li>
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">Service</a>
+                  </li>
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                      Contact us
+                    </a>
+                  </li>
+                </nav>
+              </div>
 
-                <li>
-                  <a className="text-[#FFFFFFCC]/[.8] font-normal   gap-x-[4px] flex justify-start items-center ">
-                    <CiLocationOn className="text-[#FF8C00]" />{" "}
-                    <span className="text-[#FFFFFFCC]/[.8]">
-                      9900 13th Ave N, Unit 210G
-                    </span>
-                  </a>
-                </li>
-                <li className="text-[#FFFFFFCC]/[.8] ml-4">
-                  Minneapolis, MN 55441 United States
-                </li>
-              </nav>
+              <div className="lg:w-1/3 md:w-1/2 w-full px-4">
+                <h2 className="title-font font-medium text-[#FF8C00] menuText tracking-widest text-sm mb-3">
+                  Services
+                </h2>
+                <nav className="list-none mb-10">
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                      Compliance Assistance
+                    </a>
+                  </li>
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                      Staffing Solutions
+                    </a>
+                  </li>
+                  <li>
+                    <p className="text-[#FFFFFFCC]/[.8] font-normal">
+                      Compliance Assistance
+                    </p>
+                  </li>
+                </nav>
+              </div>
+
+              <div className="lg:w-1/3 md:w-1/2 w-full px-4 text-[#FFFFFFCC]">
+                <h2 className="title-font font-medium text-[#FF8C00] tracking-widest text-sm mb-4">
+                  Contact Info
+                </h2>
+                <div className="grid grid-cols-[auto,1fr] gap-x-4 gap-y-4 text-sm md:text-base">
+                  {/* Phone */}
+                  <div className="text-[#FF8C00] flex items-center">
+                    <ImPhone />
+                  </div>
+                  <div className="flex items-center">612-226-6210</div>
+
+                  {/* Website */}
+                  <div className="text-[#FF8C00] flex items-center">
+                    <CiGlobe />
+                  </div>
+                  <div className="flex items-center">abaconsulting.org</div>
+
+                  {/* Email */}
+                  <div className="text-[#FF8C00] flex items-center">
+                    <HiOutlineMail />
+                  </div>
+                  <div className="flex items-center">
+                    info@abaconsulting.org
+                  </div>
+
+                  {/* Address */}
+                  <div className="text-[#FF8C00] flex items-start pt-1">
+                    <CiLocationOn />
+                  </div>
+                  <div className="flex flex-col">
+                    <span>9900 13th Ave N, Unit 210G</span>
+                    <span>Minneapolis, MN 55441 United States</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="lg:hidden block">
+          <div className="container px-5 py-24 mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-x-10">
+            {/* Left Section (Logo + Quick Links) */}
+            <div>
+              {/* Logo Section */}
+              <div className="w-64 flex-shrink-0  text-left">
+                <div className="flex h-[56px] w-[50px] title-font font-medium items-center md:justify-start justify-center text-gray-900 pb-2">
+                  <img
+                    src="/images/ABA-Consulting-Logo.webp"
+                    className=""
+                    alt=""
+                  />
+                </div>
+                <p className="mt-2 text-[#FFFFFFCC]/[.8] font-normal">
+                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Aenean commodo ligula eget dolor.
+                </p>
+              </div>
+
+              {/* Quick Links */}
+              <div className="mt-10 md:mt-14">
+                <h2 className="title-font font-medium text-[#FF8C00] menuText tracking-widest text-sm mb-3">
+                  Quick Links
+                </h2>
+                <nav className="list-none mb-10">
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">Home</a>
+                  </li>
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                      About us
+                    </a>
+                  </li>
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">Service</a>
+                  </li>
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                      Contact us
+                    </a>
+                  </li>
+                </nav>
+              </div>
+            </div>
+
+            {/* Right Section (Services + Contact Info) */}
+            <div className="flex flex-col gap-y-10">
+              {/* Services */}
+              <div>
+                <h2 className="title-font font-medium text-[#FF8C00] menuText tracking-widest text-sm mb-3">
+                  Services
+                </h2>
+                <nav className="list-none mb-10">
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                      Compliance Assistance
+                    </a>
+                  </li>
+                  <li>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                      Staffing Solutions
+                    </a>
+                  </li>
+                  <li>
+                    <p className="text-[#FFFFFFCC]/[.8] font-normal">
+                      Compliance Assistance
+                    </p>
+                  </li>
+                </nav>
+              </div>
+
+              {/* Contact Info */}
+              <div>
+                <h2 className="title-font font-medium text-[#FF8C00] tracking-widest text-sm mb-4">
+                  Contact Info
+                </h2>
+                <div className="grid grid-cols-[auto,1fr] gap-x-4 gap-y-4 text-sm md:text-base">
+                  {/* Phone */}
+                  <div className="text-[#FF8C00] flex items-center">
+                    <ImPhone />
+                  </div>
+                  <div className="flex items-center text-[#FFFFFFCC]/[.8]">
+                    612-226-6210
+                  </div>
+
+                  {/* Website */}
+                  <div className="text-[#FF8C00] flex items-center">
+                    <CiGlobe />
+                  </div>
+                  <div className="flex items-center text-[#FFFFFFCC]/[.8]">
+                    abaconsulting.org
+                  </div>
+
+                  {/* Email */}
+                  <div className="text-[#FF8C00] flex items-center">
+                    <HiOutlineMail />
+                  </div>
+                  <div className="flex items-center text-[#FFFFFFCC]/[.8]">
+                    info@abaconsulting.org
+                  </div>
+
+                  {/* Address */}
+                  <div className="text-[#FF8C00] flex items-start pt-1">
+                    <CiLocationOn />
+                  </div>
+                  <div className="flex flex-col text-[#FFFFFFCC]/[.8]">
+                    <span>9900 13th Ave N, Unit 210G</span>
+                    <span>Minneapolis, MN 55441 United States</span>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

@@ -76,7 +76,7 @@ const ContactBanner = () => {
       </div>
 
       <div className="relative top-[-50px] ">
-        <div className="px-[30px] md:px-[32px] lg:px-[60px] bg-white pt-[50px] mx-[50px] rounded-[12px] xl:px-[100px] 2xl:px-[150px]">
+        <div className="px-[30px] md:px-[32px] lg:px-[60px] bg-white pt-[50px] mx-[50px] rounded-[12px] xl:px-[100px] 2xl:px-[150px] pb-[50px]">
           <div className="grid grid-cols-1 gap-y-[50px]">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-[24px]">
               {/* Contact Card */}
