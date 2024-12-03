@@ -8,6 +8,7 @@ import Home from "./ClientSide/Home/Home";
 import AboutUs from "./ClientSide/AboutUs/AboutUs";
 import Service from "./ClientSide/Service/Service";
 import Layout from "./ClientSide/Main";
+import ContactUs from "./ClientSide/ContactUs/ContactUs";
 
 // Parent Layout Component
 
@@ -31,11 +32,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/contact",
-        element: (
-          <div className="max-w-[1440px] mx-auto sectionGap">
-            contact us page
-          </div>
-        ),
+        element: <ContactUs></ContactUs>,
       },
     ],
   },

@@ -37,7 +37,7 @@ const Drive = () => {
     >
       <div className="max-w-1/2 h-[554px] ">
         <img
-          src="/Images/DriveService.webp"
+          src="/images/DriveService.webp"
           className="h-full w-full object-cover rounded-[8px]"
           alt=""
         />

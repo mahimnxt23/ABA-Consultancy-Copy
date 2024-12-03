@@ -6,29 +6,29 @@ import "./AboutBanner.css";
 const joyItems = [
   {
     imgSrc: "https://i.ibb.co/fDZTC6q/wdw-1142-66c25b7e935d6.webp",
-    LgImg: "/Images/aboutB1.webp",
+    LgImg: "/images/aboutB1.webp",
   },
   {
     imgSrc: "https://i.ibb.co/XtSvxZh/WDW-0921-1.webp",
-    LgImg: "/Images/aboutB2.webp",
+    LgImg: "/images/aboutB2.webp",
   },
 
   {
     imgSrc: "https://i.ibb.co/Tv7T8ms/ent.webp",
-    LgImg: "/Images/aboutB1.webp",
+    LgImg: "/images/aboutB1.webp",
   },
   {
     imgSrc: "https://i.ibb.co/x69TdwQ/A7406038-1.webp",
-    LgImg: "/Images/aboutB2.webp",
+    LgImg: "/images/aboutB2.webp",
   },
   {
     imgSrc: "https://i.ibb.co/g6jTWB4/IMG-2009.webp",
-    LgImg: "/Images/aboutB1.webp",
+    LgImg: "/images/aboutB1.webp",
   },
 
   {
     imgSrc: "https://i.ibb.co/PrnyML3/A7405947.webp",
-    LgImg: "/Images/aboutB2.webp",
+    LgImg: "/images/aboutB2.webp",
   },
 ];
 
