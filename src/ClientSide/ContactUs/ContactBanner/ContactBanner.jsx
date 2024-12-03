@@ -75,12 +75,12 @@ const ContactBanner = () => {
         </div>
       </div>
 
-      <div className="relative top-[-50px]">
-        <div className="px-[30px] md:px-[32px] lg:px-[60px] xl:px-[100px] 2xl:px-[150px]">
+      <div className="relative top-[-50px] ">
+        <div className="px-[30px] md:px-[32px] lg:px-[60px] bg-white pt-[50px] mx-[50px] rounded-[12px] xl:px-[100px] 2xl:px-[150px]">
           <div className="grid grid-cols-1 gap-y-[50px]">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-[24px]">
               {/* Contact Card */}
-              <div className="flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-[#F5F5F5]">
+              <div className=" flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
                 <div className="bg-[#397CCA] h-[56px] w-[56px] rounded-[4px] flex justify-center items-center">
                   <CiPhone className="text-white" size={32} />
                 </div>
@@ -92,7 +92,7 @@ const ContactBanner = () => {
               </div>
 
               {/* Additional Contact Cards */}
-              <div className="flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-[#F5F5F5]">
+              <div className="flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
                 <div className="bg-[#397CCA] h-[56px] w-[56px] rounded-[4px] flex justify-center items-center">
                   <CiPhone className="text-white" size={32} />
                 </div>
@@ -103,7 +103,7 @@ const ContactBanner = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-[#F5F5F5]">
+              <div className="flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
                 <div className="bg-[#397CCA] h-[56px] w-[56px] rounded-[4px] flex justify-center items-center">
                   <CiPhone className="text-white" size={32} />
                 </div>
