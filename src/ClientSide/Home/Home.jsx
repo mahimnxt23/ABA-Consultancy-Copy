@@ -1,15 +1,19 @@
-import Navbar from "../Shared/Navbar/Navbar"
-
 /* eslint-disable react/prop-types */
 const Home = () => {
     return (
-        <div>
-            <Navbar />
-            <div className="bg-[url('/images/home/hero/homehero.png')] w-full min-h-[693px] pt-[1px] bg-no-repeat bg-cover">
-                <div className="mt-2 sectionGap lg:mt-[150px] text-[#0E0D0D]">
-                    <div className="max-w-[1140px] mx-auto">
-                        <h1 className="md:headOne  font-outfit font-semibold text-[30px]">
-                            Helping You Give Therapy Beyond Belief
+        <div className="pb-10">
+            <div className="bg-[url('/images/home/hero/homehero.png')] w-full min-h-[693px] pt-[1px] bg-no-repeat bg-cover pb-5">
+                <div
+                    className=" px-[30px]
+                    mt-[90px]
+   md:mt-[90px] md:px-[32px]
+   lg:px-[90px] lg:mt-[80px]
+   xl:px-[100px] xl:mt-[100px]
+   2xl:px-[150px] 2xl:mt-[100px] max-w-[1440px] mx-auto pt-[30px] text-[#0E0D0D]"
+                >
+                    <div className=" max-w-[1440px] mx-auto">
+                        <h1 className="text-[30px] md:text-[80px] leading-[50px] md:leading-[104px] font-outfit max-w-[996px] font-semibold">
+                            Helping You Give <br /> Therapy Beyond Belief
                         </h1>
                         <div className="flex justify-between flex-col md:flex-row gap-2">
                             <div>
@@ -43,7 +47,7 @@ const Home = () => {
                                         className="rounded-b-[16px] py-[14px] bg-white"
                                         style={{
                                             boxShadow:
-                                                "0px 1px 8.9px 0px rgba(0, 0, 0, 0.15);",
+                                                "0px 1px 8.9px 0px rgba(0, 0, 0, 0.15)",
                                         }}
                                     >
                                         <button className="text-center w-full max-w-[233px] block smallBodyText">
@@ -65,8 +69,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className=" max-w-[1440px] mx-auto">
-                <div className="sectionGap flex items-center justify-between flex-wrap">
+            <div className="mt-[150px] max-w-[1440px] mx-auto">
+                <div className=" flex items-center justify-between flex-wrap">
                     <div className="max-w-[486px] mx-auto gap-2">
                         <img
                             src="/images/home/hero/consulting.png"
@@ -178,7 +182,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div>
-                        <img src="/public/images/home/hero/aunty.jpg" alt="" />
+                        <img src="/images/home/hero/aunty.jpg" alt="" />
                     </div>
                 </div>
             </div>
@@ -201,8 +205,58 @@ const Home = () => {
             <div className="expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[740px] mt-[50px]">
                 <div className="sectionGap flex flex-wrap gap-[24px] justify-center max-w-[1440px] mx-auto">
                     {experts.map((expert, index) => (
-                        <div key={index}>
-                            <img alt="experts" src={expert.img} className="" />
+                        <div
+                            key={index}
+                            className="relative group overflow-hidden rounded-lg shadow-lg"
+                        >
+                            {/* Expert Image */}
+                            <img
+                                alt="experts"
+                                src={expert.img}
+                                className="group-hover:scale-110 transition-transform duration-500"
+                            />
+
+                            {/* Overlay */}
+                            <div
+                                className={`absolute inset-0 bg-[#6195d2] }  opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center`}
+                            >
+                                <div className="flex flex-col gap-3 items-center">
+                                    <img
+                                        src={expert.img}
+                                        className="w-[70px] h-[70px] rounded-full"
+                                    />
+                                    <div>
+                                        <p className="text-white text-[18px] text-center font-semibold">
+                                            Sarah Mim
+                                        </p>
+                                        <p className="bodyText mt-1 text-white font-inter text-center">
+                                            Language Life, Art Skills
+                                        </p>
+                                        <div className="flex items-center gap-[14px] mt-[14px] justify-center">
+                                            <img
+                                                src="/images/home/hero/socialIcons/mingcute_facebook-fill.svg"
+                                                alt="facebook"
+                                                className="cursor-pointer"
+                                            />
+                                            <img
+                                                src="/images/home/hero/socialIcons/ri_instagram-fill.svg"
+                                                className="cursor-pointer"
+                                                alt="Instagram"
+                                            />
+                                            <img
+                                                src="/images/home/hero/socialIcons/pajamas_twitter.svg"
+                                                className="cursor-pointer"
+                                                alt="twitter"
+                                            />
+                                            <img
+                                                src="/images/home/hero/socialIcons/mdi_linkedin.svg"
+                                                className="cursor-pointer"
+                                                alt="linkedin"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     ))}
                 </div>
@@ -227,18 +281,23 @@ const Home = () => {
                         working with us:
                     </p>
                     <div
-                        className="p-5 rounded-[16px] mt-[46px]"
+                        className="p-5 rounded-[16px] mt-[46px] relative"
                         style={{ backgroundColor: "rgba(57, 124, 202, 0.80)" }}
                     >
                         <h4 className="menuText font-semibold text-white">
                             John Cena
                         </h4>
-                        <p className="font-inter bodyText">
+                        <p className="font-inter bodyText text-[rgba(255,255,255,0.8)] mt-[10px]">
                             ABA Consulting has been incredible for our center!
                             Their expertise in compliance and staffing made our
                             operations smoother, allowing us to focus more on
                             therapy. Highly recommended!
                         </p>
+                        <img
+                            src="/images/home/hero/koma.png"
+                            alt=""
+                            className="absolute top-0 right-[74px] -translate-y-1/2"
+                        />
                     </div>
                 </div>
             </div>
@@ -370,6 +429,6 @@ export const experts = [
         img: "/images/home/hero/experts/e7.jpg",
     },
     {
-        img: "/images/home/hero/experts/e8.jpg",
+        img: "/images/home/hero/experts/e2.jpg",
     },
 ]
