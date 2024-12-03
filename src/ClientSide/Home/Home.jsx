@@ -69,8 +69,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-[150px] max-w-[1440px] mx-auto">
-                <div className=" flex items-center justify-between flex-wrap">
+            <div className="mt-[150px] max-w-[1440px] mx-auto px-[30px] md:px-0">
+                <div className=" flex items-center justify-between flex-wrap lg:flex-nowrap gap-8">
                     <div className="max-w-[486px] mx-auto gap-2">
                         <img
                             src="/images/home/hero/consulting.png"
@@ -128,7 +128,7 @@ const Home = () => {
             <Services />
             {/*  */}
             <div className="max-w-[1440px] mx-auto">
-                <div className="whychooseus sectionGap flex-wrap flex items-center justify-between">
+                <div className="whychooseus sectionGap flex-wrap justify-center lg:flex-nowrap flex items-center lg:justify-between">
                     <div className="max-w-[530px]">
                         <SectionIndicator status={"Choose us"} />
                         <div className="">
@@ -359,11 +359,11 @@ const data = [
 export const Services = () => {
     return (
         <div className="bg-[#1B2633] text-white py-8 px-4 min-[440px] mt-[50px]">
-            <div className="sectionGap flex-col lg:flex-row !mt-0 mx-auto flex gap-[35px] justify-between">
+            <div className="sectionGap flex-col lg:flex-row !mt-0 mx-auto flex gap-[15px] xl:gap-[35px] justify-between">
                 {data.map((service, index) => (
                     <div
                         key={index}
-                        className="flex  items-center gap-[35px] mx-auto"
+                        className="flex  items-center gap-[15px] xl:gap-[35px] mx-auto"
                     >
                         <div
                             className={`flex flex-col ${
