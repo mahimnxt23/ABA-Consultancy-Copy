@@ -2,7 +2,7 @@ import { MdArrowOutward } from "react-icons/md";
 
 const GivingOurBussiness = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 sectionGap gap-[50px] justify-center items-center">
+    <div className="grid grid-cols-1 lg:grid-cols-2 sectionGap gap-[50px] pb-[60px] justify-center items-center">
       <div className="">
         <h1 className="pb-[16px]  headTwo text-[#0E0D0D] font-semibold">
           Giving your business some orignal ideas

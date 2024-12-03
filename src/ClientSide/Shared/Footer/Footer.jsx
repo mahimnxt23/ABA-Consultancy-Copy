@@ -117,30 +117,34 @@ const Footer = () => {
                   alt=""
                 />
               </div>
-              <p className="mt-2 text-[#FFFFFFCC]/[.8] font-normal">
+              <p className="mt-2 text-[#FFFFFFCC]/[.8] font-normal font-inter">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
                 commodo ligula eget dolor.
               </p>
             </div>
             <div className="flex-grow flex flex-wrap lg:pl-20 -mb-10 lg:mt-0 mt-10 lg:text-left text-center ">
               <div className="lg:w-1/3 md:w-1/2 w-full px-4 ">
-                <h2 className="title-font font-medium text-[#FF8C00] menuText tracking-widest text-sm mb-3">
+                <h2 className="title-font font-semibold text-[#FF8C00] menuText tracking-widest text-sm mb-3 font-inter">
                   Quick Links
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">Home</a>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
+                      Home
+                    </a>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
                       About us
                     </a>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">Service</a>
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
+                      Service
+                    </a>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
                       Contact us
                     </a>
                   </li>
@@ -148,22 +152,22 @@ const Footer = () => {
               </div>
 
               <div className="lg:w-1/3 md:w-1/2 w-full px-4">
-                <h2 className="title-font font-medium text-[#FF8C00] menuText tracking-widest text-sm mb-3">
+                <h2 className="title-font font-semibold text-[#FF8C00] menuText font-inter tracking-widest text-sm mb-3">
                   Services
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
                       Compliance Assistance
                     </a>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                    <a className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
                       Staffing Solutions
                     </a>
                   </li>
                   <li>
-                    <p className="text-[#FFFFFFCC]/[.8] font-normal">
+                    <p className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
                       Compliance Assistance
                     </p>
                   </li>
@@ -171,27 +175,31 @@ const Footer = () => {
               </div>
 
               <div className="lg:w-1/3 md:w-1/2 w-full px-4 text-[#FFFFFFCC]">
-                <h2 className="title-font font-medium text-[#FF8C00] tracking-widest text-sm mb-4">
+                <h2 className="title-font font-semibold text-[#FF8C00] font-inter tracking-widest menuText mb-4">
                   Contact Info
                 </h2>
-                <div className="grid grid-cols-[auto,1fr] gap-x-4 gap-y-4 text-sm md:text-base">
+                <div className="grid grid-cols-[auto,1fr] gap-x-4 gap-y-4 text-[#FFFFFFCC]/[.8] md:text-base">
                   {/* Phone */}
                   <div className="text-[#FF8C00] flex items-center">
                     <ImPhone />
                   </div>
-                  <div className="flex items-center">612-226-6210</div>
+                  <div className="flex items-center font-inter  text-[#FFFFFFCC]/[.8]">
+                    612-226-6210
+                  </div>
 
                   {/* Website */}
                   <div className="text-[#FF8C00] flex items-center">
                     <CiGlobe />
                   </div>
-                  <div className="flex items-center">abaconsulting.org</div>
+                  <div className="flex items-center  font-inter text-[#FFFFFFCC]/[.8]">
+                    abaconsulting.org
+                  </div>
 
                   {/* Email */}
                   <div className="text-[#FF8C00] flex items-center">
                     <HiOutlineMail />
                   </div>
-                  <div className="flex items-center">
+                  <div className="flex items-center  font-normal font-inter  text-[#FFFFFFCC]/[.8]">
                     info@abaconsulting.org
                   </div>
 
@@ -199,7 +207,7 @@ const Footer = () => {
                   <div className="text-[#FF8C00] flex items-start pt-1">
                     <CiLocationOn />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col font-inter  font-normal text-[#FFFFFFCC]/[.8]">
                     <span>9900 13th Ave N, Unit 210G</span>
                     <span>Minneapolis, MN 55441 United States</span>
                   </div>
@@ -326,8 +334,11 @@ const Footer = () => {
 
         <div className="py-10 flex-col justify-start items-center gap-10 flex">
           <div className="self-stretch h-[0px] border border-white/40"></div>
-          <div className="self-stretch text-center text-white/80 text-base font-normal font-['Inter'] leading-normal">
-            Ⓒ 2024 – ABA CONSULTING. All Rights Are Reserved
+          <div className="self-stretch text-center text-white/80 ">
+            <p className="bodyText font-inter">
+              {" "}
+              Ⓒ 2024 – ABA CONSULTING. All Rights Are Reserved
+            </p>
           </div>
         </div>
       </footer>
