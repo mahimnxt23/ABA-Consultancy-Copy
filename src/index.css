@@ -13,25 +13,25 @@
 }
 
 .headOne {
-    @apply text-[80px] leading-[104px] font-semibold;
+    @apply text-[80px] leading-[104px] font-semibold font-outfit;
 }
 
 .headTwo {
     @apply xl:text-[50px] xl:leading-[64px] 
-  text-[40px] leading-[50px] 
+  text-[40px] leading-[50px] font-outfit 
   font-semibold;
 }
 
 .headThree {
-    @apply text-[30px] leading-[38px] font-semibold;
+    @apply text-[30px] leading-[38px] font-semibold font-outfit;
 }
 
 .menuText {
-    @apply text-[18px] leading-[22px];
+    @apply text-[18px] leading-[22px] font-inter;
 }
 
 .bodyText {
-    @apply text-[16px] leading-[24px];
+    @apply text-[16px] leading-[24px] font-inter;
 }
 
 .smallBodyText {
@@ -40,4 +40,8 @@
 
 .aboutUacard {
     @apply text-[24px] text-[#0E0D0D] leading-[30px] font-semibold;
+}
+
+body {
+    background-color: #ffffff;
 }
