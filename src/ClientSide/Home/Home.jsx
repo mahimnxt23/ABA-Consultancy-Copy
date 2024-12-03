@@ -203,7 +203,7 @@ const Home = () => {
             </div>
             {/*  */}
             <div className="max-w-[1440px] sectionGap mx-auto expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[740px] mt-[50px]">
-                <div className=" flex flex-wrap gap-[24px] justify-center lg:justify-start px-[30px] lg:px-0">
+                <div className=" flex flex-wrap gap-[24px] justify-center px-[30px] lg:px-0">
                     {experts.map((expert, index) => (
                         <div
                             key={index}
@@ -359,11 +359,11 @@ const data = [
 export const Services = () => {
     return (
         <div className="bg-[#1B2633] text-white py-8 px-4 min-[440px] mt-[50px]">
-            <div className="sectionGap flex-col lg:flex-row !mt-0 mx-auto flex gap-[15px] xl:gap-[35px] justify-between">
+            <div className="sectionGap flex-col gap-5 lg:flex-row !mt-0 mx-auto flex lg:gap-[15px] xl:gap-[35px] justify-between">
                 {data.map((service, index) => (
                     <div
                         key={index}
-                        className="flex items-center gap-[15px] xl:gap-[35px] lg:items-start mx-auto"
+                        className="flex gap-[15px] xl:gap-[35px] lg:items-start mx-auto"
                     >
                         <div
                             className={`flex flex-col lg:mt-[32px]  ${
