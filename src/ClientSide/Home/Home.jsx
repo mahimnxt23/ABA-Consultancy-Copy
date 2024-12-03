@@ -80,7 +80,7 @@ const Home = () => {
                     <div className="max-w-[523px] mx-auto">
                         <div>
                             <SectionIndicator status={"About Us"} />
-                            <h2 className="headTwo mt-[15px] font-semibold">
+                            <h2 className="text-[30px] md:headTwo mt-[15px] font-semibold">
                                 ABA Consulting <br /> is renowned for <br /> its
                                 expertise
                             </h2>
@@ -113,7 +113,7 @@ const Home = () => {
             <div className="max-w-[1440px] mx-auto">
                 <div className="ourservices sectionGap max-w-[900px]">
                     <SectionIndicator status={"Our Service"} />
-                    <h2 className="headTwo font-semibold mt-[15px]">
+                    <h2 className="text-[30px] md:headTwo font-semibold mt-[15px]">
                         Our Services for You
                     </h2>
                     <p className="text-[#0E0D0DCC] bodyText mt-[10px] font-inter !text-[14px]">
@@ -287,7 +287,7 @@ const Home = () => {
                         <h4 className="menuText font-semibold text-white">
                             John Cena
                         </h4>
-                        <p className="font-inter bodyText text-[rgba(255,255,255,0.8)] mt-[10px]">
+                        <p className="font-inter md:bodyText text-[rgba(255,255,255,0.8)] mt-[10px]">
                             ABA Consulting has been incredible for our center!
                             Their expertise in compliance and staffing made our
                             operations smoother, allowing us to focus more on
