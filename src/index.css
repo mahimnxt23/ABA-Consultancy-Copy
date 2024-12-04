@@ -13,13 +13,13 @@
 }
 
 .headOne {
-  @apply lg:text-[80px] lg:leading-[100px]  text-[60px] leading-[70px] 
+  @apply md:text-[80px] md:leading-[100px]  text-[35px] leading-[45px] 
   font-semibold font-outfit;
 }
 
 .headTwo {
-  @apply xl:text-[50px] xl:leading-[64px] 
-  text-[40px] leading-[50px] font-outfit 
+  @apply md:text-[50px] md:leading-[64px] 
+  text-[30px] leading-[30px] font-outfit 
   font-semibold;
 }
 

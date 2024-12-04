@@ -68,7 +68,7 @@ const Home = () => {
           <div className="max-w-[523px] 2xl:max-w-[800px]">
             <div>
               <SectionIndicator status={"About Us"} />
-              <h2 className="text-[30px] md:headTwo mt-[15px] font-semibold">
+              <h2 className=" headTwo mt-[15px] font-semibold">
                 ABA Consulting <br /> is renowned for <br /> its expertise
               </h2>
               <p className="bodyText mt-[10px]">
