@@ -152,7 +152,7 @@ const ContactBanner = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full pl-[20px] bg-[#F5F5F5] outline-none py-[13px] border rounded-lg text-[#0B0B0BCC]/[.8] bodyText font-normal font-inter"
+                      className="w-full pl-[20px]  outline-none py-[13px] border border-[#CBD5E1] rounded-lg text-[#0B0B0BCC]/[.8] bodyText font-normal font-inter"
                       placeholder="Enter full name"
                       required
                     />
@@ -171,7 +171,7 @@ const ContactBanner = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      className="w-full pl-[20px] bg-[#F5F5F5] outline-none py-[13px] border rounded-lg text-[#0B0B0BCC]/[.8] bodyText font-normal font-inter"
+                      className="w-full pl-[20px]  outline-none py-[13px] border border-[#CBD5E1]rounded-lg text-[#0B0B0BCC]/[.8] bodyText font-normal font-inter"
                       placeholder="Enter e-mail address"
                       required
                     />
@@ -190,7 +190,7 @@ const ContactBanner = () => {
                       name="destination"
                       value={formData.destination}
                       onChange={handleChange}
-                      className="w-full pl-[20px] bg-[#F5F5F5] outline-none py-[13px] border rounded-lg text-[#0B0B0BCC]/[.6] bodyText font-normal font-inter"
+                      className="w-full pl-[20px]  outline-none py-[13px] border border-[#CBD5E1] rounded-lg text-[#0B0B0BCC]/[.6] bodyText font-normal font-inter"
                       required
                     >
                       <option value="">
@@ -215,7 +215,7 @@ const ContactBanner = () => {
                       name="message"
                       value={formData.message}
                       onChange={handleChange}
-                      className="w-full pl-[20px] bg-[#F5F5F5] outline-none py-[13px] border rounded-lg text-[#0B0B0BCC]/[.6] bodyText font-normal font-inter"
+                      className="w-full pl-[20px]  outline-none py-[13px] border border-[#CBD5E1] rounded-lg text-[#0B0B0BCC]/[.6] bodyText font-normal font-inter"
                       placeholder="Enter your message"
                       rows="4"
                       required

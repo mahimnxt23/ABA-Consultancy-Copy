@@ -15,9 +15,11 @@ const ServiceBanner = () => {
       md:px-[32px] lg:px-[60px]  xl:px-[100px]  2xl:px-[150px] 
           "
         >
-          <h1 className="headTwo text-white pb-[12px]">Service</h1>
+          <h1 className="headTwo text-white pb-[12px] font-semibold">
+            Service
+          </h1>
 
-          <p className=" bodyText text-white md:max-w-[550px]">
+          <p className=" bodyText text-white md:max-w-[550px] font-normal">
             Never ever think of giving up. Winners never quit and quitters never
             win. Take all negative words out of your mental dictionary.
           </p>
@@ -27,7 +29,7 @@ const ServiceBanner = () => {
       {/* card */}
 
       <div
-        className="relative top-[-50px] grid grid-col-1 lg:grid-cols-3 gap-[20px]  px-[10px] md:px-[32px] lg:px-[60px] 
+        className="relative top-[-50px] grid grid-col-1 lg:grid-cols-3 gap-[20px]  px-[30px] md:px-[32px] lg:px-[60px] 
    xl:px-[100px] 2xl:px-[150px] "
       >
         <div className="bg-[#FFFFFF] py-[20px] px-[30px]  xl:py-[44px] xl:pl-[56px] xl:pr-[30px] rounded-[8px] h-[300px] relative overflow-hidden ">
@@ -49,8 +51,10 @@ const ServiceBanner = () => {
             </svg>
           </div>
 
-          <h1 className="aboutUacard  pb-[10px]">Compliance Assistance</h1>
-          <ul>
+          <h1 className="aboutUacard  pb-[10px] font-semibold text-[#0E0D0D]">
+            Compliance Assistance
+          </h1>
+          <ul className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
             <li className="pb-[5px]  list-disc list-inside marker:text-[#FF8C00]">
               Mock Audits
             </li>
@@ -102,15 +106,17 @@ const ServiceBanner = () => {
             </svg>
           </div>
 
-          <h1 className="aboutUacard pb-[10px] ">Staffing Solutions</h1>
-          <ul>
-            <li className="pb-[5px]  list-disc list-inside marker:text-[#FF8C00]">
+          <h1 className="aboutUacard pb-[10px]  font-semibold text-[#0E0D0D]">
+            Staffing Solutions
+          </h1>
+          <ul className="list-disc list-outside pl-4 bodyText text-[#0E0D0DCC]/[.8] font-normal">
+            <li className="marker:text-[#FF8C00]  pb-[5px]">
               Board Certified Behavior Analyst (BCBA)
             </li>
-            <li className="pb-[5px]  list-disc list-inside marker:text-[#FF8C00]">
+            <li className="marker:text-[#FF8C00] pb-[5px]">
               Qualified Supervising Professional (QSP)
             </li>
-            <li className="pb-[5px]  list-disc list-inside marker:text-[#FF8C00]">
+            <li className="marker:text-[#FF8C00] pb-[5px]">
               Occupational Therapist (OT) Speech Therapist
             </li>
           </ul>
@@ -172,8 +178,10 @@ const ServiceBanner = () => {
             </svg>
           </div>
 
-          <h1 className=" aboutUacard pb-[10px]  ">Comprehensive Package</h1>
-          <ul>
+          <h1 className=" aboutUacard pb-[10px]  font-semibold text-[#0E0D0D]">
+            Comprehensive Package
+          </h1>
+          <ul className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
             <li className="pb-[5px]  list-disc list-inside marker:text-[#FF8C00]">
               Mock Audits
             </li>

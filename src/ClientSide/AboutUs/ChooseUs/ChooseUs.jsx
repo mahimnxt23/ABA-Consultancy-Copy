@@ -8,8 +8,10 @@ const ChooseUs = () => {
    2xl:px-[150px] 2xl:mt-[50px] "
     >
       <div className="max-w-[600px]">
-        <h1 className="headTwo pb-[10px] text-[#0E0D0D]">Why Choose Us</h1>
-        <p className="bodyText text-[#0E0D0DCC]/[.8] pb-[50px]">
+        <h1 className="headTwo pb-[10px] text-[#0E0D0D]  font-outfit font-semibold">
+          Why Choose Us
+        </h1>
+        <p className="bodyText text-[#0E0D0DCC]/[.8] pb-[50px] font-semibold">
           With a track record of success and a commitment to excellence, we
           bring expertise, innovation, and personalized strategies to every
           project. Our goal is to help you overcome challenges, seize
@@ -37,8 +39,12 @@ const ChooseUs = () => {
             </svg>
           </div>
 
-          <h1 className=" pb-[8px] headThree text-[#FF8C00]">Top 50</h1>
-          <p className="bodyText">consulting firms</p>
+          <h1 className=" pb-[8px] headThree text-[#FF8C00]  font-semibold">
+            Top 50
+          </h1>
+          <p className="bodyText  text-[#1F1E1ECC]/[.8]  font-normal">
+            consulting firms
+          </p>
         </div>
         <div className="bg-[#FFFFFF] rounded-[8px] text-center  relative overflow-hidden py-[50px]">
           <div className=" h-[50px] w-[50px] mx-auto pb-[20px]   flex justify-center items-center z-10">
@@ -57,8 +63,12 @@ const ChooseUs = () => {
             </svg>
           </div>
 
-          <h1 className=" pb-[8px] headThree text-[#FF8C00]">Top 50</h1>
-          <p className="bodyText">years experience</p>
+          <h1 className=" pb-[8px] headThree text-[#FF8C00]  font-semibold">
+            Top 50
+          </h1>
+          <p className="bodyText  text-[#1F1E1ECC]/[.8]  font-normal">
+            years experience
+          </p>
         </div>
 
         <div className="bg-[#FFFFFF] rounded-[8px] text-center  relative overflow-hidden py-[50px]">
@@ -73,8 +83,12 @@ const ChooseUs = () => {
             </svg>
           </div>
 
-          <h1 className=" pb-[8px] headThree text-[#FF8C00]">Top 50</h1>
-          <p className="bodyText">Trusted by clients</p>
+          <h1 className=" pb-[8px] headThree text-[#FF8C00]  font-semibold">
+            Top 50
+          </h1>
+          <p className="bodyText  text-[#1F1E1ECC]/[.8]  font-normal">
+            Trusted by clients
+          </p>
         </div>
         <div className="bg-[#FFFFFF] rounded-[8px] text-center  relative overflow-hidden py-[50px]">
           <div className=" h-[50px] w-[50px] mx-auto pb-[20px]   flex justify-center items-center z-10">
@@ -88,8 +102,12 @@ const ChooseUs = () => {
             </svg>
           </div>
 
-          <h1 className=" pb-[8px] headThree text-[#FF8C00]">Top 50</h1>
-          <p className="bodyText text-[#0E0D0DCC]/[.8]">Client satisfication</p>
+          <h1 className=" pb-[8px] headThree text-[#FF8C00]  font-semibold">
+            Top 50
+          </h1>
+          <p className="bodyText text-[#1F1E1ECC]/[.8]  font-normal">
+            Client satisfication
+          </p>
         </div>
       </div>
     </div>

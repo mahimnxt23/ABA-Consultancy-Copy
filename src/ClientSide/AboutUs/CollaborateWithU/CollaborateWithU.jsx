@@ -11,10 +11,10 @@ const CollaborateWithU = () => {
         </div>
 
         <div>
-          <h1 className="headTwo text-[#0E0D0D] pb-[20px] ">
+          <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
             We collaborate with you to tackle your key business priorities.
           </h1>
-          <p className="bodyText text-[#0E0D0DCC]/[.8] ">
+          <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
             At ABA Counsaltant we specialize in providing tailored consultancy
             services to help businesses thrive in a competitive world. With
             years of experience and a passion for driving success, we focus on

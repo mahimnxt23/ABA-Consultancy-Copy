@@ -240,7 +240,7 @@ const Home = () => {
         </div>
       </div>
       {/*  */}
-      <div className="sectionGap mt-10 flex justify-between gap-4 flex-wrap lg:flex-nowrap items-center ">
+      <div className="sectionGap mt-10 mb-[50px] flex justify-between gap-4 flex-wrap lg:flex-nowrap items-center ">
         <img
           src="/images/home/hero/clientSay.jpg"
           alt=""

@@ -88,9 +88,11 @@ h-[420px] flex justify-center items-center"
     md:px-[32px] lg:px-[60px]  xl:px-[100px]  2xl:px-[150px] 
         "
         >
-          <h1 className="headTwo text-white pb-[12px]">About us</h1>
+          <h1 className="headTwo text-white pb-[12px] font-semibold">
+            About us
+          </h1>
 
-          <p className=" bodyText text-white md:max-w-[550px]">
+          <p className=" bodyText text-white md:max-w-[550px] font-normal">
             We are committed to delivering high-quality services and exceptional
             experiences. Our team is focused on innovation and customer
             satisfaction, striving to be your trusted partner.

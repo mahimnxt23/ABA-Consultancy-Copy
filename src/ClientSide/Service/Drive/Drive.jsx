@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Drive = () => {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0); // Initialize with 0 for the first FAQ
 
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
@@ -29,24 +29,24 @@ const Drive = () => {
 
   return (
     <div
-      className="grid  grid-cols-1 lg:grid-cols-2 gap-[50px] mt-[10px] px-[30px]
+      className="grid grid-cols-1 lg:grid-cols-2 gap-[50px] mt-[10px] px-[30px]
    md:mt-[10px] md:px-[32px]
    lg:px-[60px] lg:mt-[30px]
    xl:px-[100px] xl:mt-[50px]
    2xl:px-[150px] 2xl:mt-[50px]"
     >
-      <div className="max-w-1/2 h-[554px] ">
+      <div className="max-w-1/2 h-[554px]">
         <img
           src="/images/DriveService.webp"
           className="h-full w-full object-cover rounded-[8px]"
           alt=""
         />
       </div>
-      <div className="max-w-1/2     rounded-lg">
+      <div className="max-w-1/2 rounded-lg">
         <h2 className="text-[#0E0D0DCC] font-semibold mb-6 headTwo">
           Drive More Customers Through Digital
         </h2>
-        <p className="text-[#0E0D0DCC]/[.8] mb-6 font-normal  bodyText">
+        <p className="text-[#0E0D0DCC]/[.8] mb-6 font-normal bodyText">
           Unlock the power of digital marketing to attract more customers. Our
           tailored strategies focus on increasing your online presence, engaging
           your target audience, and driving conversions to help your business
@@ -54,14 +54,16 @@ const Drive = () => {
         </p>
         <div className="space-y-4">
           {faqItems.map((item, index) => (
-            <div key={index} className="border border-gray-200 rounded-[6px]">
+            <div key={index} className="border border-[#CBD5E1] rounded-[6px]">
               <button
-                className="w-full flex justify-between items-center p-4 bg-white hover:bg-gray-100 focus:outline-none focus:ring focus:ring-indigo-200"
+                className={`w-full flex justify-between items-center p-4 focus:outline-none focus:ring ${
+                  activeIndex === index
+                    ? "bg-[#FF8C00] text-white"
+                    : "bg-white hover:bg-gray-100 text-[#0E0D0DCC]/[.6]"
+                }`}
                 onClick={() => toggleFAQ(index)}
               >
-                <span className="text-[#0E0D0DCC]/[.6] font-normal bodyText">
-                  {item.question}
-                </span>
+                <span className="font-normal bodyText">{item.question}</span>
                 <svg
                   className={`w-5 h-5 transform ${
                     activeIndex === index ? "rotate-180" : ""
