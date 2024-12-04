@@ -13,7 +13,7 @@
 }
 
 .headOne {
-  @apply text-[80px] leading-[104px] font-semibold font-outfit;
+  @apply text-[80px] leading-[100px] font-semibold font-outfit;
 }
 
 .headTwo {

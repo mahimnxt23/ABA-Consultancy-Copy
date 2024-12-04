@@ -12,7 +12,7 @@ const Home = () => {
    2xl:px-[150px] 2xl:mt-[100px] pt-[30px] text-[#0E0D0D]"
         >
           <div className=" ">
-            <h1 className="text-[30px] font-outfit md:text-[80px] leading-[50px] md:leading-[104px]  max-w-[996px] 2xl:max-w-auto font-semibold">
+            <h1 className="text-[30px] mb-[15px] font-outfit md:text-[80px] leading-[50px] md:leading-[104px]  max-w-[996px] 2xl:max-w-auto font-semibold">
               Helping You Give <br /> Therapy Beyond Belief
             </h1>
             <div className="flex justify-between flex-col md:flex-row gap-2">
@@ -344,7 +344,7 @@ export const Services = () => {
               <div className="text-4xl mb-4">
                 <img src={service.icon} alt="icon" />
               </div>
-              <h3 className="text-[24px] font-semibold text-nowrap mb-[9px]">
+              <h3 className="text-[24px] font-semibold text-nowrap mb-[10px]">
                 {service.title}
               </h3>
               <ul className="space-y-2 text-[16px] font-inter mt-2">
