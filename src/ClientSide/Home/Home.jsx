@@ -12,7 +12,7 @@ const Home = () => {
    2xl:px-[150px] 2xl:mt-[100px] pt-[30px] text-[#0E0D0D]"
         >
           <div className=" ">
-            <h1 className="text-[30px] mb-[15px] font-outfit md:text-[80px] leading-[50px] md:leading-[104px]  max-w-[996px] 2xl:max-w-auto font-semibold">
+            <h1 className="headOne mb-[15px] font-outfit text-[#0E0D0D] max-w-[996px] 2xl:max-w-auto font-semibold">
               Helping You Give <br /> Therapy Beyond Belief
             </h1>
             <div className="flex justify-between flex-col md:flex-row gap-2">
