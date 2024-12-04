@@ -172,7 +172,7 @@ const Home = () => {
         <div className="ourservices max-w-[900px]">
           <SectionIndicator status={"Our Team"} />
           <h2 className="headTwo font-semibold mt-[15px]">Meet the Experts</h2>
-          <p className="text-[#0E0D0DCC] bodyText mt-[10px] font-inter !text-[14px]">
+          <p className="text-[#0E0D0DCC] bodyText mt-[10px] font-inter ">
             Our team of skilled professionals brings experience, innovation, and
             dedication to help your business succeed. We work closely with you
             to deliver tailored solutions and achieve lasting results
