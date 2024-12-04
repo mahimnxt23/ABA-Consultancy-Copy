@@ -344,7 +344,7 @@ export const Services = () => {
               <div className="text-4xl mb-4">
                 <img src={service.icon} alt="icon" />
               </div>
-              <h3 className="text-[24px] font-semibold text-nowrap">
+              <h3 className="text-[24px] font-semibold text-nowrap mb-[9px]">
                 {service.title}
               </h3>
               <ul className="space-y-2 text-[16px] font-inter mt-2">
