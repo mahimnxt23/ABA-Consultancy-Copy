@@ -5,9 +5,9 @@
 @tailwind utilities;
 
 .sectionGap {
-  @apply mt-[60px] px-[30px]
-   md:mt-[60px] md:px-[32px]
-   lg:px-[60px] lg:mt-[80px]
+  @apply mt-[80px] px-[30px]
+   md:mt-[80px] md:px-[32px]
+   lg:px-[80px] lg:mt-[80px]
    xl:px-[100px] xl:mt-[100px]
    2xl:px-[150px] 2xl:mt-[100px];
 }
@@ -19,7 +19,7 @@
 
 .headTwo {
   @apply md:text-[50px] md:leading-[64px] 
-  text-[30px] leading-[30px] font-outfit 
+  text-[35px] leading-[45px] font-outfit 
   font-semibold;
 }
 

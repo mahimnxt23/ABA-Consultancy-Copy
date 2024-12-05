@@ -100,13 +100,7 @@ import { ImPhone } from "react-icons/im";
 const Footer = () => {
   return (
     <div>
-      <footer
-        className="bg-[#1a2633] body-font  px-[30px]
-    md:px-[32px]
-   lg:px-[60px] 
-   xl:px-[100px] 
-   2xl:px-[150px] "
-      >
+      <footer className="bg-[#1a2633] body-font sectionGap">
         <div className="hidden lg:block">
           <div className="w-full px-5 py-24 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div className="w-64 flex-shrink-0 lg:mx-0 mx-auto text-center lg:text-left">
@@ -218,12 +212,12 @@ const Footer = () => {
         </div>
 
         <div className="lg:hidden block">
-          <div className="container px-5 py-24 mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-x-10">
+          <div className="container px-5 pt-24 mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-x-10">
             {/* Left Section (Logo + Quick Links) */}
             <div>
               {/* Logo Section */}
-              <div className="w-64 flex-shrink-0  text-left">
-                <div className="flex h-[56px] w-[50px] title-font font-medium items-center md:justify-start justify-center text-gray-900 pb-2">
+              <div className="w-64 flex-shrink-0  text-left ">
+                <div className="flex h-[56px] w-[50px]  title-font font-medium items-center md:justify-start justify-center text-gray-900 pb-[30px] lg:pb-2">
                   <img
                     src="/images/ABA-Consulting-Logo.webp"
                     className=""

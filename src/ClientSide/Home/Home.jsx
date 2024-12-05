@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 const Home = () => {
   return (
-    <div className="pb-10">
+    <div className="">
       <div className="bg-[url('/images/home/hero/homehero.png')] w-full min-h-[693px] pt-[1px] bg-no-repeat bg-cover pb-5">
         <div
           className=" px-[30px]
@@ -12,7 +12,7 @@ const Home = () => {
    2xl:px-[150px] 2xl:mt-[100px] pt-[30px] text-[#0E0D0D]"
         >
           <div className=" ">
-            <h1 className="headOne mb-[15px] font-outfit text-[#0E0D0D] max-w-[996px] 2xl:max-w-auto font-semibold">
+            <h1 className="headOne mb-[20px] font-outfit text-[#0E0D0D] max-w-[996px] 2xl:max-w-auto font-semibold">
               Helping You Give <br /> Therapy Beyond Belief
             </h1>
             <div className="flex justify-between flex-col md:flex-row gap-2">
@@ -26,13 +26,13 @@ const Home = () => {
                   merely a statement but a guiding principle that propels us
                   forward each day.
                 </p>
-                <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold">
+                <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold">
                   Get a Quote
                   <img src="/images/home/hero/quate.svg" alt="" />
                 </button>
               </div>
               <div className="flex md:block w-full md:w-auto mt-4 md:mt-10 flex-col justify-center md:justify-normal">
-                <div className="max-w-[233px] mx-auto">
+                <div className="max-w-[233px] lg:mx-auto">
                   <img
                     src="/images/home/hero/watchvideo.png"
                     alt="watchvideo"
@@ -50,7 +50,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="md:hidden flex justify-center">
+              <div className="md:hidden flex lg:justify-center">
                 <button className="text-[#397CCA] flex max-w-[175px]  items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold">
                   Get a Quote
                   <img src="/images/home/hero/quate.svg" alt="" />
@@ -61,17 +61,17 @@ const Home = () => {
         </div>
       </div>
       <div className="mt-[150px] sectionGap ">
-        <div className=" flex items-center justify-center lg:justify-between 2xl:justify-normal 2xl:gap-[150px] flex-wrap lg:flex-nowrap gap-8">
+        <div className=" flex items-center justify-center lg:justify-between 2xl:justify-normal 2xl:gap-[150px] flex-wrap lg:flex-nowrap gap-[50px] lg:gap-8">
           <div className="max-w-[486px] 2xl:min-w-[700px] gap-2">
             <img src="/images/home/hero/consulting.png" className="w-full" />
           </div>
           <div className="max-w-[523px] 2xl:max-w-[800px]">
             <div>
               <SectionIndicator status={"About Us"} />
-              <h2 className=" headTwo mt-[15px] font-semibold">
+              <h2 className=" headTwo mt-[30px] font-semibold">
                 ABA Consulting <br /> is renowned for <br /> its expertise
               </h2>
-              <p className="bodyText mt-[10px]">
+              <p className="bodyText mt-[20px]">
                 ABA Consulting is renowned for its expertise in assisting autism
                 centers, ensuring their compliance and successful completion of
                 numerous audits. At the heart of our work is a dedication to
@@ -81,7 +81,7 @@ const Home = () => {
                 envision a world where every person, regardless of their
                 abilities, can thrive and achieve their full potential.
               </p>
-              <div className="mt-[33px]">
+              <div className="mt-[20px]">
                 <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px]">
                   Learn More
                   <img
@@ -97,10 +97,10 @@ const Home = () => {
       <div className="sectionGap">
         <div className="ourservices max-w-[900px]">
           <SectionIndicator status={"Our Service"} />
-          <h2 className="text-[30px] md:headTwo font-semibold mt-[15px]">
+          <h2 className="text-[30px] md:headTwo font-semibold mt-[30px]">
             Our Services for You
           </h2>
-          <p className="text-[#0E0D0DCC] bodyText mt-[10px] font-inter !text-[14px]">
+          <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter !text-[14px]">
             Our expert consultancy services are crafted to meet the unique
             challenges of your business. Whether you&apos; re looking to improve
             strategy, enhance operations, or boost growth, we’re here to help.
@@ -115,21 +115,21 @@ const Home = () => {
           <div className="max-w-[530px] 2xl:min-w-[700px]">
             <SectionIndicator status={"Choose us"} />
             <div className="">
-              <h2 className="headTwo font-semibold mt-[15px]">Why Choose Us</h2>
-              <p className="text-[#0E0D0DCC] bodyText mt-[10px] font-inter">
+              <h2 className="headTwo font-semibold mt-[30px]">Why Choose Us</h2>
+              <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter">
                 With a track record of success and a commitment to excellence,
                 we bring expertise, innovation, and personalized strategies to
                 every project. Our goal is to help you overcome challenges,
                 seize opportunities, and achieve sustainable growth for your
                 business.
               </p>
-              <div className="flex items-center justify-between mt-6">
+              <div className="grid grid-cols-1 gap-[10px] lg:gap-0 lg:grid-cols-3 items-center justify-between mt-[20px]">
                 <div className="">
-                  <span className="text-[#FF8C00] text-[30px] font-semibold">
+                  <span className="text-[#FF8C00] bodyText font-normal ">
                     10+
                   </span>
                   <p
-                    className="bodyText"
+                    className="bodyText font-inter font-normal pt-[10px]"
                     style={{
                       color: "rgba(31, 30, 30, 0.80)",
                     }}
@@ -138,27 +138,31 @@ const Home = () => {
                   </p>
                 </div>
                 <div>
-                  <span className="text-[#FF8C00] text-[30px] font-semibold">
+                  <span className="text-[#FF8C00] bodyText font-normal ">
                     500+
                   </span>
-                  <p>Trusted by clients</p>
+                  <p className="pt-[10px] bodyText font-inter font-normal">
+                    Trusted by clients
+                  </p>
                 </div>
                 <div>
-                  <span className="text-[#FF8C00] text-[30px] font-semibold">
+                  <span className="text-[#FF8C00] bodyText font-normal ">
                     Tailored{" "}
                   </span>
-                  <p>solutions for business </p>
+                  <p className="pt-[10px] bodyText font-inter font-normal">
+                    solutions for business{" "}
+                  </p>
                 </div>
               </div>
               <div className="flex">
-                <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-10 text-[18px] font-semibold">
+                <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA]  rounded-[8px] mt-10 text-[18px] font-semibold">
                   Learn More
                   <img src="/images/home/hero/quate.svg" alt="" />
                 </button>
               </div>
             </div>
           </div>
-          <div>
+          <div className="mt-[50px] lg:mt-0">
             <img
               src="/images/home/hero/aunty.jpg"
               alt=""
@@ -171,8 +175,8 @@ const Home = () => {
       <div className="sectionGap meet-experts">
         <div className="ourservices max-w-[900px]">
           <SectionIndicator status={"Our Team"} />
-          <h2 className="headTwo font-semibold mt-[15px]">Meet the Experts</h2>
-          <p className="text-[#0E0D0DCC] bodyText mt-[10px] font-inter ">
+          <h2 className="headTwo font-semibold mt-[30px]">Meet the Experts</h2>
+          <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter ">
             Our team of skilled professionals brings experience, innovation, and
             dedication to help your business succeed. We work closely with you
             to deliver tailored solutions and achieve lasting results
@@ -180,7 +184,13 @@ const Home = () => {
         </div>
       </div>
       {/*  */}
-      <div className=" sectionGap mx-auto expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[740px] mt-[50px]">
+      <div
+        className="  px-[30px]
+    md:px-[32px]
+   lg:px-[80px] 
+   xl:px-[100px] 
+   2xl:px-[150px]  mx-auto expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[740px] mt-[30px] lg:mt-[50px]"
+      >
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
           {experts.map((expert, index) => (
             <div
@@ -240,18 +250,18 @@ const Home = () => {
         </div>
       </div>
       {/*  */}
-      <div className="sectionGap mt-10 mb-[50px] flex justify-between gap-4 flex-wrap lg:flex-nowrap items-center ">
+      <div className="sectionGap mt-10  flex justify-between gap-4 flex-wrap lg:flex-nowrap items-center ">
         <img
           src="/images/home/hero/clientSay.jpg"
           alt=""
           className="max-w-[453px] 2xl:max-w-[40%] w-full"
         />
-        <div className="max-w-[580px] 2xl:max-w-[800px] 2xl:mr-20 mt-5 ">
+        <div className="max-w-[580px] 2xl:max-w-[800px] 2xl:mr-20 mt-[30px] ">
           <SectionIndicator status={"Testimonials"} />
-          <h2 className="headTwo font-semibold mt-[15px]">
+          <h2 className="headTwo font-semibold mt-[30px]">
             What Our Clients Saying
           </h2>
-          <p className="text-[#0E0D0DCC] bodyText mt-[10px] font-inter !text-[14px]">
+          <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter ">
             Don’t just take our word for it—hear from the businesses we’ve
             helped. Our clients trust us to deliver impactful results, and we
             take pride in building long-lasting partnerships. Here’s what some
@@ -329,7 +339,7 @@ const data = [
 
 export const Services = () => {
   return (
-    <div className="bg-[#1B2633] text-white py-8 px-4 min-[440px] mt-[50px]">
+    <div className="bg-[#1B2633] text-white py-8 px-4 min-[440px] mt-[30px]">
       <div className="sectionGap flex-col gap-5 lg:flex-row !mt-0 mx-auto flex lg:gap-[15px] xl:gap-[35px] justify-between">
         {data.map((service, index) => (
           <div
@@ -337,11 +347,11 @@ export const Services = () => {
             className="flex gap-[15px] xl:gap-[35px] lg:items-start mx-auto"
           >
             <div
-              className={`flex flex-col lg:mt-[32px]  ${
+              className={`flex flex-col mt-[50px] lg:mt-[32px]  ${
                 index === data.length - 1 ? "justify-center" : ""
               }`}
             >
-              <div className="text-4xl mb-4">
+              <div className="text-4xl mb-[20px] lg:mb-4">
                 <img src={service.icon} alt="icon" />
               </div>
               <h3 className="text-[24px] font-semibold text-nowrap mb-[10px]">
@@ -362,7 +372,7 @@ export const Services = () => {
             <div className="w-[0.5px] h-[208px] mt-32 bg-white hidden lg:block"></div>
           </div>
         ))}
-        <div className="flex items-center justify-center">
+        <div className="flex items-center Lg:justify-center mt-[30px] mb-[40px] lg:mb-0 lg:mt-0">
           <button className="w-[151px] flex flex-col justify-center items-center gap-[10px] h-[151px] rounded-full bg-[#FF8C00] text-[18px] font-semibold">
             Learn More
             <img src="/images/home/hero/material-symbols_arrow-insert (2).svg" />
