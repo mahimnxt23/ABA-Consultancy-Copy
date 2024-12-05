@@ -63,8 +63,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="mt-[150px] sectionGap ">
-          <div className=" flex items-center justify-center lg:justify-between 2xl:justify-normal 2xl:gap-[150px] flex-wrap lg:flex-nowrap gap-[50px] lg:gap-8">
+        <div className=" sectionGap ">
+          <div className=" flex items-center justify-center lg:justify-between  2xl:gap-[50px] flex-wrap lg:flex-nowrap gap-[50px]  xl:gap-8">
             <div className="max-w-[486px] 2xl:min-w-[700px] gap-2">
               <img src="/images/home/hero/consulting.png" className="w-full" />
             </div>
