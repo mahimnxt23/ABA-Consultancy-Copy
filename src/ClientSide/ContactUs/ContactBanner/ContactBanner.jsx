@@ -55,7 +55,7 @@ const ContactBanner = () => {
       <div className="relative">
         <div
           style={{
-            backgroundImage: `url("https://i.ibb.co.com/6m1SZHM/About-Us-Banner.webp")`,
+            backgroundImage: `url("/images/about-us-Banner-2.png")`,
           }}
           className="bg-no-repeat bg-center bg-cover w-full h-[420px] flex justify-center items-center"
         ></div>
