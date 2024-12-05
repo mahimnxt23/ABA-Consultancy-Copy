@@ -92,7 +92,6 @@
 
 // export default Footer;
 
-import React from "react";
 import { CiGlobe, CiLocationOn } from "react-icons/ci";
 import { HiOutlineMail } from "react-icons/hi";
 import { ImPhone } from "react-icons/im";
@@ -284,7 +283,7 @@ const Footer = () => {
 
               {/* Contact Info */}
               <div>
-                <h2 className="title-font font-medium text-[#FF8C00] tracking-widest text-sm mb-4">
+                <h2 className="title-font font-medium menuText text-[#FF8C00] tracking-widest  mb-4">
                   Contact Info
                 </h2>
                 <div className="grid grid-cols-[auto,1fr] gap-x-4 gap-y-4 text-sm md:text-base">

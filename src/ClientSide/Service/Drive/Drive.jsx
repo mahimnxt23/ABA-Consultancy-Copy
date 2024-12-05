@@ -29,24 +29,24 @@ const Drive = () => {
 
   return (
     <div
-      className="grid grid-cols-1 lg:grid-cols-2 gap-[50px] mt-[10px] px-[30px]
-   md:mt-[10px] md:px-[32px]
-   lg:px-[60px] lg:mt-[30px]
-   xl:px-[100px] xl:mt-[50px]
-   2xl:px-[150px] 2xl:mt-[50px]"
+      className="grid grid-cols-1 lg:grid-cols-2 gap-[50px] mt-[30px] px-[30px]
+   md:mt-[30px] md:px-[32px]
+   lg:px-[60px] lg:mt-[60px]
+   xl:px-[100px] xl:mt-[80px]
+   2xl:px-[150px] 2xl:mt-[80px]"
     >
-      <div className="max-w-1/2 h-[554px]">
+      <div className="max-w-1/2 h-[400px] lg:h-[554px]">
         <img
-          src="/images/DriveService.webp"
+          src="/images/serviceBoy.png"
           className="h-full w-full object-cover rounded-[8px]"
           alt=""
         />
       </div>
       <div className="max-w-1/2 rounded-lg">
-        <h2 className="text-[#0E0D0DCC] font-semibold mb-6 headTwo">
+        <h2 className="text-[#0E0D0DCC] font-semibold mb-[20px] headTwo">
           Drive More Customers Through Digital
         </h2>
-        <p className="text-[#0E0D0DCC]/[.8] mb-6 font-normal bodyText">
+        <p className="text-[#0E0D0DCC]/[.8] mb-[20px] font-normal bodyText">
           Unlock the power of digital marketing to attract more customers. Our
           tailored strategies focus on increasing your online presence, engaging
           your target audience, and driving conversions to help your business

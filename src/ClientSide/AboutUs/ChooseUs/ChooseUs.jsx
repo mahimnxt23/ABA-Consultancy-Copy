@@ -8,10 +8,10 @@ const ChooseUs = () => {
    2xl:px-[150px] 2xl:mt-[50px] "
     >
       <div className="max-w-[600px]">
-        <h1 className="headTwo pb-[10px] text-[#0E0D0D]  font-outfit font-semibold">
+        <h1 className="headTwo pb-[20px] text-[#0E0D0D]  font-outfit font-semibold">
           Why Choose Us
         </h1>
-        <p className="bodyText text-[#0E0D0DCC]/[.8] pb-[50px] font-semibold">
+        <p className="bodyText text-[#0E0D0DCC]/[.8] pb-[30px] lg:pb-[50px] font-semibold">
           With a track record of success and a commitment to excellence, we
           bring expertise, innovation, and personalized strategies to every
           project. Our goal is to help you overcome challenges, seize
