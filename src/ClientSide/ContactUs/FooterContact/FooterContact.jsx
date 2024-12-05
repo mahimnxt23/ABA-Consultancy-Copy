@@ -96,10 +96,16 @@ import { CiGlobe, CiLocationOn } from "react-icons/ci";
 import { HiOutlineMail } from "react-icons/hi";
 import { ImPhone } from "react-icons/im";
 
-const Footer = () => {
+const FooterContact = () => {
   return (
     <div>
-      <footer className="bg-[#1a2633] body-font ">
+      <footer
+        className="bg-[#1a2633] body-font  mt-[30px] 
+   md:mt-[30px] 
+    lg:mt-[30px]
+    xl:mt-[50px]
+    2xl:mt-[50px] px-[30px] md:px-[32px] lg:px-[80px]  xl:px-[100px]  2xl:px-[150px]"
+      >
         <div className="hidden lg:block">
           <div className="w-full px-5 py-24 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div className="w-64 flex-shrink-0 lg:mx-0 mx-auto text-center lg:text-left">
@@ -339,4 +345,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default FooterContact;

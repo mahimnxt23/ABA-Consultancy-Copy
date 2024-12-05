@@ -50,7 +50,7 @@ const ContactBanner = () => {
   }, [isModalOpen]);
 
   return (
-    <div className="bg-[#F5F5F5]">
+    <div className="">
       {/* Banner Section */}
       <div className="relative">
         <div

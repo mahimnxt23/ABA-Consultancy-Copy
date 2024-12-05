@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div
       className={`${
-        isHomePage ? "absolute z-50" : "bg-white"
+        isHomePage ? "absolute z-50 bg-white" : "bg-[#d9d9d9]"
       } w-full md:py-0 md:h-[130px] flex items-center`}
     >
       <nav className="w-full">

@@ -1,9 +1,12 @@
 import ContactBanner from "./ContactBanner/ContactBanner";
+import FooterContact from "./FooterContact/FooterContact";
 
 const ContactUs = () => {
   return (
-    <div className="bg-[#F5F5F5]">
+    <div>
       <ContactBanner></ContactBanner>
+
+      <FooterContact></FooterContact>
     </div>
   );
 };

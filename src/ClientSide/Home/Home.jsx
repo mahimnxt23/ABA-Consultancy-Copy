@@ -1,289 +1,303 @@
+import Footer from "../Shared/Footer/Footer";
+
 /* eslint-disable react/prop-types */
 const Home = () => {
   return (
-    <div className="">
-      <div className="bg-[url('/images/home/hero/homehero.png')] w-full min-h-[693px] pt-[1px] bg-no-repeat bg-cover pb-5">
-        <div
-          className=" px-[30px]
+    <div className="bg-white">
+      <div>
+        <div className="bg-[url('/images/home/hero/homehero.png')] w-full min-h-[693px] pt-[1px] bg-no-repeat bg-cover pb-5">
+          <div
+            className=" px-[30px]
                     mt-[90px]
    md:mt-[90px] md:px-[32px]
    lg:px-[90px] lg:mt-[80px]
    xl:px-[100px] xl:mt-[100px]
    2xl:px-[150px] 2xl:mt-[100px] pt-[30px] text-[#0E0D0D]"
-        >
-          <div className=" ">
-            <h1 className="headOne mb-[20px] font-outfit text-[#0E0D0D] max-w-[996px] 2xl:max-w-auto font-semibold">
-              Helping You Give <br /> Therapy Beyond Belief
-            </h1>
-            <div className="flex justify-between flex-col md:flex-row gap-2">
-              <div>
-                <p className="max-w-[864px] bodyText">
-                  At the core of our identity is a resolute commitment to
-                  enhancing the lives of individuals with ASD through the power
-                  of ABA. We believe in fostering a world where every person,
-                  regardless of their unique abilities, has the opportunity to
-                  thrive and reach their fullest potential. Our mission is not
-                  merely a statement but a guiding principle that propels us
-                  forward each day.
-                </p>
-                <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold">
-                  Get a Quote
-                  <img src="/images/home/hero/quate.svg" alt="" />
-                </button>
-              </div>
-              <div className="flex md:block w-full md:w-auto mt-4 md:mt-10 flex-col justify-center md:justify-normal">
-                <div className="max-w-[233px] lg:mx-auto">
-                  <img
-                    src="/images/home/hero/watchvideo.png"
-                    alt="watchvideo"
-                    className="max-w-[233px] mx-auto"
-                  />
-                  <div
-                    className="rounded-b-[16px] py-[14px] bg-white"
-                    style={{
-                      boxShadow: "0px 1px 8.9px 0px rgba(0, 0, 0, 0.15)",
-                    }}
-                  >
-                    <button className="text-center w-full max-w-[233px] block smallBodyText">
-                      Watch Intro Video
-                    </button>
+          >
+            <div className=" ">
+              <h1 className="headOne mb-[20px] font-outfit text-[#0E0D0D] max-w-[996px] 2xl:max-w-auto font-semibold">
+                Helping You Give <br /> Therapy Beyond Belief
+              </h1>
+              <div className="flex justify-between flex-col md:flex-row gap-2">
+                <div>
+                  <p className="max-w-[864px] bodyText">
+                    At the core of our identity is a resolute commitment to
+                    enhancing the lives of individuals with ASD through the
+                    power of ABA. We believe in fostering a world where every
+                    person, regardless of their unique abilities, has the
+                    opportunity to thrive and reach their fullest potential. Our
+                    mission is not merely a statement but a guiding principle
+                    that propels us forward each day.
+                  </p>
+                  <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold">
+                    Get a Quote
+                    <img src="/images/home/hero/quate.svg" alt="" />
+                  </button>
+                </div>
+                <div className="flex md:block w-full md:w-auto mt-4 md:mt-10 flex-col justify-center md:justify-normal">
+                  <div className="max-w-[233px] lg:mx-auto">
+                    <img
+                      src="/images/home/hero/watchvideo.png"
+                      alt="watchvideo"
+                      className="max-w-[233px] mx-auto"
+                    />
+                    <div
+                      className="rounded-b-[16px] py-[14px] bg-white"
+                      style={{
+                        boxShadow: "0px 1px 8.9px 0px rgba(0, 0, 0, 0.15)",
+                      }}
+                    >
+                      <button className="text-center w-full max-w-[233px] block smallBodyText">
+                        Watch Intro Video
+                      </button>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div className="md:hidden flex lg:justify-center">
-                <button className="text-[#397CCA] flex max-w-[175px]  items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold">
-                  Get a Quote
-                  <img src="/images/home/hero/quate.svg" alt="" />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="mt-[150px] sectionGap ">
-        <div className=" flex items-center justify-center lg:justify-between 2xl:justify-normal 2xl:gap-[150px] flex-wrap lg:flex-nowrap gap-[50px] lg:gap-8">
-          <div className="max-w-[486px] 2xl:min-w-[700px] gap-2">
-            <img src="/images/home/hero/consulting.png" className="w-full" />
-          </div>
-          <div className="max-w-[523px] 2xl:max-w-[800px]">
-            <div>
-              <SectionIndicator status={"About Us"} />
-              <h2 className=" headTwo mt-[30px] font-semibold">
-                ABA Consulting <br /> is renowned for <br /> its expertise
-              </h2>
-              <p className="bodyText mt-[20px]">
-                ABA Consulting is renowned for its expertise in assisting autism
-                centers, ensuring their compliance and successful completion of
-                numerous audits. At the heart of our work is a dedication to
-                improving the lives of individuals with Autism Spectrum Disorder
-                (ASD) through Applied Behavior Analysis (ABA). Our mission is
-                deeply ingrained in our approach, guiding our every action. We
-                envision a world where every person, regardless of their
-                abilities, can thrive and achieve their full potential.
-              </p>
-              <div className="mt-[20px]">
-                <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px]">
-                  Learn More
-                  <img
-                    src="/images/home/hero/material-symbols_arrow-insert (1).svg"
-                    alt=""
-                  />
-                </button>
+                <div className="md:hidden flex lg:justify-center">
+                  <button className="text-[#397CCA] flex max-w-[175px]  items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold">
+                    Get a Quote
+                    <img src="/images/home/hero/quate.svg" alt="" />
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="sectionGap">
-        <div className="ourservices max-w-[900px]">
-          <SectionIndicator status={"Our Service"} />
-          <h2 className="text-[30px] md:headTwo font-semibold mt-[30px]">
-            Our Services for You
-          </h2>
-          <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter !text-[14px]">
-            Our expert consultancy services are crafted to meet the unique
-            challenges of your business. Whether you&apos; re looking to improve
-            strategy, enhance operations, or boost growth, we’re here to help.
-          </p>
+        <div className="mt-[150px] sectionGap ">
+          <div className=" flex items-center justify-center lg:justify-between 2xl:justify-normal 2xl:gap-[150px] flex-wrap lg:flex-nowrap gap-[50px] lg:gap-8">
+            <div className="max-w-[486px] 2xl:min-w-[700px] gap-2">
+              <img src="/images/home/hero/consulting.png" className="w-full" />
+            </div>
+            <div className="max-w-[523px] 2xl:max-w-[800px]">
+              <div>
+                <SectionIndicator status={"About Us"} />
+                <h2 className=" headTwo mt-[30px] font-semibold">
+                  ABA Consulting <br /> is renowned for <br /> its expertise
+                </h2>
+                <p className="bodyText mt-[20px]">
+                  ABA Consulting is renowned for its expertise in assisting
+                  autism centers, ensuring their compliance and successful
+                  completion of numerous audits. At the heart of our work is a
+                  dedication to improving the lives of individuals with Autism
+                  Spectrum Disorder (ASD) through Applied Behavior Analysis
+                  (ABA). Our mission is deeply ingrained in our approach,
+                  guiding our every action. We envision a world where every
+                  person, regardless of their abilities, can thrive and achieve
+                  their full potential.
+                </p>
+                <div className="mt-[20px]">
+                  <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px]">
+                    Learn More
+                    <img
+                      src="/images/home/hero/material-symbols_arrow-insert (1).svg"
+                      alt=""
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+        <div className="sectionGap">
+          <div className="ourservices max-w-[900px]">
+            <SectionIndicator status={"Our Service"} />
+            <h2 className="text-[30px] md:headTwo font-semibold mt-[30px]">
+              Our Services for You
+            </h2>
+            <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter !text-[14px]">
+              Our expert consultancy services are crafted to meet the unique
+              challenges of your business. Whether you&apos; re looking to
+              improve strategy, enhance operations, or boost growth, we’re here
+              to help.
+            </p>
+          </div>
+        </div>
 
-      <Services />
-      {/*  */}
-      <div className="sectionGap">
-        <div className="whychooseus flex-wrap justify-center lg:flex-nowrap flex items-center lg:justify-between">
-          <div className="max-w-[530px] 2xl:min-w-[700px]">
-            <SectionIndicator status={"Choose us"} />
-            <div className="">
-              <h2 className="headTwo font-semibold mt-[30px]">Why Choose Us</h2>
-              <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter">
-                With a track record of success and a commitment to excellence,
-                we bring expertise, innovation, and personalized strategies to
-                every project. Our goal is to help you overcome challenges,
-                seize opportunities, and achieve sustainable growth for your
-                business.
-              </p>
-              <div className="grid grid-cols-1 gap-[10px] lg:gap-0 lg:grid-cols-3 items-center justify-between mt-[20px]">
-                <div className="">
-                  <span className="text-[#FF8C00] bodyText font-normal ">
-                    10+
-                  </span>
-                  <p
-                    className="bodyText font-inter font-normal pt-[10px]"
-                    style={{
-                      color: "rgba(31, 30, 30, 0.80)",
-                    }}
-                  >
-                    years experience
-                  </p>
+        <Services />
+        {/*  */}
+        <div className="sectionGap">
+          <div className="whychooseus flex-wrap justify-center lg:flex-nowrap flex items-center lg:justify-between">
+            <div className="max-w-[530px] 2xl:min-w-[700px]">
+              <SectionIndicator status={"Choose us"} />
+              <div className="">
+                <h2 className="headTwo font-semibold mt-[30px]">
+                  Why Choose Us
+                </h2>
+                <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter">
+                  With a track record of success and a commitment to excellence,
+                  we bring expertise, innovation, and personalized strategies to
+                  every project. Our goal is to help you overcome challenges,
+                  seize opportunities, and achieve sustainable growth for your
+                  business.
+                </p>
+                <div className="grid grid-cols-1 gap-[10px] lg:gap-0 lg:grid-cols-3 items-center justify-between mt-[20px]">
+                  <div className="">
+                    <span className="text-[#FF8C00] bodyText font-normal ">
+                      10+
+                    </span>
+                    <p
+                      className="bodyText font-inter font-normal pt-[10px]"
+                      style={{
+                        color: "rgba(31, 30, 30, 0.80)",
+                      }}
+                    >
+                      years experience
+                    </p>
+                  </div>
+                  <div>
+                    <span className="text-[#FF8C00] bodyText font-normal ">
+                      500+
+                    </span>
+                    <p className="pt-[10px] bodyText font-inter font-normal">
+                      Trusted by clients
+                    </p>
+                  </div>
+                  <div>
+                    <span className="text-[#FF8C00] bodyText font-normal ">
+                      Tailored{" "}
+                    </span>
+                    <p className="pt-[10px] bodyText font-inter font-normal">
+                      solutions for business{" "}
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <span className="text-[#FF8C00] bodyText font-normal ">
-                    500+
-                  </span>
-                  <p className="pt-[10px] bodyText font-inter font-normal">
-                    Trusted by clients
-                  </p>
+                <div className="flex">
+                  <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA]  rounded-[8px] mt-10 text-[18px] font-semibold">
+                    Learn More
+                    <img src="/images/home/hero/quate.svg" alt="" />
+                  </button>
                 </div>
-                <div>
-                  <span className="text-[#FF8C00] bodyText font-normal ">
-                    Tailored{" "}
-                  </span>
-                  <p className="pt-[10px] bodyText font-inter font-normal">
-                    solutions for business{" "}
-                  </p>
-                </div>
-              </div>
-              <div className="flex">
-                <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA]  rounded-[8px] mt-10 text-[18px] font-semibold">
-                  Learn More
-                  <img src="/images/home/hero/quate.svg" alt="" />
-                </button>
               </div>
             </div>
-          </div>
-          <div className="mt-[50px] lg:mt-0">
-            <img
-              src="/images/home/hero/aunty.jpg"
-              alt=""
-              className="2xl:min-w-[800px] 2xl:mr-[80px]"
-            />
+            <div className="mt-[50px] lg:mt-0">
+              <img
+                src="/images/home/hero/aunty.jpg"
+                alt=""
+                className="2xl:min-w-[800px] 2xl:mr-[80px]"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      {/*  */}
-      <div className="sectionGap meet-experts">
-        <div className="ourservices max-w-[900px]">
-          <SectionIndicator status={"Our Team"} />
-          <h2 className="headTwo font-semibold mt-[30px]">Meet the Experts</h2>
-          <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter ">
-            Our team of skilled professionals brings experience, innovation, and
-            dedication to help your business succeed. We work closely with you
-            to deliver tailored solutions and achieve lasting results
-          </p>
+        {/*  */}
+        <div className="sectionGap meet-experts">
+          <div className="ourservices max-w-[900px]">
+            <SectionIndicator status={"Our Team"} />
+            <h2 className="headTwo font-semibold mt-[30px]">
+              Meet the Experts
+            </h2>
+            <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter ">
+              Our team of skilled professionals brings experience, innovation,
+              and dedication to help your business succeed. We work closely with
+              you to deliver tailored solutions and achieve lasting results
+            </p>
+          </div>
         </div>
-      </div>
-      {/*  */}
-      <div
-        className="  px-[30px]
+        {/*  */}
+        <div
+          className="  px-[30px]
     md:px-[32px]
    lg:px-[80px] 
    xl:px-[100px] 
    2xl:px-[150px]  mx-auto expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[740px] mt-[30px] lg:mt-[50px]"
-      >
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
-          {experts.map((expert, index) => (
-            <div
-              key={index}
-              className="relative group overflow-hidden rounded-lg w-full"
-            >
-              {/* Expert Image */}
-              <img
-                alt="experts"
-                src={expert.img}
-                className="group-hover:scale-110 transition-transform duration-500 w-full"
-              />
-
-              {/* Overlay */}
+        >
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
+            {experts.map((expert, index) => (
               <div
-                className={`absolute inset-0 bg-[#6195d2] }  opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center`}
+                key={index}
+                className="relative group overflow-hidden rounded-lg w-full"
               >
-                <div className="flex flex-col gap-3 items-center">
-                  <img
-                    src={expert.img}
-                    className="w-[70px] h-[70px] rounded-full"
-                  />
-                  <div>
-                    <p className="text-white text-[18px] text-center font-semibold">
-                      Sarah Mim
-                    </p>
-                    <p className="bodyText mt-1 text-white font-inter text-center">
-                      Language Life, Art Skills
-                    </p>
-                    <div className="flex items-center gap-[14px] mt-[14px] justify-center">
-                      <img
-                        src="/images/home/hero/socialIcons/mingcute_facebook-fill.svg"
-                        alt="facebook"
-                        className="cursor-pointer"
-                      />
-                      <img
-                        src="/images/home/hero/socialIcons/ri_instagram-fill.svg"
-                        className="cursor-pointer"
-                        alt="Instagram"
-                      />
-                      <img
-                        src="/images/home/hero/socialIcons/pajamas_twitter.svg"
-                        className="cursor-pointer"
-                        alt="twitter"
-                      />
-                      <img
-                        src="/images/home/hero/socialIcons/mdi_linkedin.svg"
-                        className="cursor-pointer"
-                        alt="linkedin"
-                      />
+                {/* Expert Image */}
+                <img
+                  alt="experts"
+                  src={expert.img}
+                  className="group-hover:scale-110 transition-transform duration-500 w-full"
+                />
+
+                {/* Overlay */}
+                <div
+                  className={`absolute inset-0 bg-[#6195d2] }  opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center`}
+                >
+                  <div className="flex flex-col gap-3 items-center">
+                    <img
+                      src={expert.img}
+                      className="w-[70px] h-[70px] rounded-full"
+                    />
+                    <div>
+                      <p className="text-white text-[18px] text-center font-semibold">
+                        Sarah Mim
+                      </p>
+                      <p className="bodyText mt-1 text-white font-inter text-center">
+                        Language Life, Art Skills
+                      </p>
+                      <div className="flex items-center gap-[14px] mt-[14px] justify-center">
+                        <img
+                          src="/images/home/hero/socialIcons/mingcute_facebook-fill.svg"
+                          alt="facebook"
+                          className="cursor-pointer"
+                        />
+                        <img
+                          src="/images/home/hero/socialIcons/ri_instagram-fill.svg"
+                          className="cursor-pointer"
+                          alt="Instagram"
+                        />
+                        <img
+                          src="/images/home/hero/socialIcons/pajamas_twitter.svg"
+                          className="cursor-pointer"
+                          alt="twitter"
+                        />
+                        <img
+                          src="/images/home/hero/socialIcons/mdi_linkedin.svg"
+                          className="cursor-pointer"
+                          alt="linkedin"
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </div>
-      </div>
-      {/*  */}
-      <div className="sectionGap mt-10  flex justify-between gap-4 flex-wrap lg:flex-nowrap items-center ">
-        <img
-          src="/images/home/hero/clientSay.jpg"
-          alt=""
-          className="max-w-[453px] 2xl:max-w-[40%] w-full"
-        />
-        <div className="max-w-[580px] 2xl:max-w-[800px] 2xl:mr-20 mt-[30px] ">
-          <SectionIndicator status={"Testimonials"} />
-          <h2 className="headTwo font-semibold mt-[30px]">
-            What Our Clients Saying
-          </h2>
-          <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter ">
-            Don’t just take our word for it—hear from the businesses we’ve
-            helped. Our clients trust us to deliver impactful results, and we
-            take pride in building long-lasting partnerships. Here’s what some
-            of them have to say about working with us:
-          </p>
-          <div
-            className="p-5 rounded-[16px] mt-[46px] relative"
-            style={{ backgroundColor: "rgba(57, 124, 202, 0.80)" }}
-          >
-            <h4 className="menuText font-semibold text-white">John Cena</h4>
-            <p className="font-inter md:bodyText text-[rgba(255,255,255,0.8)] mt-[10px]">
-              ABA Consulting has been incredible for our center! Their expertise
-              in compliance and staffing made our operations smoother, allowing
-              us to focus more on therapy. Highly recommended!
-            </p>
-            <img
-              src="/images/home/hero/koma.png"
-              alt=""
-              className="absolute top-0 right-[74px] -translate-y-1/2"
-            />
+            ))}
           </div>
         </div>
+        {/*  */}
+        <div className="sectionGap mt-10  flex justify-between gap-4 flex-wrap lg:flex-nowrap items-center ">
+          <img
+            src="/images/home/hero/clientSay.jpg"
+            alt=""
+            className="max-w-[453px] 2xl:max-w-[40%] w-full"
+          />
+          <div className="max-w-[580px] 2xl:max-w-[800px] 2xl:mr-20 mt-[30px] ">
+            <SectionIndicator status={"Testimonials"} />
+            <h2 className="headTwo font-semibold mt-[30px]">
+              What Our Clients Saying
+            </h2>
+            <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter ">
+              Don’t just take our word for it—hear from the businesses we’ve
+              helped. Our clients trust us to deliver impactful results, and we
+              take pride in building long-lasting partnerships. Here’s what some
+              of them have to say about working with us:
+            </p>
+            <div
+              className="p-5 rounded-[16px] mt-[46px] relative"
+              style={{ backgroundColor: "rgba(57, 124, 202, 0.80)" }}
+            >
+              <h4 className="menuText font-semibold text-white">John Cena</h4>
+              <p className="font-inter md:bodyText text-[rgba(255,255,255,0.8)] mt-[10px]">
+                ABA Consulting has been incredible for our center! Their
+                expertise in compliance and staffing made our operations
+                smoother, allowing us to focus more on therapy. Highly
+                recommended!
+              </p>
+              <img
+                src="/images/home/hero/koma.png"
+                alt=""
+                className="absolute top-0 right-[74px] -translate-y-1/2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="sectionGap">
+        <Footer></Footer>
       </div>
     </div>
   );
