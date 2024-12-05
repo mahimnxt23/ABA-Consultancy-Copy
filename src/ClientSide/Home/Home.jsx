@@ -198,7 +198,7 @@ const Home = () => {
     md:px-[32px]
    lg:px-[80px] 
    xl:px-[100px] 
-   2xl:px-[150px]  mx-auto expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[740px] mt-[30px] lg:mt-[50px]"
+   2xl:px-[150px]  mx-auto expert bg-[url('/images/home/hero/expertbg.png')] bg-cover bg-center bg-no-repeat min-h-[630px] mt-[30px] lg:mt-[50px]"
         >
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 place-items-center">
             {experts.map((expert, index) => (
