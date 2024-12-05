@@ -9,7 +9,7 @@ const Service = () => {
       <ServiceBanner></ServiceBanner>
       <Drive></Drive>
       <GivingOurBussiness></GivingOurBussiness>
-      <div className="sectionGap">
+      <div className="sectionGap bg-[#1a2633]">
         <Footer></Footer>
       </div>
     </div>

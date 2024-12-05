@@ -9,7 +9,7 @@ const AboutUs = () => {
       <AboutBanner></AboutBanner>
       <ChooseUs></ChooseUs>
       <CollaborateWithU></CollaborateWithU>
-      <div className="sectionGap">
+      <div className="sectionGap bg-[#1a2633]">
         <Footer></Footer>
       </div>
     </div>

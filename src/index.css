@@ -5,11 +5,11 @@
 @tailwind utilities;
 
 .sectionGap {
-  @apply mt-[80px] px-[30px]
-   md:mt-[80px] md:px-[32px]
-   lg:px-[80px] lg:mt-[80px]
-   xl:px-[100px] xl:mt-[100px]
-   2xl:px-[150px] 2xl:mt-[100px];
+  @apply mt-[80px] px-[30px] md:px-[32px] lg:px-[80px]  xl:px-[100px]  2xl:px-[150px]
+   md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px];
 }
 
 .headOne {

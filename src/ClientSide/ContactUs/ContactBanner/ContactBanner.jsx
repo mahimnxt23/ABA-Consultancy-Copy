@@ -1,8 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
-import { CiPhone } from "react-icons/ci";
+import { CiLocationOn, CiPhone } from "react-icons/ci";
 import { FiArrowUpRight } from "react-icons/fi";
+import { HiOutlineMail } from "react-icons/hi";
 
 const ContactBanner = () => {
   // State for modal (if required)
@@ -100,7 +101,7 @@ const ContactBanner = () => {
               {/* Additional Contact Cards */}
               <div className="flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
                 <div className="bg-[#397CCA] h-[56px] w-[56px] rounded-[4px] flex justify-center items-center">
-                  <CiPhone className="text-white" size={32} />
+                  <CiLocationOn className="text-white" size={32} />
                 </div>
                 <div>
                   <h1 className="pb-[12px] text-[#0B0B0B] menuText font-outfit font-medium">
@@ -117,7 +118,7 @@ const ContactBanner = () => {
 
               <div className="flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
                 <div className="bg-[#397CCA] h-[56px] w-[56px] rounded-[4px] flex justify-center items-center">
-                  <CiPhone className="text-white" size={32} />
+                  <HiOutlineMail className="text-white" size={32} />
                 </div>
                 <div>
                   <h1 className="pb-[12px] text-[#0B0B0B] menuText font-outfit font-medium">

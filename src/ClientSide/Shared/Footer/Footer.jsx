@@ -95,11 +95,12 @@
 import { CiGlobe, CiLocationOn } from "react-icons/ci";
 import { HiOutlineMail } from "react-icons/hi";
 import { ImPhone } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-[#1a2633] body-font ">
+      <footer className=" body-font bg-[#1a2633]">
         <div className="hidden lg:block">
           <div className="w-full px-5 py-24 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div className="w-64 flex-shrink-0 lg:mx-0 mx-auto text-center lg:text-left">
@@ -328,9 +329,13 @@ const Footer = () => {
         <div className="py-10 flex-col justify-start items-center gap-10 flex">
           <div className="self-stretch h-[0px] border border-white/40"></div>
           <div className="self-stretch text-center text-white/80 ">
-            <p className="bodyText font-inter">
+            <p className="bodyText font-inter ">
               {" "}
-              Ⓒ 2024 – ABA CONSULTING. All Rights Are Reserved
+              Ⓒ 2024 –{" "}
+              <a href="https://fowzimedia.com">
+                <span className="font-bold font-outfit">Fowzi Media</span>
+              </a>
+              .All Rights Are Reserved
             </p>
           </div>
         </div>

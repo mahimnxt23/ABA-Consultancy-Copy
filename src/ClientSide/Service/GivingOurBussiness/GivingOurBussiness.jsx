@@ -19,7 +19,7 @@ const GivingOurBussiness = () => {
       </div>
 
       <div className="lg:h-[370px] h-[300px]">
-        <img src="/images/image 21.png" className="h-full w-full" alt="" />
+        <img src="/images/serviceGiving.png" className="h-full w-full" alt="" />
       </div>
     </div>
   );

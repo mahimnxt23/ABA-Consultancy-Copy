@@ -132,7 +132,7 @@ const Home = () => {
                 </p>
                 <div className="grid grid-cols-1 gap-[10px] lg:gap-0 lg:grid-cols-3 items-center justify-between mt-[20px]">
                   <div className="">
-                    <span className="text-[#FF8C00] bodyText font-normal ">
+                    <span className="text-[#FF8C00] bodyText font-semibold ">
                       10+
                     </span>
                     <p
@@ -145,7 +145,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div>
-                    <span className="text-[#FF8C00] bodyText font-normal ">
+                    <span className="text-[#FF8C00] bodyText font-semibold ">
                       500+
                     </span>
                     <p className="pt-[10px] bodyText font-inter font-normal">
@@ -153,7 +153,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div>
-                    <span className="text-[#FF8C00] bodyText font-normal ">
+                    <span className="text-[#FF8C00] bodyText font-semibold ">
                       Tailored{" "}
                     </span>
                     <p className="pt-[10px] bodyText font-inter font-normal">
@@ -296,7 +296,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="sectionGap">
+      <div className="sectionGap bg-[#1a2633]">
         <Footer></Footer>
       </div>
     </div>
@@ -383,7 +383,7 @@ export const Services = () => {
                 ))}
               </ul>
             </div>
-            <div className="w-[0.5px] h-[208px] mt-32 bg-white hidden lg:block"></div>
+            <div className="w-[0.5px] h-[175px] mt-28 bg-white hidden lg:block"></div>
           </div>
         ))}
         <div className="flex items-center Lg:justify-center mt-[30px] mb-[40px] lg:mb-0 lg:mt-0">
