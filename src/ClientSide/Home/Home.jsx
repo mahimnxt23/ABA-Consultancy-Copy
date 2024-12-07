@@ -10,7 +10,7 @@ const Home = () => {
             className=" px-[30px]
                     mt-[90px]
    md:mt-[90px] md:px-[32px]
-   lg:px-[90px] lg:mt-[80px]
+   lg:px-[80px] lg:mt-[80px]
    xl:px-[100px] xl:mt-[100px]
    2xl:px-[150px] 2xl:mt-[100px] pt-[30px] text-[#0E0D0D]"
           >

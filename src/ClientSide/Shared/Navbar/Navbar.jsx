@@ -18,7 +18,7 @@ const Navbar = () => {
         <div
           className="relative px-[30px]
    md:px-[32px]
-   lg:px-[60px] 
+   lg:px-[80px] 
    xl:px-[100px] 
    2xl:px-[150px]  flex justify-between items-center py-3 "
         >
