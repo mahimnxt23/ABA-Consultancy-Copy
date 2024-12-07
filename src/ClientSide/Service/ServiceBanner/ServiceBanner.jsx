@@ -4,7 +4,8 @@ const ServiceBanner = () => {
       <div className="relative">
         <div
           style={{
-            backgroundImage: `url("/images/about-us-Banner-2.png")`,
+            backgroundImage: `url("/images/serviceBanner.png")`,
+            filter: "brightness(.7)",
           }}
           className="bg-no-repeat  bg-center bg-cover w-full md:h-[420px] 
   h-[420px] flex justify-center items-center"
@@ -32,7 +33,7 @@ const ServiceBanner = () => {
         className="relative top-[-50px] grid grid-col-1 lg:grid-cols-3 gap-[20px]  px-[30px] md:px-[32px] lg:px-[80px] 
    xl:px-[100px] 2xl:px-[150px] "
       >
-        <div className="bg-[#FFFFFF] py-[20px] px-[30px]  xl:py-[44px] xl:pl-[56px] xl:pr-[30px] rounded-[8px] h-[310px] relative overflow-hidden ">
+        <div className="bg-[#FFFFFF] pt-[40px] pb-[20px] lg:py-[30px] px-[30px] xl:pt-[40px] xl:pb-[50px] 2xl:p-[50px]  xl:pr-[30px] rounded-[8px] h-[310px] relative overflow-hidden ">
           <div className=" h-[50px] w-[50px]  pb-[10px]   flex justify-center items-center z-10">
             <svg
               width="50"
@@ -70,7 +71,7 @@ const ServiceBanner = () => {
           </ul>
         </div>
 
-        <div className="bg-[#FFFFFF] h-[310px] py-[20px] px-[30px] xl:py-[44px] xl:pl-[56px] xl:pr-[30px] rounded-[8px] relative overflow-hidden ">
+        <div className="bg-[#FFFFFF] pt-[40px] pb-[20px] h-[310px] lg:py-[30px]  px-[30px] xl:pt-[40px] xl:pb-[50px] 2xl:p-[50px] xl:pr-[30px] rounded-[8px] relative overflow-hidden ">
           <div className=" h-[50px] w-[50px]  pb-[10px]   flex justify-center items-center z-10">
             <svg
               width="50"
@@ -122,7 +123,7 @@ const ServiceBanner = () => {
           </ul>
         </div>
 
-        <div className="bg-[#FFFFFF] h-[310px] py-[20px] px-[30px] xl:py-[44px] xl:pl-[56px] xl:pr-[30px] rounded-[8px]   relative overflow-hidden ">
+        <div className="bg-[#FFFFFF] pt-[40px] pb-[20px] h-[310px] lg:py-[30px] px-[30px] xl:pt-[40px] xl:pb-[50px] 2xl:p-[50px] xl:pr-[30px] rounded-[8px]   relative overflow-hidden ">
           <div className=" h-[50px] w-[50px]  pb-[10px]   flex justify-center items-center z-10">
             <svg
               width="50"

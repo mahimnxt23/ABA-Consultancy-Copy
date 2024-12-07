@@ -289,7 +289,7 @@ const Footer = () => {
                 <h2 className="title-font font-medium text-[#FF8C00] menuText tracking-widest text-sm mb-3">
                   Services
                 </h2>
-                <nav className="list-none mb-10">
+                <nav className="list-none mb-0 md:mb-10 ">
                   <li>
                     <a className="text-[#FFFFFFCC]/[.8] font-normal">
                       Compliance Assistance
@@ -352,10 +352,10 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="py-10 flex-col justify-start items-center gap-10 flex">
-          <div className="self-stretch h-[0px] border border-white/40"></div>
+        <div className="py-4 flex-col justify-start items-center gap-10 flex">
+          <div className="self-stretch absolute inset-x-0  h-[0px] border border-white/40"></div>
           <div className="self-stretch text-center text-white/80 ">
-            <p className="bodyText font-inter ">
+            <p className="bodyText font-inter pt-4">
               {" "}
               Ⓒ 2024 –{" "}
               <a href="https://fowzimedia.com">

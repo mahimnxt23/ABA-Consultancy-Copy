@@ -7,7 +7,7 @@ const ChooseUs = () => {
    xl:px-[100px] xl:mt-[50px]
    2xl:px-[150px] 2xl:mt-[50px] "
     >
-      <div className="max-w-[600px] ">
+      <div className="w-full 2xl:max-w-[1000px] ">
         <h1 className="headTwo pb-[20px] text-[#0E0D0D]  font-outfit font-semibold">
           Why Choose Us
         </h1>
@@ -19,7 +19,7 @@ const ChooseUs = () => {
         </p>
       </div>
       {/* card */}
-      <div className="grid grid-col-1 lg:grid-cols-4 gap-[20px]">
+      <div className="grid grid-col-1 md:grid-cols-4 gap-[20px]">
         <div className="bg-[#FFFFFF] rounded-[8px] text-center  relative overflow-hidden py-[50px]">
           <div className=" h-[50px] w-[50px] mx-auto pb-[20px]   flex justify-center items-center z-10">
             <svg

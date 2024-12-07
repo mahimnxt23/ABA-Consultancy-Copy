@@ -64,13 +64,15 @@ const Navbar = () => {
                 />
               </button>
             ) : (
-              <button className="bg-blue-500 text-white px-4 font-semibold py-2 gap-1 flex items-center rounded-md shadow hover:bg-blue-600 transition">
-                Contact us
-                <img
-                  src="/images/home/hero/material-symbols_arrow-insert (1).svg"
-                  alt=""
-                />
-              </button>
+              <Link to="/consultation">
+                <button className=" bg-blue-500 text-white px-4 py-2 gap-1 flex items-center rounded-md shadow hover:bg-blue-600 transition">
+                  Book a Free Consultation
+                  <img
+                    src="/images/home/hero/material-symbols_arrow-insert (1).svg"
+                    alt=""
+                  />
+                </button>
+              </Link>
             )}
           </div>
 

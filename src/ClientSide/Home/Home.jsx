@@ -65,15 +65,57 @@ const Home = () => {
           </div>
         </div>
         <div className=" sectionGap ">
-          <div className=" flex items-center  lg:justify-between  2xl:gap-[50px] flex-wrap lg:flex-nowrap gap-[50px]   xl:gap-8">
-            <div className="max-w-[486px] 2xl:min-w-[700px] gap-2">
+          <div className="lg:block hidden">
+            <div className=" flex items-center  lg:justify-between  2xl:gap-[50px] flex-wrap lg:flex-nowrap gap-[50px]   xl:gap-8">
+              <div className="max-w-[486px] 2xl:min-w-[700px] gap-2">
+                <img
+                  src="/images/home/hero/consulting.png"
+                  className="w-full "
+                />
+              </div>
+              <div className="max-w-[523px] 2xl:max-w-[800px]">
+                <div>
+                  <SectionIndicator status={"About Us"} />
+                  <h2 className=" headTwo mt-[30px] font-semibold">
+                    ABA Consulting <br /> is renowned for <br /> its expertise
+                  </h2>
+                  <p className="bodyText mt-[20px]">
+                    ABA Consulting is renowned for its expertise in assisting
+                    autism centers, ensuring their compliance and successful
+                    completion of numerous audits. At the heart of our work is a
+                    dedication to improving the lives of individuals with Autism
+                    Spectrum Disorder (ASD) through Applied Behavior Analysis
+                    (ABA). Our mission is deeply ingrained in our approach,
+                    guiding our every action. We envision a world where every
+                    person, regardless of their abilities, can thrive and
+                    achieve their full potential.
+                  </p>
+                  <div className="mt-[20px]">
+                    <Link to="/aboutUs">
+                      <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px]">
+                        Learn More
+                        <img
+                          src="/images/home/hero/material-symbols_arrow-insert (1).svg"
+                          alt=""
+                        />
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* phone tab */}
+          <div className=" lg:hidden block ">
+            <div className=" gap-2">
               <img src="/images/home/hero/consulting.png" className="w-full " />
             </div>
-            <div className="max-w-[523px] 2xl:max-w-[800px]">
+            <div className="mt-[30px] ">
               <div>
                 <SectionIndicator status={"About Us"} />
                 <h2 className=" headTwo mt-[30px] font-semibold">
-                  ABA Consulting <br /> is renowned for <br /> its expertise
+                  ABA Consulting is renowned for its expertise
                 </h2>
                 <p className="bodyText mt-[20px]">
                   ABA Consulting is renowned for its expertise in assisting
@@ -262,13 +304,13 @@ const Home = () => {
           </div>
         </div>
         {/*  */}
-        <div className="sectionGap mt-10  flex justify-between xl:gap-4 lg:gap-[50px] gap-4 flex-wrap lg:flex-nowrap items-center ">
+        <div className=" sectionGap mt-10  flex justify-between xl:gap-4 lg:gap-[50px] gap-4 flex-wrap lg:flex-nowrap items-center ">
           <img
-            src="/images/home/hero/clientSay.jpg"
+            src="/images/testmonial.png"
             alt=""
-            className="max-w-[453px] 2xl:max-w-[40%] w-full"
+            className="lg:max-w-[453px] 2xl:max-w-[40%] w-full"
           />
-          <div className="max-w-[580px] 2xl:max-w-[800px] 2xl:mr-20 mt-[30px] ">
+          <div className="lg:max-w-[580px] 2xl:max-w-[800px] 2xl:mr-20 mt-[30px] ">
             <SectionIndicator status={"Testimonials"} />
             <h2 className="headTwo font-semibold mt-[30px]">
               What Our Clients Saying
@@ -356,8 +398,8 @@ const data = [
 
 export const Services = () => {
   return (
-    <div className="bg-[#1B2633] text-white py-8  min-[440px] mt-[30px]">
-      <div className="sectionGap flex-col gap-5 lg:flex-row !mt-0 mx-auto flex lg:gap-[15px] xl:gap-[35px] justify-between">
+    <div className="bg-[#1B2633] text-white py-8 md:pt-8  min-[440px] mt-[30px] md:pb-[60px]">
+      <div className="sectionGap flex-col gap-5 md:grid md:grid-cols-2 lg:flex-row !mt-0 mx-auto lg:flex lg:gap-[15px] xl:gap-[35px] justify-between">
         {data.map((service, index) => (
           <div
             key={index}

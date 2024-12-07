@@ -18,8 +18,16 @@ const GivingOurBussiness = () => {
         </button>
       </div>
 
-      <div className="lg:h-[370px] h-[300px]">
-        <img src="/images/serviceGiving.png" className="h-full w-full" alt="" />
+      <div className="hidden xl:block  lg:h-[370px] h-[300px]">
+        <img src="/images/Strtch.png" className="h-full w-full " alt="" />
+      </div>
+
+      <div className="xl:hidden block  lg:h-[370px] h-[300px]">
+        <img
+          src="/images/StrtchPhone.png"
+          className="h-full w-full object-cover"
+          alt=""
+        />
       </div>
     </div>
   );

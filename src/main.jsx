@@ -9,6 +9,7 @@ import AboutUs from "./ClientSide/AboutUs/AboutUs";
 import Service from "./ClientSide/Service/Service";
 import Layout from "./ClientSide/Main";
 import ContactUs from "./ClientSide/ContactUs/ContactUs";
+import ConsultationForm from "./ClientSide/BookConsultancy/BookConsultaion";
 
 // Parent Layout Component
 
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "/service",
         element: <Service />,
+      },
+      {
+        path: "/consultation",
+        element: <ConsultationForm></ConsultationForm>,
       },
       {
         path: "/contact",

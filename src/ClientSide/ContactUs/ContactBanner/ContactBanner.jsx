@@ -57,7 +57,8 @@ const ContactBanner = () => {
       <div className="relative">
         <div
           style={{
-            backgroundImage: `url("/images/about-us-Banner-2.png")`,
+            backgroundImage: `url("/images/contactUsBanner.png")`,
+            filter: "brightness(.7)",
           }}
           className="bg-no-repeat bg-center bg-cover w-full h-[420px] flex justify-center items-center"
         ></div>
@@ -78,7 +79,7 @@ const ContactBanner = () => {
       </div>
 
       <div className="relative top-[-50px] pb-[10px] ">
-        <div className="px-[30px] md:px-[32px] lg:px-[80px] bg-white pt-[50px] mx-[20px] md:mx-[50px] rounded-[12px] xl:px-[100px] 2xl:px-[150px] pb-[50px] ">
+        <div className="mx-[30px] md:mx-[32px] lg:mx-[80px] bg-white pt-[50px]  rounded-[12px] xl:mx-[100px] 2xl:mx-[150px] pb-[50px] px-[50px]">
           <div className="grid grid-cols-1 gap-y-[50px]">
             <div className="grid grid-cols-1 xl:grid-cols-3  gap-[16px]">
               <div className=" grid grid-cols-[50px_1fr]   w-full  items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
