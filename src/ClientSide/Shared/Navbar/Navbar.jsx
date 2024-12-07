@@ -143,7 +143,7 @@ const Navbar = () => {
             <div className="flex justify-center hidden lg:block">
               {isHomePage ? (
                 <button className=" bg-blue-500 items-center font-semibold text-white px-4 py-2 rounded-md shadow flex gap-1 hover:bg-blue-600 transition">
-                  Book a Free Consultation
+                  Book a Free ConsultationF
                   <img
                     src="/images/home/hero/material-symbols_arrow-insert (1).svg"
                     alt=""

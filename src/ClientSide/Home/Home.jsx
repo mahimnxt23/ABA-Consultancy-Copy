@@ -92,7 +92,7 @@ const Home = () => {
                   </p>
                   <div className="mt-[20px]">
                     <Link to="/aboutUs">
-                      <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px]">
+                      <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px] shadow transition">
                         Learn More
                         <img
                           src="/images/home/hero/material-symbols_arrow-insert (1).svg"
