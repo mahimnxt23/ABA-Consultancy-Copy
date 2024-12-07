@@ -80,9 +80,9 @@ const ContactBanner = () => {
       <div className="relative top-[-50px] pb-[10px] ">
         <div className="px-[30px] md:px-[32px] lg:px-[80px] bg-white pt-[50px] mx-[20px] md:mx-[50px] rounded-[12px] xl:px-[100px] 2xl:px-[150px] pb-[50px] ">
           <div className="grid grid-cols-1 gap-y-[50px]">
-            <div className="grid grid-cols-1 xl:grid-cols-3  gap-[24px]">
-              {/* Contact Card */}
-              <div className=" flex justify-center items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
+            <div className="grid grid-cols-1 xl:grid-cols-3  gap-[16px]">
+              <div className=" grid grid-cols-[50px_1fr]   w-full  items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
+                {/* Contact Card */}
                 <div className="bg-[#397CCA] p-[12px] rounded-[4px] flex justify-center items-center">
                   <CiPhone className="text-white" size={32} />
                 </div>
@@ -91,14 +91,14 @@ const ContactBanner = () => {
                     Phone Number
                   </h1>
                   <p className="pb-[5px] text-[#0B0B0BCC]/[.8] bodyText font-normal">
-                    (229) 555-0109
+                    612-226-6210
                   </p>
                   <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal">
-                    (229) 555-0109
+                    612-226-6210
                   </p>
                 </div>
               </div>
-              <div className=" flex justify-center items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
+              <div className="  grid grid-cols-[50px_1fr]  w-full items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
                 <div className="bg-[#397CCA] p-[12px] rounded-[4px] flex justify-center items-center">
                   <IoLocationOutline className="text-white" size={32} />
                 </div>
@@ -115,7 +115,7 @@ const ContactBanner = () => {
                 </div>
               </div>
 
-              <div className="flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
+              <div className=" grid grid-cols-[50px_1fr]   w-full items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
                 <div className="bg-[#397CCA] p-[12px] rounded-[4px] flex justify-center items-center">
                   <MdOutlineEmail className="text-white" size={32} />
                 </div>
