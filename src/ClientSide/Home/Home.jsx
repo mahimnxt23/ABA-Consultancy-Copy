@@ -104,7 +104,7 @@ const Home = () => {
         <div className="sectionGap">
           <div className="ourservices max-w-[900px]">
             <SectionIndicator status={"Our Service"} />
-            <h2 className="text-[30px] md:headTwo font-semibold mt-[30px]">
+            <h2 className="text-[30px] headTwo font-semibold mt-[30px]">
               Our Services for You
             </h2>
             <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter !text-[14px]">
