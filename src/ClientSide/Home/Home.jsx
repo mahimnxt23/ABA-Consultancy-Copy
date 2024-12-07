@@ -224,7 +224,7 @@ const Home = () => {
           </div>
         </div>
         {/*  */}
-        <div className="sectionGap meet-experts">
+        {/* <div className="sectionGap meet-experts">
           <div className="ourservices max-w-[900px]">
             <SectionIndicator status={"Our Team"} />
             <h2 className="headTwo font-semibold mt-[30px]">
@@ -236,9 +236,9 @@ const Home = () => {
               you to deliver tailored solutions and achieve lasting results
             </p>
           </div>
-        </div>
+        </div> */}
         {/*  */}
-        <div
+        {/* <div
           className="  px-[30px]
     md:px-[32px]
    lg:px-[80px] 
@@ -251,14 +251,14 @@ const Home = () => {
                 key={index}
                 className="relative group overflow-hidden rounded-lg w-full"
               >
-                {/* Expert Image */}
+               
                 <img
                   alt="experts"
                   src={expert.img}
                   className="group-hover:scale-110 transition-transform duration-500 w-full"
                 />
 
-                {/* Overlay */}
+                
                 <div
                   className={`absolute inset-0 bg-[#6195d2] }  opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center`}
                 >
@@ -302,7 +302,8 @@ const Home = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
+
         {/*  */}
         <div className=" sectionGap mt-10  flex justify-between xl:gap-4 lg:gap-[50px] gap-4 flex-wrap lg:flex-nowrap items-center ">
           <img
