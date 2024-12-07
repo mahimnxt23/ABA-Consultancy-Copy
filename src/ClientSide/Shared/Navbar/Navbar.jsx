@@ -30,14 +30,14 @@ const Navbar = () => {
             to={"/"}
           >
             <img
-              src="images/home/hero/logo.png"
+              src="/images/ABA-Consulting-Logo.webp"
               alt="Logo"
               className="w-[46px] h-[56px]"
             />
           </Link>
 
           {/* Links Section */}
-          <div className="hidden md:flex space-x-[50px]">
+          <div className="hidden lg:flex space-x-[50px]">
             {navLinks.map((link) => (
               <NavLink
                 key={link.name}
@@ -54,7 +54,7 @@ const Navbar = () => {
           </div>
 
           {/* Button */}
-          <div className="hidden md:flex justify-end min-w-[273px]">
+          <div className="hidden lg:flex justify-end min-w-[273px]">
             {isHomePage ? (
               <button className=" bg-blue-500 text-white px-4 py-2 gap-1 flex items-center rounded-md shadow hover:bg-blue-600 transition">
                 Book a Free Consultation
@@ -76,7 +76,7 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-gray-600 focus:outline-none z-50"
+            className="lg:hidden text-gray-600 focus:outline-none z-50"
             onClick={() => setIsOpen(!isOpen)}
           >
             <svg
@@ -125,7 +125,7 @@ const Navbar = () => {
                         </button> */}
           </div>
           {/* Navigation Links */}
-          <div className="px-4 pt-2 pb-3 flex flex-col py-4 mt-20 ">
+          <div className="px-[30px] md:px-[32px] pt-2 pb-3 flex flex-col py-4 lg:mt-20  mt-28">
             {navLinks.map((link) => (
               <NavLink
                 key={link.name}
@@ -138,7 +138,7 @@ const Navbar = () => {
                 {link.name}
               </NavLink>
             ))}
-            <div className="flex justify-center hidden md:block">
+            <div className="flex justify-center hidden lg:block">
               {isHomePage ? (
                 <button className=" bg-blue-500 items-center font-semibold text-white px-4 py-2 rounded-md shadow flex gap-1 hover:bg-blue-600 transition">
                   Book a Free Consultation
