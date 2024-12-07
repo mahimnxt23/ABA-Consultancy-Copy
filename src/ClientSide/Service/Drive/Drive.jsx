@@ -29,9 +29,9 @@ const Drive = () => {
 
   return (
     <div
-      className="grid grid-cols-1 lg:grid-cols-2 gap-[50px] mt-[30px] px-[30px]
+      className="grid grid-cols-1 xl:grid-cols-2 gap-[50px] mt-[30px] px-[30px]
    md:mt-[30px] md:px-[32px]
-   lg:px-[60px] lg:mt-[60px]
+   lg:px-[80px] lg:mt-[30px]
    xl:px-[100px] xl:mt-[80px]
    2xl:px-[150px] 2xl:mt-[80px]"
     >

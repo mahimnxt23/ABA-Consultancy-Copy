@@ -12,7 +12,7 @@ const ServiceBanner = () => {
 
         <div
           className="absolute inset-0 flex flex-col  justify-center max-w-[750px] px-[30px]
-      md:px-[32px] lg:px-[60px]  xl:px-[100px]  2xl:px-[150px] 
+      md:px-[32px] lg:px-[80px]  xl:px-[100px]  2xl:px-[150px] 
           "
         >
           <h1 className="headTwo text-white pb-[12px] font-semibold">
@@ -29,7 +29,7 @@ const ServiceBanner = () => {
       {/* card */}
 
       <div
-        className="relative top-[-50px] grid grid-col-1 lg:grid-cols-3 gap-[20px]  px-[30px] md:px-[32px] lg:px-[60px] 
+        className="relative top-[-50px] grid grid-col-1 lg:grid-cols-3 gap-[20px]  px-[30px] md:px-[32px] lg:px-[80px] 
    xl:px-[100px] 2xl:px-[150px] "
       >
         <div className="bg-[#FFFFFF] py-[20px] px-[30px]  xl:py-[44px] xl:pl-[56px] xl:pr-[30px] rounded-[8px] h-[310px] relative overflow-hidden ">

@@ -1,9 +1,10 @@
 /* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
-import { CiLocationOn, CiPhone } from "react-icons/ci";
+import { CiPhone } from "react-icons/ci";
 import { FiArrowUpRight } from "react-icons/fi";
-import { HiOutlineMail } from "react-icons/hi";
+import { IoLocationOutline } from "react-icons/io5";
+import { MdOutlineEmail } from "react-icons/md";
 
 const ContactBanner = () => {
   // State for modal (if required)
@@ -63,7 +64,7 @@ const ContactBanner = () => {
 
         <div
           className="absolute inset-0 flex flex-col justify-center max-w-[750px] px-[30px]
-            md:px-[32px] lg:px-[60px] xl:px-[100px] 2xl:px-[150px]"
+            md:px-[32px] lg:px-[80px] xl:px-[100px] 2xl:px-[150px]"
         >
           <h1 className="headTwo text-white pb-[12px]">Contact us</h1>
 
@@ -77,12 +78,12 @@ const ContactBanner = () => {
       </div>
 
       <div className="relative top-[-50px] pb-[10px] ">
-        <div className="px-[30px] md:px-[32px] lg:px-[60px] bg-white pt-[50px] mx-[20px] md:mx-[50px] rounded-[12px] xl:px-[100px] 2xl:px-[150px] pb-[50px] ">
+        <div className="px-[30px] md:px-[32px] lg:px-[80px] bg-white pt-[50px] mx-[20px] md:mx-[50px] rounded-[12px] xl:px-[100px] 2xl:px-[150px] pb-[50px] ">
           <div className="grid grid-cols-1 gap-y-[50px]">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-[24px]">
+            <div className="grid grid-cols-1 xl:grid-cols-3  gap-[24px]">
               {/* Contact Card */}
-              <div className=" flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
-                <div className="bg-[#397CCA] h-[56px] w-[56px] rounded-[4px] flex justify-center items-center">
+              <div className=" flex justify-center items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
+                <div className="bg-[#397CCA] p-[12px] rounded-[4px] flex justify-center items-center">
                   <CiPhone className="text-white" size={32} />
                 </div>
                 <div>
@@ -97,17 +98,15 @@ const ContactBanner = () => {
                   </p>
                 </div>
               </div>
-
-              {/* Additional Contact Cards */}
-              <div className="flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
-                <div className="bg-[#397CCA] h-[56px] w-[56px] rounded-[4px] flex justify-center items-center">
-                  <CiLocationOn className="text-white" size={32} />
+              <div className=" flex justify-center items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
+                <div className="bg-[#397CCA] p-[12px] rounded-[4px] flex justify-center items-center">
+                  <IoLocationOutline className="text-white" size={32} />
                 </div>
                 <div>
                   <h1 className="pb-[12px] text-[#0B0B0B] menuText font-outfit font-medium">
                     Address
                   </h1>
-                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal">
+                  <p className="pb-[5px] text-[#0B0B0BCC]/[.8] bodyText font-normal">
                     2118 Thornridge Cir.
                   </p>
                   <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal">
@@ -117,17 +116,17 @@ const ContactBanner = () => {
               </div>
 
               <div className="flex justify-center items-center shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
-                <div className="bg-[#397CCA] h-[56px] w-[56px] rounded-[4px] flex justify-center items-center">
-                  <HiOutlineMail className="text-white" size={32} />
+                <div className="bg-[#397CCA] p-[12px] rounded-[4px] flex justify-center items-center">
+                  <MdOutlineEmail className="text-white" size={32} />
                 </div>
                 <div>
                   <h1 className="pb-[12px] text-[#0B0B0B] menuText font-outfit font-medium">
                     Email
                   </h1>
-                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal font-inter">
+                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal ">
                     admin@gmail.com
                   </p>
-                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal font-inter">
+                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal ">
                     contact@gmail.com
                   </p>
                 </div>
