@@ -95,6 +95,7 @@
 import { CiGlobe, CiLocationOn } from "react-icons/ci";
 import { HiOutlineMail } from "react-icons/hi";
 import { ImPhone } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 const FooterContact = () => {
   return (
@@ -242,20 +243,33 @@ const FooterContact = () => {
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">Home</a>
+                    <Link to="/" className="text-[#FFFFFFCC]/[.8] font-normal">
+                      Home
+                    </Link>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                    <Link
+                      to="/aboutUs"
+                      className="text-[#FFFFFFCC]/[.8] font-normal"
+                    >
                       About us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">Service</a>
+                    <Link
+                      to="/service"
+                      className="text-[#FFFFFFCC]/[.8] font-normal"
+                    >
+                      Service
+                    </Link>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                    <Link
+                      to="/contact"
+                      className="text-[#FFFFFFCC]/[.8] font-normal"
+                    >
                       Contact us
-                    </a>
+                    </Link>
                   </li>
                 </nav>
               </div>

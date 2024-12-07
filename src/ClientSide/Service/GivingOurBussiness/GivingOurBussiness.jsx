@@ -13,7 +13,7 @@ const GivingOurBussiness = () => {
           challenges into opportunities and creating impactful solutions.
         </p>
 
-        <button className="py-[12px] px-[24px] flex justify-end items-center gap-x-[4px] bg-[#397CCA] text-white">
+        <button className="py-[12px] px-[24px] rounded-[8px] flex justify-end items-center gap-x-[4px] bg-[#397CCA] text-white">
           Get in touch <MdArrowOutward />
         </button>
       </div>

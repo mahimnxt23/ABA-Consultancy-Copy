@@ -124,24 +124,36 @@ const Footer = () => {
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
+                    <Link
+                      to="/"
+                      className="text-[#FFFFFFCC]/[.8] font-normal font-inter"
+                    >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
+                    <Link
+                      to="/aboutUs"
+                      className="text-[#FFFFFFCC]/[.8] font-normal font-inter"
+                    >
                       About us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
+                    <Link
+                      to="/service"
+                      className="text-[#FFFFFFCC]/[.8] font-normal font-inter"
+                    >
                       Service
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal font-inter">
+                    <Link
+                      to="/contact"
+                      className="text-[#FFFFFFCC]/[.8] font-normal font-inter"
+                    >
                       Contact us
-                    </a>
+                    </Link>
                   </li>
                 </nav>
               </div>
@@ -238,20 +250,33 @@ const Footer = () => {
                 </h2>
                 <nav className="list-none mb-10">
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">Home</a>
+                    <Link to="/" className="text-[#FFFFFFCC]/[.8] font-normal">
+                      Home
+                    </Link>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                    <Link
+                      to="/aboutUs"
+                      className="text-[#FFFFFFCC]/[.8] font-normal"
+                    >
                       About us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">Service</a>
+                    <Link
+                      to="/service"
+                      className="text-[#FFFFFFCC]/[.8] font-normal"
+                    >
+                      Service
+                    </Link>
                   </li>
                   <li>
-                    <a className="text-[#FFFFFFCC]/[.8] font-normal">
+                    <Link
+                      to="/contact"
+                      className="text-[#FFFFFFCC]/[.8] font-normal"
+                    >
                       Contact us
-                    </a>
+                    </Link>
                   </li>
                 </nav>
               </div>
@@ -301,7 +326,7 @@ const Footer = () => {
                   <div className="text-[#FF8C00] flex items-center">
                     <CiGlobe />
                   </div>
-                  <div className="flex items-center text-[#FFFFFFCC]/[.8]">
+                  <div className="flex items-center text-[#FFFFFFCC]/[.8]  font-inter">
                     abaconsulting.org
                   </div>
 
@@ -309,7 +334,7 @@ const Footer = () => {
                   <div className="text-[#FF8C00] flex items-center">
                     <HiOutlineMail />
                   </div>
-                  <div className="flex items-center text-[#FFFFFFCC]/[.8]">
+                  <div className="flex items-center text-[#FFFFFFCC]/[.8]  font-inter">
                     info@abaconsulting.org
                   </div>
 
@@ -317,7 +342,7 @@ const Footer = () => {
                   <div className="text-[#FF8C00] flex items-start pt-1">
                     <CiLocationOn />
                   </div>
-                  <div className="flex flex-col text-[#FFFFFFCC]/[.8]">
+                  <div className="flex flex-col text-[#FFFFFFCC]/[.8]  font-inter">
                     <span>9900 13th Ave N, Unit 210G</span>
                     <span>Minneapolis, MN 55441 United States</span>
                   </div>

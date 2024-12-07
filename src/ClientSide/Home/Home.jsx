@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Footer from "../Shared/Footer/Footer";
 
 /* eslint-disable react/prop-types */
@@ -64,9 +65,9 @@ const Home = () => {
           </div>
         </div>
         <div className=" sectionGap ">
-          <div className=" flex items-center  lg:justify-between  2xl:gap-[50px] flex-wrap lg:flex-nowrap gap-[50px]  xl:gap-8">
+          <div className=" flex items-center  lg:justify-between  2xl:gap-[50px] flex-wrap lg:flex-nowrap gap-[50px]   xl:gap-8">
             <div className="max-w-[486px] 2xl:min-w-[700px] gap-2">
-              <img src="/images/home/hero/consulting.png" className="w-full" />
+              <img src="/images/home/hero/consulting.png" className="w-full " />
             </div>
             <div className="max-w-[523px] 2xl:max-w-[800px]">
               <div>
@@ -86,13 +87,15 @@ const Home = () => {
                   their full potential.
                 </p>
                 <div className="mt-[20px]">
-                  <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px]">
-                    Learn More
-                    <img
-                      src="/images/home/hero/material-symbols_arrow-insert (1).svg"
-                      alt=""
-                    />
-                  </button>
+                  <Link to="/aboutUs">
+                    <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px]">
+                      Learn More
+                      <img
+                        src="/images/home/hero/material-symbols_arrow-insert (1).svg"
+                        alt=""
+                      />
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -132,7 +135,7 @@ const Home = () => {
                 </p>
                 <div className="grid grid-cols-1 gap-[10px] lg:gap-0 lg:grid-cols-3 items-center justify-between mt-[20px]">
                   <div className="">
-                    <span className="text-[#FF8C00] bodyText font-semibold ">
+                    <span className="text-[#FF8C00] bodyText font-bold ">
                       10+
                     </span>
                     <p
@@ -145,7 +148,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div>
-                    <span className="text-[#FF8C00] bodyText font-semibold ">
+                    <span className="text-[#FF8C00] bodyText font-bold ">
                       500+
                     </span>
                     <p className="pt-[10px] bodyText font-inter font-normal">
@@ -153,7 +156,7 @@ const Home = () => {
                     </p>
                   </div>
                   <div>
-                    <span className="text-[#FF8C00] bodyText font-semibold ">
+                    <span className="text-[#FF8C00] bodyText font-bold ">
                       Tailored{" "}
                     </span>
                     <p className="pt-[10px] bodyText font-inter font-normal">
@@ -259,7 +262,7 @@ const Home = () => {
           </div>
         </div>
         {/*  */}
-        <div className="sectionGap mt-10  flex justify-between xl:gap-4 lg:gap-[30px] gap-4 flex-wrap lg:flex-nowrap items-center ">
+        <div className="sectionGap mt-10  flex justify-between xl:gap-4 lg:gap-[50px] gap-4 flex-wrap lg:flex-nowrap items-center ">
           <img
             src="/images/home/hero/clientSay.jpg"
             alt=""
@@ -387,7 +390,7 @@ export const Services = () => {
           </div>
         ))}
         <div className="flex items-center Lg:justify-center mt-[30px] mb-[40px] lg:mb-0 lg:mt-0">
-          <button className="w-[151px] flex flex-col justify-center items-center gap-[10px] h-[151px] rounded-full bg-[#FF8C00] text-[18px] font-semibold">
+          <button className="xl:w-[151px] xl:h-[151px] w-[130px] h-[130px] flex flex-col justify-center items-center gap-[10px]  rounded-full bg-[#FF8C00] text-[18px] font-semibold">
             Learn More
             <img src="/images/home/hero/material-symbols_arrow-insert (2).svg" />
           </button>
