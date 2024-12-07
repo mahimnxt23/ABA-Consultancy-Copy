@@ -3,11 +3,11 @@ const ChooseUs = () => {
     <div
       className="mt-[10px] px-[30px]
    md:mt-[10px] md:px-[32px]
-   lg:px-[60px] lg:mt-[30px]
+   lg:px-[80px] lg:mt-[30px]
    xl:px-[100px] xl:mt-[50px]
    2xl:px-[150px] 2xl:mt-[50px] "
     >
-      <div className="max-w-[600px]">
+      <div className="max-w-[600px] ">
         <h1 className="headTwo pb-[20px] text-[#0E0D0D]  font-outfit font-semibold">
           Why Choose Us
         </h1>

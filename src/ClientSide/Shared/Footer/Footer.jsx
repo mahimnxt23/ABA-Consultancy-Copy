@@ -116,8 +116,9 @@ const Footer = () => {
                 commodo ligula eget dolor.
               </p>
             </div>
-            <div className="flex-grow flex flex-wrap lg:pl-20 -mb-10 lg:mt-0 mt-10 lg:text-left text-center ">
-              <div className="lg:w-1/3 md:w-1/2 w-full px-4 ">
+
+            <div className="flex-grow flex flex-wrap lg:pl-20 -mb-10 lg:mt-0 mt-10 lg:text-left text-center  ">
+              <div className="lg:w-1/3 md:w-1/2 w-full px-4 pl-0 2xl:pl-[150px]">
                 <h2 className="title-font font-semibold text-[#FF8C00] menuText tracking-widest text-sm mb-3 font-inter">
                   Quick Links
                 </h2>
