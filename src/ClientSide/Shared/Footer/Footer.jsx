@@ -102,7 +102,7 @@ const Footer = () => {
     <div>
       <footer className=" body-font bg-[#1a2633]">
         <div className="hidden lg:block">
-          <div className="w-full px-5 py-24 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+          <div className="w-full  py-24 flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
             <div className="w-64 flex-shrink-0 lg:mx-0 mx-auto text-center lg:text-left">
               <div className="flex h-[56px] w-[50px] title-font font-medium items-center md:justify-start justify-center text-gray-900 pb-2">
                 <img

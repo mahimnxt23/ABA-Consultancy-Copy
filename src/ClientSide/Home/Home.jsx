@@ -64,7 +64,7 @@ const Home = () => {
           </div>
         </div>
         <div className=" sectionGap ">
-          <div className=" flex items-center justify-center lg:justify-between  2xl:gap-[50px] flex-wrap lg:flex-nowrap gap-[50px]  xl:gap-8">
+          <div className=" flex items-center  lg:justify-between  2xl:gap-[50px] flex-wrap lg:flex-nowrap gap-[50px]  xl:gap-8">
             <div className="max-w-[486px] 2xl:min-w-[700px] gap-2">
               <img src="/images/home/hero/consulting.png" className="w-full" />
             </div>
@@ -116,7 +116,7 @@ const Home = () => {
         <Services />
         {/*  */}
         <div className="sectionGap">
-          <div className="whychooseus flex-wrap justify-center lg:flex-nowrap flex items-center lg:justify-between">
+          <div className="whychooseus flex-wrap  lg:flex-nowrap flex items-center lg:justify-between">
             <div className="max-w-[530px] 2xl:min-w-[700px]">
               <SectionIndicator status={"Choose us"} />
               <div className="">
@@ -259,7 +259,7 @@ const Home = () => {
           </div>
         </div>
         {/*  */}
-        <div className="sectionGap mt-10  flex justify-between gap-4 flex-wrap lg:flex-nowrap items-center ">
+        <div className="sectionGap mt-10  flex justify-between xl:gap-4 lg:gap-[30px] gap-4 flex-wrap lg:flex-nowrap items-center ">
           <img
             src="/images/home/hero/clientSay.jpg"
             alt=""
@@ -277,7 +277,7 @@ const Home = () => {
               of them have to say about working with us:
             </p>
             <div
-              className="p-5 rounded-[16px] mt-[46px] relative"
+              className="p-5 rounded-[16px] xl:mt-[46px] lg:mt-[30px] mt-[46px] relative"
               style={{ backgroundColor: "rgba(57, 124, 202, 0.80)" }}
             >
               <h4 className="menuText font-semibold text-white">John Cena</h4>
@@ -353,12 +353,12 @@ const data = [
 
 export const Services = () => {
   return (
-    <div className="bg-[#1B2633] text-white py-8 px-4 min-[440px] mt-[30px]">
+    <div className="bg-[#1B2633] text-white py-8  min-[440px] mt-[30px]">
       <div className="sectionGap flex-col gap-5 lg:flex-row !mt-0 mx-auto flex lg:gap-[15px] xl:gap-[35px] justify-between">
         {data.map((service, index) => (
           <div
             key={index}
-            className="flex gap-[15px] xl:gap-[35px] lg:items-start mx-auto"
+            className="flex gap-[15px] xl:gap-[35px] lg:items-start "
           >
             <div
               className={`flex flex-col mt-[50px] lg:mt-[32px]  ${
