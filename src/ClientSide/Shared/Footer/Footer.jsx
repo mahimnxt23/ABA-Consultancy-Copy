@@ -212,7 +212,7 @@ const Footer = () => {
         </div>
 
         <div className="lg:hidden block">
-          <div className="container px-5 pt-24 mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-x-10">
+          <div className="container  pt-24 mx-auto grid grid-cols-1 md:grid-cols-2 md:gap-x-10">
             {/* Left Section (Logo + Quick Links) */}
             <div>
               {/* Logo Section */}
