@@ -30,7 +30,7 @@ const Home = () => {
                     mission is not merely a statement but a guiding principle
                     that propels us forward each day.
                   </p>
-                  <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold">
+                  <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold transition duration-300 ease-in-out hover:scale-105">
                     Get a Quote
                     <img src="/images/home/hero/quate.svg" alt="" />
                   </button>
@@ -91,8 +91,18 @@ const Home = () => {
                     achieve their full potential.
                   </p>
                   <div className="mt-[20px]">
+                    {/* <Link to="/aboutUs">
+                      <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px] transition duration-300 ease-in-out hover:bg-[#397CCA] hover:scale-105">
+                        Learn More
+                        <img
+                          src="/images/home/hero/material-symbols_arrow-insert (1).svg"
+                          alt=""
+                        />
+                      </button>
+                    </Link> */}
+
                     <Link to="/aboutUs">
-                      <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px] shadow transition">
+                      <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold transition duration-300 ease-in-out hover:scale-105">
                         Learn More
                         <img
                           src="/images/home/hero/material-symbols_arrow-insert (1).svg"
@@ -180,12 +190,7 @@ const Home = () => {
                     <span className="text-[#FF8C00] bodyText font-bold ">
                       10+
                     </span>
-                    <p
-                      className="bodyText font-inter font-normal pt-[10px]"
-                      style={{
-                        color: "rgba(31, 30, 30, 0.80)",
-                      }}
-                    >
+                    <p className="bodyText font-inter text-[#1F1E1ECC]/[.8] font-normal pt-[10px]">
                       years experience
                     </p>
                   </div>
@@ -193,7 +198,7 @@ const Home = () => {
                     <span className="text-[#FF8C00] bodyText font-bold ">
                       500+
                     </span>
-                    <p className="pt-[10px] bodyText font-inter font-normal">
+                    <p className="pt-[10px] text-[#1F1E1ECC]/[.8] bodyText font-inter font-normal">
                       Trusted by clients
                     </p>
                   </div>
@@ -201,13 +206,13 @@ const Home = () => {
                     <span className="text-[#FF8C00] bodyText font-bold ">
                       Tailored{" "}
                     </span>
-                    <p className="pt-[10px] bodyText font-inter font-normal">
+                    <p className="pt-[10px] text-[#1F1E1ECC]/[.8] bodyText font-inter font-normal">
                       solutions for business{" "}
                     </p>
                   </div>
                 </div>
                 <div className="flex">
-                  <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA]  rounded-[8px] mt-10 text-[18px] font-semibold">
+                  <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold transition duration-300 ease-in-out hover:scale-105">
                     Learn More
                     <img src="/images/home/hero/quate.svg" alt="" />
                   </button>

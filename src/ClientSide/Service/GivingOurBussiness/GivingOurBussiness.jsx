@@ -13,9 +13,12 @@ const GivingOurBussiness = () => {
           challenges into opportunities and creating impactful solutions.
         </p>
 
-        <button className="py-[12px] px-[24px] rounded-[8px] flex justify-end items-center gap-x-[4px] bg-[#397CCA] text-white">
+        <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold transition duration-300 ease-in-out hover:scale-105">
           Get in touch <MdArrowOutward />
         </button>
+        {/* <button className="py-[12px] px-[24px] rounded-[8px] flex justify-end items-center gap-x-[4px] bg-[#397CCA] text-white">
+          Get in touch <MdArrowOutward />
+        </button> */}
       </div>
 
       <div className="hidden xl:block  lg:h-[370px] h-[300px]">

@@ -226,9 +226,9 @@ const ContactBanner = () => {
                   {/* Submit Button */}
                   <button
                     type="submit"
-                    className="bg-[#397CCA] flex justify-center rounded-[8px] text-white  items-center   py-2 px-4 font-helvetica text-[18px] leading-[23px] font-bold"
+                    className="bg-white flex justify-center text-[#397CCA] rounded-[8px] border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white  items-center   py-2 px-4  text-[18px] leading-[23px]  font-semibold transition duration-300 ease-in-out hover:scale-105"
                   >
-                    Submit <FiArrowUpRight className="ml-2" size={32} />
+                    Submit <img src="/images/home/hero/quate.svg" alt="" />
                   </button>
                 </form>
               </div>
