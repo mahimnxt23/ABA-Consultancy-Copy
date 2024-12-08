@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect, useState } from "react";
 import { CiPhone } from "react-icons/ci";
@@ -82,7 +81,7 @@ const ContactBanner = () => {
         <div className="mx-[30px] md:mx-[32px] lg:mx-[80px] bg-white pt-[50px]  rounded-[12px] xl:mx-[100px] 2xl:mx-[150px] pb-[50px] px-[50px]">
           <div className="grid grid-cols-1 gap-y-[50px]">
             <div className="grid grid-cols-1 xl:grid-cols-3  gap-[16px]">
-              <div className=" grid grid-cols-[50px_1fr]   w-full  items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
+              <div className=" grid grid-cols-[50px_1fr]   w-full  items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] md:gap-x-[20px] gap-x-[15px]  md:p-[30px] p-[15px] bg-white">
                 {/* Contact Card */}
                 <div className="bg-[#397CCA] p-[12px] rounded-[4px] flex justify-center items-center">
                   <CiPhone className="text-white" size={32} />
@@ -94,12 +93,13 @@ const ContactBanner = () => {
                   <p className="pb-[5px] text-[#0B0B0BCC]/[.8] bodyText font-normal">
                     612-226-6210
                   </p>
-                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal">
-                    612-226-6210
-                  </p>
+                  {/* <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal">
+										612-226-6210
+									</p> */}
                 </div>
               </div>
-              <div className="  grid grid-cols-[50px_1fr]  w-full items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
+
+              <div className="  grid grid-cols-[50px_1fr]  w-full items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] md:gap-x-[20px] gap-x-[15px]  md:p-[30px] p-[15px] bg-white">
                 <div className="bg-[#397CCA] p-[12px] rounded-[4px] flex justify-center items-center">
                   <IoLocationOutline className="text-white" size={32} />
                 </div>
@@ -107,16 +107,17 @@ const ContactBanner = () => {
                   <h1 className="pb-[12px] text-[#0B0B0B] menuText font-outfit font-medium">
                     Address
                   </h1>
-                  <p className="pb-[5px] text-[#0B0B0BCC]/[.8] bodyText font-normal">
-                    2118 Thornridge Cir.
+                  <p className="pb-[5px] text-[#0B0B0BCC]/[.8] bodyText font-normal overflow-wrap-break">
+                    9900 13th Ave N, Unit 210G Minneapolis, MN 55441 United
+                    States
                   </p>
-                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal">
-                    Syracuse, Connecticut
-                  </p>
+                  {/* <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal break-all overflow-wrap-break">
+										MN 55441 United States
+									</p> */}
                 </div>
               </div>
 
-              <div className=" grid grid-cols-[50px_1fr]   w-full items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] gap-x-[20px] p-[30px] bg-white">
+              <div className=" grid grid-cols-[50px_1fr]   w-full items-center  shadow-[4px_4px_12px_0px_rgba(0,0,0,0.4)] md:gap-x-[20px] gap-x-[15px]  md:p-[30px] p-[15px] bg-white">
                 <div className="bg-[#397CCA] p-[12px] rounded-[4px] flex justify-center items-center">
                   <MdOutlineEmail className="text-white" size={32} />
                 </div>
@@ -124,12 +125,12 @@ const ContactBanner = () => {
                   <h1 className="pb-[12px] text-[#0B0B0B] menuText font-outfit font-medium">
                     Email
                   </h1>
-                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal ">
-                    admin@gmail.com
+                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal break-all overflow-wrap-break">
+                    info@abaconsulting.org
                   </p>
-                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal ">
-                    contact@gmail.com
-                  </p>
+                  {/* <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal break-all overflow-wrap-break">
+										info@abaconsulting.org
+									</p> */}
                 </div>
               </div>
 
@@ -226,9 +227,9 @@ const ContactBanner = () => {
                   {/* Submit Button */}
                   <button
                     type="submit"
-                    className="bg-white flex justify-center text-[#397CCA] rounded-[8px] border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white  items-center   py-2 px-4  text-[18px] leading-[23px]  font-semibold transition duration-300 ease-in-out hover:scale-105"
+                    className="bg-[#397CCA] flex justify-center rounded-[8px] text-white  items-center   py-2 px-4 font-helvetica text-[18px] leading-[23px] font-bold"
                   >
-                    Submit <img src="/images/home/hero/quate.svg" alt="" />
+                    Submit <FiArrowUpRight className="ml-2" size={32} />
                   </button>
                 </form>
               </div>
