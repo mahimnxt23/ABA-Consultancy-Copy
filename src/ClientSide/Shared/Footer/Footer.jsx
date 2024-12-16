@@ -306,7 +306,7 @@ const Footer = () => {
                       to="/service#assistance"
                       className="text-[#FFFFFFCC]/[.8] font-normal"
                     >
-                      Compliance Assistance
+                      Skyline
                     </Link>
                   </li>
                   <li className="mb-2">
@@ -314,17 +314,17 @@ const Footer = () => {
                       to="/service#solutions"
                       className="text-[#FFFFFFCC]/[.8] font-normal"
                     >
-                      Staffing Solutions
+                      Sensory
                     </Link>
                   </li>
-                  <li className="mb-2">
+                  {/* <li className="mb-2">
                     <Link
                       to="/service#product"
                       className="text-[#FFFFFFCC]/[.8] font-normal"
                     >
                       Compliance Assistance
                     </Link>
-                  </li>
+                  </li> */}
                 </nav>
               </div>
 
