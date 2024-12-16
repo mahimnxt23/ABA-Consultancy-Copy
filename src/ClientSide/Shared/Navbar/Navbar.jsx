@@ -56,16 +56,18 @@ const Navbar = () => {
           {/* Button */}
           <div className="hidden lg:flex justify-end min-w-[273px]">
             {isHomePage ? (
-              <button className=" bg-blue-500 text-white px-4 py-2 gap-1 flex items-center rounded-md shadow hover:bg-blue-600 transition">
-                Book a Free Consultation
-                <img
-                  src="/images/home/hero/material-symbols_arrow-insert (1).svg"
-                  alt=""
-                />
-              </button>
+              <Link to="/consultation">
+                <button className=" bg-blue-500 text-white px-4 py-2 gap-1 flex items-center rounded-md shadow hover:bg-blue-600 transition duration-300 ease-in-out hover:scale-105">
+                  Book a Free Consultation
+                  <img
+                    src="/images/home/hero/material-symbols_arrow-insert (1).svg"
+                    alt=""
+                  />
+                </button>
+              </Link>
             ) : (
               <Link to="/consultation">
-                <button className=" bg-blue-500 text-white px-4 py-2 gap-1 flex items-center rounded-md shadow hover:bg-blue-600 transition">
+                <button className=" bg-blue-500 text-white px-4 py-2 gap-1 flex items-center rounded-md shadow hover:bg-blue-600 transition duration-300 ease-in-out hover:scale-105">
                   Book a Free Consultation
                   <img
                     src="/images/home/hero/material-symbols_arrow-insert (1).svg"
@@ -142,8 +144,8 @@ const Navbar = () => {
             ))}
             <div className="flex justify-center hidden lg:block">
               {isHomePage ? (
-                <button className=" bg-blue-500 items-center font-semibold text-white px-4 py-2 rounded-md shadow flex gap-1 hover:bg-blue-600 transition">
-                  Book a Free ConsultationF
+                <button className=" bg-blue-500 items-center font-semibold text-white px-4 py-2 rounded-md shadow flex gap-1 hover:bg-blue-600 transition duration-300 ease-in-out hover:scale-105">
+                  Book a Free Consultation
                   <img
                     src="/images/home/hero/material-symbols_arrow-insert (1).svg"
                     alt=""
