@@ -4,7 +4,8 @@ const Team = () => {
       <div className="relative">
         <div
           style={{
-            backgroundImage: `url("/images/about-us-Banner-2.png")`,
+            backgroundImage: `url("/images/neetTeam.jpg")`,
+            filter: "brightness(.4)",
           }}
           className="bg-no-repeat bg-center bg-cover w-full  
 h-[420px] flex justify-center items-center"

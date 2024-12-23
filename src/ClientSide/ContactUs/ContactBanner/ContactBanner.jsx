@@ -57,7 +57,7 @@ const ContactBanner = () => {
         <div
           style={{
             backgroundImage: `url("/images/contactUsBanner.png")`,
-            filter: "brightness(.7)",
+            filter: "brightness(.4)",
           }}
           className="bg-no-repeat bg-center bg-cover w-full h-[420px] flex justify-center items-center"
         ></div>

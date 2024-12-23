@@ -5,7 +5,7 @@ const ServiceBanner = () => {
         <div
           style={{
             backgroundImage: `url("/images/serviceBanner.png")`,
-            filter: "brightness(.7)",
+            filter: "brightness(.4)",
           }}
           className="bg-no-repeat  bg-center bg-cover w-full md:h-[420px] 
   h-[420px] flex justify-center items-center"
