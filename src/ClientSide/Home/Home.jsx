@@ -31,23 +31,23 @@ const Home = () => {
                     mission is not merely a statement but a guiding principle
                     that propels us forward each day.
                   </p>
-                  <button className="group text-[#397CCA] flex max-w-[175px] items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold transition duration-300 ease-in-out hover:scale-105">
-                    Get a Quote
-                    <svg
-                      className="w-6 h-6 text-[#397CCA] hover:text-white transition duration-300"
-                      viewBox="0 0 24 24"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <g id="material-symbols:arrow-insert">
+
+                  <div className="hidden md:flex items-center">
+                    <button className="group flex max-w-[175px] items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold text-[#397CCA] hover:bg-[#397CCA] hover:text-white transition duration-300">
+                      Get a Quote
+                      <svg
+                        className="w-6 h-6 text-[#397CCA] group-hover:text-white transition duration-300"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
                         <path
-                          id="Vector"
                           d="M6 17.6L15.6 8L7 8L7 6L19 6L19 18L17 18L17 9.4L7.4 19L6 17.6Z"
-                          fill="#397CCA"
+                          fill="currentColor"
                         />
-                      </g>
-                    </svg>
-                  </button>
+                      </svg>
+                    </button>
+                  </div>
                 </div>
                 <div className="flex md:block w-full md:w-auto mt-4 md:mt-10 flex-col justify-center md:justify-normal">
                   <div className="max-w-[233px] lg:mx-auto">
@@ -69,21 +69,18 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="md:hidden flex lg:justify-center">
-                  <button className="group text-[#397CCA] flex max-w-[175px] items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold">
+                  <button className="group flex max-w-[175px] items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold text-[#397CCA] hover:bg-[#397CCA] hover:text-white transition duration-300">
                     Get a Quote
                     <svg
-                      className="w-6 h-6 text-[#397CCA] transition duration-300"
+                      className="w-6 h-6 text-[#397CCA] group-hover:text-white transition duration-300"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <g id="material-symbols:arrow-insert">
-                        <path
-                          id="Vector"
-                          d="M6 17.6L15.6 8L7 8L7 6L19 6L19 18L17 18L17 9.4L7.4 19L6 17.6Z"
-                          fill="#397CCA"
-                        />
-                      </g>
+                      <path
+                        d="M6 17.6L15.6 8L7 8L7 6L19 6L19 18L17 18L17 9.4L7.4 19L6 17.6Z"
+                        fill="currentColor"
+                      />
                     </svg>
                   </button>
                 </div>
@@ -129,12 +126,19 @@ const Home = () => {
                     </Link> */}
 
                     <Link to="/aboutUs">
-                      <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold transition duration-300 ease-in-out hover:scale-105">
+                      <button className="group flex max-w-[175px] items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold text-[#397CCA] hover:bg-[#397CCA] hover:text-white transition duration-300">
                         Learn More
-                        <img
-                          src="/images/home/hero/material-symbols_arrow-insert (1).svg"
-                          alt=""
-                        />
+                        <svg
+                          className="w-6 h-6 text-[#397CCA] group-hover:text-white transition duration-300"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6 17.6L15.6 8L7 8L7 6L19 6L19 18L17 18L17 9.4L7.4 19L6 17.6Z"
+                            fill="currentColor"
+                          />
+                        </svg>
                       </button>
                     </Link>
                   </div>
@@ -167,12 +171,19 @@ const Home = () => {
                 </p>
                 <div className="mt-[20px]">
                   <Link to="/aboutUs">
-                    <button className="menuText font-semibold p-3 bg-[#397CCA] text-white flex items-center justify-between gap-1 rounded-[8px]">
+                    <button className="group flex max-w-[175px] items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold text-[#397CCA] hover:bg-[#397CCA] hover:text-white transition duration-300">
                       Learn More
-                      <img
-                        src="/images/home/hero/material-symbols_arrow-insert (1).svg"
-                        alt=""
-                      />
+                      <svg
+                        className="w-6 h-6 text-[#397CCA] group-hover:text-white transition duration-300"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M6 17.6L15.6 8L7 8L7 6L19 6L19 18L17 18L17 9.4L7.4 19L6 17.6Z"
+                          fill="currentColor"
+                        />
+                      </svg>
                     </button>
                   </Link>
                 </div>
@@ -242,9 +253,19 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="flex">
-                  <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold transition duration-300 ease-in-out hover:scale-105">
+                  <button className="group flex max-w-[175px] items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold text-[#397CCA] hover:bg-[#397CCA] hover:text-white transition duration-300">
                     Learn More
-                    <img src="/images/home/hero/quate.svg" alt="" />
+                    <svg
+                      className="w-6 h-6 text-[#397CCA] group-hover:text-white transition duration-300"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6 17.6L15.6 8L7 8L7 6L19 6L19 18L17 18L17 9.4L7.4 19L6 17.6Z"
+                        fill="currentColor"
+                      />
+                    </svg>
                   </button>
                 </div>
               </div>
