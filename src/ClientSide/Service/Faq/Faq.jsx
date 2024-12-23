@@ -9,22 +9,22 @@ const Faq = () => {
 
   const accordion1 = [
     {
-      question: "Regulatory Compliance Support",
+      question: "Let’s collaborate",
       answer:
-        "We provide expert guidance to help you navigate the complexities of state and federal regulations. Our monthly reviews ensure your center consistently meets compliance standards, reducing risks and fostering a foundation of regulatory excellence.",
+        "Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend, porta est non, feugiat metus. Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend, porta est non, feugiat metus. ",
     },
     {
-      question: "Real-World Audit Preparation",
+      question: "A satisfied customer",
       answer:
         "Prepare your team for actual evaluations with our dynamic mock audits. These unannounced exercises simulate real audit scenarios, building your staff’s confidence and ensuring readiness.",
     },
     {
-      question: "Continuous Operational Assistance",
+      question: "Expertise to build the things",
       answer:
         "Our dedicated team offers 24/7 operational support and educational resources. From addressing daily challenges to ensuring seamless business processes, we’re here to support your success every step of the way.",
     },
     {
-      question: "Comprehensive Billing Solutions",
+      question: "Expertise to build the things",
       answer:
         "Our meticulous billing review process examines your billed lines for accuracy and efficiency. Additionally, we offer billing training to enhance your team's skills, ensuring financial precision and integrity",
     },
@@ -61,23 +61,23 @@ const Faq = () => {
           </div> */}
           {/* Text and Accordion */}
           <div className="rounded-lg">
-            <h2 className="text-white font-semibold mb-[20px] headTwo leading-[40px]">
+            <h2 className="text-white text-center font-semibold mb-[20px] headTwo leading-[40px]">
               Frequently Asked Question
             </h2>
-            <p className="text-white mb-[20px] font-normal bodyText">
-              ABA Consulting helps ensure your center stays compliant with state
-              and federal regulations through expert guidance and monthly
-              reviews, minimizing risks and keeping operations smooth and
-              efficient.
+            <p className="mx-auto text-center  max-w-[772px] text-[#FFFFFF]/[.80] mb-[20px] font-normal bodyText">
+              Unlock the power of digital marketing to attract more customers.
+              Our tailored strategies focus on increasing your online presence,
+              engaging your target audience, and driving conversions to help
+              your business grow.
             </p>
             <div className="space-y-4">
               {accordion1.map((item, index) => (
                 <div key={index} className=" rounded-[8px]">
                   <button
-                    className={`w-full border border-[#CBD5E1] flex justify-between rounded-[8px] items-center p-4  ${
+                    className={`w-full border border-[#CBD5E1]/[.6] flex justify-between rounded-[8px] items-center p-4  ${
                       activeIndex === index
                         ? "bg-[#FF8C00] text-white border-none rounded-b-none"
-                        : "bg-white hover:bg-gray-100 text-[#0E0D0DCC]/[.6]"
+                        : "bg-transparent text-[#FFFFFF]/[.80]  "
                     }`}
                     onClick={() => toggleFAQ(index)}
                   >
@@ -86,7 +86,9 @@ const Faq = () => {
                     </span>
                     <svg
                       className={`w-5 h-5 transform ${
-                        activeIndex === index ? "rotate-180" : ""
+                        activeIndex === index
+                          ? " rotate-180 "
+                          : "text-[#FFFFFF]/[.80]"
                       }`}
                       xmlns="http://www.w3.org/2000/svg"
                       fill="none"
@@ -102,7 +104,7 @@ const Faq = () => {
                     </svg>
                   </button>
                   {activeIndex === index && (
-                    <div className="p-4 text-[#0E0D0DCC]/[.8] rounded-[8px] rounded-t-none  bg-[#F9F9F9] font-normal">
+                    <div className="p-4 text-[#0E0D0D]/[.6 rounded-[8px] rounded-t-none  bg-[#F9F9F9] font-normal">
                       {item.answer}
                     </div>
                   )}
