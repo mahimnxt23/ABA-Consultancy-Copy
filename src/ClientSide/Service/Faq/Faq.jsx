@@ -64,19 +64,16 @@ const Faq = () => {
           </p>
           <div className="space-y-4">
             {accordion1.map((item, index) => (
-              <div
-                key={index}
-                className="border border-[#CBD5E1] rounded-[6px]"
-              >
+              <div key={index} className=" rounded-[8px]">
                 <button
-                  className={`w-full flex justify-between items-center p-4 focus:outline-none focus:ring ${
+                  className={`w-full border border-[#CBD5E1] flex justify-between rounded-[8px] items-center p-4  ${
                     activeIndex === index
-                      ? "bg-[#FF8C00] text-white"
+                      ? "bg-[#FF8C00] text-white border-none rounded-b-none"
                       : "bg-white hover:bg-gray-100 text-[#0E0D0DCC]/[.6]"
                   }`}
                   onClick={() => toggleFAQ(index)}
                 >
-                  <span className="font-normal bodyText">{item.question}</span>
+                  <span className="font-normal bodyText ">{item.question}</span>
                   <svg
                     className={`w-5 h-5 transform ${
                       activeIndex === index ? "rotate-180" : ""
@@ -95,7 +92,7 @@ const Faq = () => {
                   </svg>
                 </button>
                 {activeIndex === index && (
-                  <div className="p-4 text-[#0E0D0DCC]/[.8] bg-white font-normal">
+                  <div className="p-4 text-[#0E0D0DCC]/[.8] rounded-[8px] rounded-t-none  bg-[#F9F9F9] font-normal">
                     {item.answer}
                   </div>
                 )}
