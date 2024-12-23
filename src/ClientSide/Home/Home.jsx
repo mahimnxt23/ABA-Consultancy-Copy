@@ -156,7 +156,7 @@ const Home = () => {
         </div>
 
         <Faq />
-        <div className="sectionGap">
+        {/* <div className="sectionGap">
           <div className="ourservices max-w-[900px]">
             <SectionIndicator status={"Our Service"} />
             <h2 className="text-[30px] headTwo font-semibold mt-[30px]">
@@ -171,15 +171,16 @@ const Home = () => {
           </div>
         </div>
 
-        <Services />
+        <Services /> */}
+
         {/*chooseUs  */}
-        {/* <div className="sectionGap">
+        <div className="sectionGap">
           <div className="whychooseus flex-wrap  lg:flex-nowrap flex items-center lg:justify-between">
             <div className="max-w-[530px] 2xl:min-w-[700px]">
               <SectionIndicator status={"Choose us"} />
               <div className="">
                 <h2 className="headTwo font-semibold mt-[30px]">
-                  Why Choose Us
+                  Why Aba counsulting
                 </h2>
                 <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter">
                   With a track record of success and a commitment to excellence,
@@ -230,8 +231,9 @@ const Home = () => {
               />
             </div>
           </div>
-        </div> */}
-        {/*  */}
+        </div>
+
+        {/* Meet the Experts */}
         {/* <div className="sectionGap meet-experts">
           <div className="ourservices max-w-[900px]">
             <SectionIndicator status={"Our Team"} />
