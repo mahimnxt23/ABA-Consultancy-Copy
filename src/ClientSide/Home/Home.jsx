@@ -90,14 +90,14 @@ const Home = () => {
         </div>
         <div className=" sectionGap ">
           <div className="lg:block hidden">
-            <div className=" flex items-center  lg:justify-between  2xl:gap-[50px] flex-wrap lg:flex-nowrap gap-[50px]   xl:gap-8">
-              <div className="max-w-[486px] 2xl:min-w-[700px] gap-2">
+            <div className=" grid grid-cols-1  lg:grid-cols-2 items-center  gap-[80px]  ">
+              <div className=" 2xl:min-w-[700px] gap-2">
                 <img
                   src="/images/home/hero/consulting.png"
                   className="w-full "
                 />
               </div>
-              <div className="max-w-[523px] 2xl:max-w-[800px]">
+              <div className=" ">
                 <div>
                   <SectionIndicator status={"About Us"} />
                   <h2 className=" headTwo mt-[30px] font-semibold">
@@ -193,8 +193,8 @@ const Home = () => {
         </div>
         {/*chooseUs  */}
         <div className="sectionGap">
-          <div className="whychooseus flex-wrap  lg:flex-nowrap flex items-center lg:justify-between">
-            <div className="max-w-[530px] 2xl:min-w-[700px]">
+          <div className="whychooseus grid grid-cols-1 lg:grid-cols-2 items-center lg:justify-between  gap-[80px]">
+            <div className="">
               <SectionIndicator status={"Choose us"} />
               <div className="">
                 <h2 className="headTwo font-semibold mt-[30px]">
@@ -251,11 +251,11 @@ const Home = () => {
                 </div>
               </div>
             </div>
-            <div className="mt-[50px] lg:mt-0">
+            <div className="mt-[50px] lg:mt-0 2xl:min-w-[700px] ">
               <img
                 src="/images/home/hero/aunty.jpg"
                 alt=""
-                className="2xl:min-w-[800px] 2xl:mr-[80px]"
+                className="w-full "
               />
             </div>
           </div>
@@ -359,13 +359,16 @@ const Home = () => {
           </div>
         </div> */}
         {/*  */}
-        <div className=" sectionGap mt-10  flex justify-between xl:gap-4 lg:gap-[50px] gap-4 flex-wrap lg:flex-nowrap items-center ">
-          <img
-            src="/images/testmonial.png"
-            alt=""
-            className="lg:max-w-[453px] 2xl:max-w-[40%] w-full"
-          />
-          <div className="lg:max-w-[580px] 2xl:max-w-[800px] 2xl:mr-20 mt-[30px] ">
+        <div className=" sectionGap grid grid-cols-1 xl:grid-cols-2 gap-[80px]    items-center ">
+          <div className="">
+            <img
+              src="/images/testmonial.png"
+              alt=""
+              className=" w-full rounded-md"
+            />
+          </div>
+
+          <div className=" mt-0 md:mt-[30px]  ">
             <SectionIndicator status={"Testimonials"} />
             <h2 className="headTwo font-semibold mt-[30px]">
               What Our Clients Saying

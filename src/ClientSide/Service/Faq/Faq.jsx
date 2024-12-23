@@ -37,11 +37,7 @@ const Faq = () => {
 
   return (
     <div
-      className="grid grid-cols-1 gap-[50px] mt-[30px] px-[30px]
-    md:mt-[32px] md:px-[32px]
-    lg:px-[80px] lg:mt-[30px]
-    xl:px-[100px] xl:mt-[80px]
-    2xl:px-[150px] 2xl:mt-[80px] w-full h-auto py-[80px]"
+      className="grid grid-cols-1 gap-[50px] sectionGap w-full h-auto py-[80px]"
       style={{
         backgroundImage: `url("/images/faq.png")`,
         backgroundSize: "cover",
