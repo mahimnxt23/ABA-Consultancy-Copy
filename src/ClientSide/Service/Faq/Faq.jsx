@@ -11,7 +11,7 @@ const Faq = () => {
     {
       question: "Let’s collaborate",
       answer:
-        "Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend, porta est non, feugiat metus. Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend, porta est non, feugiat metus. ",
+        "Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend, porta est non, feugiat metus. Duis consectetur feugiat auctor. Morbi nec enim luctus, feugiat arcu id, ultricies ante. Duis vel massa eleifend, porta est non, feugiat metus.Prepare your team for actual evaluations with our dynamic mock audits. These unannounced exercises simulate real audit scenarios, building your staff’s confidence and ensuring readiness. ",
     },
     {
       question: "A satisfied customer",
@@ -22,6 +22,11 @@ const Faq = () => {
       question: "Expertise to build the things",
       answer:
         "Our dedicated team offers 24/7 operational support and educational resources. From addressing daily challenges to ensuring seamless business processes, we’re here to support your success every step of the way.",
+    },
+    {
+      question: "Expertise to build the things",
+      answer:
+        "Our meticulous billing review process examines your billed lines for accuracy and efficiency. Additionally, we offer billing training to enhance your team's skills, ensuring financial precision and integrity",
     },
     {
       question: "Expertise to build the things",
