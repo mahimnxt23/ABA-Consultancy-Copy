@@ -187,15 +187,59 @@ const Navbar = () => {
           {/* Navigation Links */}
           <div className="px-[30px] md:px-[32px] pt-2 pb-3 flex flex-col py-4 lg:mt-20  mt-28">
             {navLinks.map((link) => (
+              // <NavLink
+              //   key={link.name}
+              //   to={link.href}
+              //   className={({ isActive }) =>
+              //     isActive ? "text-[#397CCA] font-semibold mb-2" : "link mb-2"
+              //   }
+              //   onClick={() => setIsOpen(false)}
+              // >
+              //   {link.name}
+              // </NavLink>
+
               <NavLink
                 key={link.name}
                 to={link.href}
-                className={({ isActive }) =>
-                  isActive ? "text-[#397CCA] font-semibold mb-2" : "link mb-2"
-                }
-                onClick={() => setIsOpen(false)}
+                className="relative group"
               >
-                {link.name}
+                <div className="flex items-center gap-[6px]">
+                  {/* Text */}
+                  <a
+                    // href={link.href}
+                    className="text-gray-700 hover:text-blue-600"
+                  >
+                    {link.name}
+                  </a>
+
+                  {/* Dropdown Icon and Menu */}
+                  {link.subLinks && (
+                    <div
+                      className="relative"
+                      onMouseEnter={() => handleMouseEnter(link.name)}
+                      onMouseLeave={handleMouseLeave}
+                    >
+                      {/* Dropdown Icon */}
+                      <FaChevronDown className="ml-1 text-sm hover:text-blue-600 transition-transform hover:rotate-180 cursor-pointer" />
+
+                      {/* Dropdown Menu */}
+                      {openDropdown === link.name && (
+                        <ul className="absolute top-0  left-10 bg-white shadow-lg rounded-md py-2 w-48 z-10">
+                          {link.subLinks.map((subLink) => (
+                            <li key={subLink.name}>
+                              <Link
+                                to={subLink.href}
+                                className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-blue-600"
+                              >
+                                {subLink.name}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  )}
+                </div>
               </NavLink>
             ))}
             <div className="flex justify-center hidden lg:block">
