@@ -31,9 +31,22 @@ const Home = () => {
                     mission is not merely a statement but a guiding principle
                     that propels us forward each day.
                   </p>
-                  <button className="text-[#397CCA] hidden md:flex items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold transition duration-300 ease-in-out hover:scale-105">
+                  <button className="group text-[#397CCA] flex max-w-[175px] items-center p-3 gap-1 border-[1px] border-[#397CCA] hover:bg-[#397CCA] hover:text-white rounded-[8px] mt-[30px] text-[18px] font-semibold transition duration-300 ease-in-out hover:scale-105">
                     Get a Quote
-                    <img src="/images/home/hero/quate.svg" alt="" />
+                    <svg
+                      className="w-6 h-6 text-[#397CCA] hover:text-white transition duration-300"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="material-symbols:arrow-insert">
+                        <path
+                          id="Vector"
+                          d="M6 17.6L15.6 8L7 8L7 6L19 6L19 18L17 18L17 9.4L7.4 19L6 17.6Z"
+                          fill="#397CCA"
+                        />
+                      </g>
+                    </svg>
                   </button>
                 </div>
                 <div className="flex md:block w-full md:w-auto mt-4 md:mt-10 flex-col justify-center md:justify-normal">
@@ -56,9 +69,22 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="md:hidden flex lg:justify-center">
-                  <button className="text-[#397CCA] flex max-w-[175px]  items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold">
+                  <button className="group text-[#397CCA] flex max-w-[175px] items-center p-3 gap-1 border-[1px] border-[#397CCA] rounded-[8px] mt-[30px] text-[18px] font-semibold">
                     Get a Quote
-                    <img src="/images/home/hero/quate.svg" alt="" />
+                    <svg
+                      className="w-6 h-6 text-[#397CCA] transition duration-300"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <g id="material-symbols:arrow-insert">
+                        <path
+                          id="Vector"
+                          d="M6 17.6L15.6 8L7 8L7 6L19 6L19 18L17 18L17 9.4L7.4 19L6 17.6Z"
+                          fill="#397CCA"
+                        />
+                      </g>
+                    </svg>
                   </button>
                 </div>
               </div>
