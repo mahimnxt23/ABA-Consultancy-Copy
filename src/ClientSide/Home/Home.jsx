@@ -191,25 +191,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-
-        <Faq />
-        {/* <div className="sectionGap">
-          <div className="ourservices max-w-[900px]">
-            <SectionIndicator status={"Our Service"} />
-            <h2 className="text-[30px] headTwo font-semibold mt-[30px]">
-              Our Services for You
-            </h2>
-            <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter !text-[14px]">
-              Our expert consultancy services are crafted to meet the unique
-              challenges of your business. Whether you&apos; re looking to
-              improve strategy, enhance operations, or boost growth, we’re here
-              to help.
-            </p>
-          </div>
-        </div>
-
-        <Services /> */}
-
         {/*chooseUs  */}
         <div className="sectionGap">
           <div className="whychooseus flex-wrap  lg:flex-nowrap flex items-center lg:justify-between">
@@ -279,6 +260,23 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <Faq />
+        {/* <div className="sectionGap">
+          <div className="ourservices max-w-[900px]">
+            <SectionIndicator status={"Our Service"} />
+            <h2 className="text-[30px] headTwo font-semibold mt-[30px]">
+              Our Services for You
+            </h2>
+            <p className="text-[#0E0D0DCC] bodyText mt-[20px] font-inter !text-[14px]">
+              Our expert consultancy services are crafted to meet the unique
+              challenges of your business. Whether you&apos; re looking to
+              improve strategy, enhance operations, or boost growth, we’re here
+              to help.
+            </p>
+          </div>
+        </div>
+
+        <Services /> */}
 
         {/* Meet the Experts */}
         {/* <div className="sectionGap meet-experts">
