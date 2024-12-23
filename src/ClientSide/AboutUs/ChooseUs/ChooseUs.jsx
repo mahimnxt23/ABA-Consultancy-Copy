@@ -31,11 +31,11 @@ h-[420px] flex justify-center items-center"
           </div>
         </div>
         <div
-          className="mt-[10px] px-[30px]
+          className="pt-[32px] px-[30px]
    md:mt-[10px] md:px-[32px]
-   lg:px-[80px] lg:mt-[30px]
-   xl:px-[100px] xl:mt-[50px]
-   2xl:px-[150px] 2xl:mt-[50px] "
+   lg:px-[80px] lg:pt-[30px]
+   xl:px-[100px] xl:pt-[50px]
+   2xl:px-[150px] 2xl:pt-[50px] "
         >
           <div className="w-full 2xl:max-w-[1000px] ">
             <h1 className="headTwo pb-[20px] text-[#0E0D0D]  font-outfit font-semibold">
