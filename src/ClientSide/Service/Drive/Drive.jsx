@@ -171,7 +171,7 @@ const Drive = () => {
             {accordion2.map((item, index) => (
               <div key={index} className="">
                 <button
-                  className={`w-full flex justify-between items-center p-4 focus:outline-none focus:ring ${
+                  className={`w-full flex justify-between items-center p-4  ${
                     activeIndex === index
                       ? "bg-[#FF8C00] text-white border-none"
                       : "bg-white hover:bg-gray-100 text-[#0E0D0DCC]/[.6] border border-[#CBD5E1] rounded-[8px]"
@@ -197,7 +197,7 @@ const Drive = () => {
                   </svg>
                 </button>
                 {activeIndex === index && (
-                  <div className="p-4 text-[#0E0D0DCC]/[.8] bg-white font-normal">
+                  <div className="p-4  text-[#0E0D0DCC]/[.8] bg-white font-normal">
                     {item.answer}
                   </div>
                 )}
@@ -235,7 +235,7 @@ const Drive = () => {
             {accordion3.map((item, index) => (
               <div key={index} className="">
                 <button
-                  className={`w-full flex justify-between items-center p-4 focus:outline-none focus:ring ${
+                  className={`w-full flex justify-between items-center p-4 ${
                     activeIndex === index
                       ? "bg-[#FF8C00] text-white border-none"
                       : "bg-white hover:bg-gray-100 text-[#0E0D0DCC]/[.6] border border-[#CBD5E1] rounded-[8px]"
