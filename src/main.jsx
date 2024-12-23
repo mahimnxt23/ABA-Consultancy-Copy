@@ -10,6 +10,8 @@ import Service from "./ClientSide/Service/Service";
 import Layout from "./ClientSide/Main";
 import ContactUs from "./ClientSide/ContactUs/ContactUs";
 import ConsultationForm from "./ClientSide/BookConsultancy/BookConsultaion";
+import ChooseUs from "./ClientSide/AboutUs/ChooseUs/ChooseUs";
+import Team from "./ClientSide/AboutUs/Team/Team";
 
 // Parent Layout Component
 
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
       {
         path: "/contact",
         element: <ContactUs></ContactUs>,
+      },
+      {
+        path: "/ChooseUs",
+        element: <ChooseUs></ChooseUs>,
+      },
+      {
+        path: "/ourTeam",
+        element: <Team></Team>,
       },
     ],
   },

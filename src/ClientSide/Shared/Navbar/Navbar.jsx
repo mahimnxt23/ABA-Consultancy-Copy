@@ -2,11 +2,22 @@ import { useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom"; // Adjust based on your routing library
 import { navLinks } from "../../../constant/data";
 import "./Navbar.css";
+import { FaChevronDown } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
   const isHomePage = location.pathname === "/";
+
+  const [openDropdown, setOpenDropdown] = useState(null);
+
+  const handleMouseEnter = (name) => {
+    setOpenDropdown(name);
+  };
+
+  const handleMouseLeave = () => {
+    setOpenDropdown(null);
+  };
 
   return (
     <div
@@ -39,16 +50,61 @@ const Navbar = () => {
           {/* Links Section */}
           <div className="hidden lg:flex space-x-[50px]">
             {navLinks.map((link) => (
+              // <NavLink
+              //   key={link.name}
+              //   to={link.href}
+
+              //   className={({ isActive }) =>
+              //     isActive
+              //       ? "text-[#397CCA] font-semibold"
+              //       : "text-[#0E0D0DCC] opacity-[.8] font-semibold"
+              //   }
+              // >
+              //   {link.name}
+              // </NavLink>
+
               <NavLink
                 key={link.name}
                 to={link.href}
-                className={({ isActive }) =>
-                  isActive
-                    ? "text-[#397CCA] font-semibold"
-                    : "text-[#0E0D0DCC] opacity-[.8] font-semibold"
-                }
+                className="relative group"
               >
-                {link.name}
+                <div className="flex items-center gap-[6px]">
+                  {/* Text */}
+                  <a
+                    // href={link.href}
+                    className="text-gray-700 hover:text-blue-600"
+                  >
+                    {link.name}
+                  </a>
+
+                  {/* Dropdown Icon and Menu */}
+                  {link.subLinks && (
+                    <div
+                      className="relative"
+                      onMouseEnter={() => handleMouseEnter(link.name)}
+                      onMouseLeave={handleMouseLeave}
+                    >
+                      {/* Dropdown Icon */}
+                      <FaChevronDown className="ml-1 text-sm hover:text-blue-600 transition-transform hover:rotate-180 cursor-pointer" />
+
+                      {/* Dropdown Menu */}
+                      {openDropdown === link.name && (
+                        <ul className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 w-48 z-10">
+                          {link.subLinks.map((subLink) => (
+                            <li key={subLink.name}>
+                              <Link
+                                to={subLink.href}
+                                className="block px-4 py-2 text-gray-700 hover:bg-gray-100 hover:text-blue-600"
+                              >
+                                {subLink.name}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </div>
+                  )}
+                </div>
               </NavLink>
             ))}
           </div>

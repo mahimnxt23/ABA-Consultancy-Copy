@@ -1,7 +1,6 @@
 import Footer from "../Shared/Footer/Footer";
 import AboutBanner from "./AboutBanner/AboutBanner";
 import CollaborateWithU from "./CollaborateWithU/CollaborateWithU";
-import Team from "./Team/Team";
 
 const AboutUs = () => {
   return (
@@ -9,7 +8,7 @@ const AboutUs = () => {
       <AboutBanner></AboutBanner>
       {/* <ChooseUs></ChooseUs> */}
       <CollaborateWithU></CollaborateWithU>
-      <Team></Team>
+      {/* <Team></Team> */}
       <div className="sectionGap bg-[#1a2633]">
         <Footer></Footer>
       </div>

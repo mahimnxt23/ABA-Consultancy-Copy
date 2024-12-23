@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import Footer from "../Shared/Footer/Footer";
+import Faq from "../Service/Faq/Faq";
 
 /* eslint-disable react/prop-types */
 const Home = () => {
@@ -153,6 +154,8 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        <Faq />
         <div className="sectionGap">
           <div className="ourservices max-w-[900px]">
             <SectionIndicator status={"Our Service"} />
@@ -167,6 +170,7 @@ const Home = () => {
             </p>
           </div>
         </div>
+
         <Services />
         {/*chooseUs  */}
         {/* <div className="sectionGap">
