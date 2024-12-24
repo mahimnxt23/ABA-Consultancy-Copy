@@ -37,12 +37,12 @@ h-[420px] flex justify-center items-center"
    xl:px-[100px] xl:pt-[100px]
    2xl:px-[150px] 2xl:pt-[100px] "
         >
-          <div className="grid grid-cols-2  gap-[60px] justify-center items-center">
-            <div className="h-[588px]">
+          <div className="grid grid-cols-1 lg:grid-cols-2  gap-[60px] justify-center items-center">
+            <div className="md:h-[588px] h-[350px] ">
               <img
                 src="/images/chooseus.png"
                 alt=""
-                className="w-full h-full "
+                className="w-full h-full object-cover"
               />
             </div>
             <div>
@@ -57,8 +57,8 @@ h-[420px] flex justify-center items-center"
                 completing CMDEs in five days and audit-ready mock scenarios, we
                 handle the challenges so you can thrive.
               </p>
-              <p className="text-[#0E0D0D] pb-[14px] font-normal text-[16px] font-inter">
-                <span className="text-[#FF8C00] font-semibold text-[18px] font-inter">
+              <p className="text-[#0E0D0D] pb-[14px] font-normal bodyText font-inter">
+                <span className="text-[#FF8C00] font-semibold menuText font-inter">
                   1.Customized Solutions for Your Unique Needs:
                 </span>{" "}
                 We tailor our services to meet the specific goals and challenges
@@ -67,8 +67,8 @@ h-[420px] flex justify-center items-center"
                 perfectly with your needs
               </p>
 
-              <p className="text-[#0E0D0D] pb-[14px] font-normal text-[16px] font-inter">
-                <span className="text-[#FF8C00] font-semibold text-[18px] font-inter">
+              <p className="text-[#0E0D0D] pb-[14px] font-normal bodyText font-inter">
+                <span className="text-[#FF8C00] font-semibold menuText font-inter">
                   2.Proven Expertise in EI-EIDBI Services:
                 </span>
                  With years of experience partnering with 30+ agencies, our
@@ -76,8 +76,8 @@ h-[420px] flex justify-center items-center"
                 quality and operational efficiency.
               </p>
 
-              <p className="text-[#0E0D0D]  font-normal text-[16px] font-inter">
-                <span className="text-[#FF8C00] font-semibold text-[18px] font-inter">
+              <p className="text-[#0E0D0D]  font-normal bodyText font-inter">
+                <span className="text-[#FF8C00] font-semibold menuText font-inter">
                   2. Seamless Operations for Your Peace of Mind:
                 </span>
                  We manage onboarding, affiliations, and administrative tasks,

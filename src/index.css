@@ -28,11 +28,13 @@
 }
 
 .menuText {
-  @apply text-[18px] leading-[22px] font-inter font-semibold;
+  @apply text-[18px] leading-[22px]
+  2xl:text-[24px] 2xl:leading-[22px]
+   font-inter font-semibold;
 }
 
 .bodyText {
-  @apply text-[16px] leading-[24px] 
+  @apply text-[16px] leading-[24px] 2xl:text-[20px] 2xl:leading-[34px]
   
   font-inter;
 }
