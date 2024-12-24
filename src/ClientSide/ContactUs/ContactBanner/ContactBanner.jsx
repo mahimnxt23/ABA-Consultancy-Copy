@@ -250,7 +250,7 @@ const ContactBanner = () => {
       <div className="mt-[80px]  md:mt-[80px]  lg:mt-[80px] xl:mt-[100px] 2xl:mt-[100px]">
         <div className="h-auto">
           <img
-            src="../../../../public/images/mapNew.png"
+            src="/images/mapNew.png"
             alt=""
             className="w-full h-full object-cover"
           />
