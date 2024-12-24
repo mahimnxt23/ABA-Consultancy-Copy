@@ -77,7 +77,7 @@ const ContactBanner = () => {
         </div>
       </div>
 
-      <div className="relative top-[-50px] pb-[10px] ">
+      <div className="relative top-[-50px]  ">
         <div className="mx-[30px] md:mx-[32px] lg:mx-[80px] bg-white pt-[50px]  rounded-[12px] xl:mx-[100px] 2xl:mx-[150px] pb-[50px] px-[50px]">
           <div className="grid grid-cols-1 gap-y-[50px]">
             <div className="grid grid-cols-1 xl:grid-cols-3  gap-[16px]">
