@@ -146,7 +146,7 @@ const ContactBanner = () => {
               {/* Contact Form */}
             </div>
 
-            <div className="grid grid-cols-1 lg:grid-cols-2  gap-[50px]">
+            <div className="grid grid-cols-1 ">
               <div>
                 <form onSubmit={handleSubmit}>
                   {/* Name Field */}
@@ -242,16 +242,18 @@ const ContactBanner = () => {
                   </button>
                 </form>
               </div>
-
-              <div className="h-[600px]">
-                <img
-                  src="/images/map.jpg"
-                  alt=""
-                  className="w-full h-full object-cover"
-                />
-              </div>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="mt-[80px]  md:mt-[80px]  lg:mt-[80px] xl:mt-[100px] 2xl:mt-[100px]">
+        <div className="h-auto">
+          <img
+            src="../../../../public/images/mapNew.png"
+            alt=""
+            className="w-full h-full object-cover"
+          />
         </div>
       </div>
     </div>
