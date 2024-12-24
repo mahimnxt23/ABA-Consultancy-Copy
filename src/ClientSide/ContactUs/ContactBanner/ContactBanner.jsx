@@ -81,7 +81,7 @@ const ContactBanner = () => {
         <div className="mx-[30px] md:mx-[32px] lg:mx-[80px] bg-white pt-[50px]  rounded-[12px] xl:mx-[100px] 2xl:mx-[150px] pb-[50px] px-[50px]">
           <div className="grid grid-cols-1 gap-y-[50px]">
             <div className="grid grid-cols-1 xl:grid-cols-3  gap-[16px]">
-              <div className=" grid grid-cols-[50px_1fr] group border border-[#397CCA]  rounded-[8px] hover:bg-[#397CCA]  w-full  items-center  4)] md:gap-x-[20px] gap-x-[15px]  md:p-[30px] p-[15px] bg-white">
+              <div className=" grid grid-cols-[50px_1fr] group border border-[#397CCA]  rounded-[8px] hover:text-white hover:bg-[#397CCA]  w-full  items-center  4)] md:gap-x-[20px] gap-x-[15px]  md:p-[30px] p-[15px] bg-white">
                 {/* Contact Card */}
                 <div className="bg-[#397CCA] group-hover:bg-white p-[12px] rounded-[4px] flex justify-center items-center">
                   <CiPhone
@@ -90,10 +90,10 @@ const ContactBanner = () => {
                   />
                 </div>
                 <div>
-                  <h1 className="pb-[12px] text-[#0B0B0B] menuText font-outfit font-medium">
+                  <h1 className="pb-[12px] group-hover:text-white text-[#0B0B0B] menuText font-outfit font-medium">
                     Phone Number
                   </h1>
-                  <p className="pb-[5px] text-[#0B0B0BCC]/[.8] bodyText font-normal">
+                  <p className="pb-[5px] group-hover:text-white/[.8] text-[#0B0B0BCC]/[.8] bodyText font-normal">
                     612-226-6210
                   </p>
                   {/* <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal">
@@ -102,7 +102,7 @@ const ContactBanner = () => {
                 </div>
               </div>
 
-              <div className="border border-[#397CCA]  rounded-[8px]  grid grid-cols-[50px_1fr] group   hover:bg-[#397CCA]  w-full items-center  4)] md:gap-x-[20px] gap-x-[15px]  md:p-[30px] p-[15px] bg-white">
+              <div className="border border-[#397CCA] group-hover:text-white rounded-[8px]  grid grid-cols-[50px_1fr] group   hover:bg-[#397CCA]  w-full items-center  4)] md:gap-x-[20px] gap-x-[15px]  md:p-[30px] p-[15px] bg-white">
                 <div className="bg-[#397CCA] group-hover:bg-white p-[12px] rounded-[4px] flex justify-center items-center">
                   <IoLocationOutline
                     className="text-white group-hover:text-[#397CCA]"
@@ -110,10 +110,10 @@ const ContactBanner = () => {
                   />
                 </div>
                 <div>
-                  <h1 className="pb-[12px] text-[#0B0B0B] menuText font-outfit font-medium">
+                  <h1 className="pb-[12px] group-hover:text-white text-[#0B0B0B] menuText font-outfit font-medium">
                     Address
                   </h1>
-                  <p className="pb-[5px] text-[#0B0B0BCC]/[.8] bodyText font-normal overflow-wrap-break">
+                  <p className="pb-[5px] group-hover:text-white/[.8] text-[#0B0B0BCC]/[.8] bodyText font-normal overflow-wrap-break">
                     9900 13th Ave N, Unit 210G Minneapolis, MN 55441 United
                     States
                   </p>
@@ -123,7 +123,7 @@ const ContactBanner = () => {
                 </div>
               </div>
 
-              <div className="border border-[#397CCA]  rounded-[8px] grid grid-cols-[50px_1fr] group   hover:bg-[#397CCA]  w-full items-center  4)] md:gap-x-[20px] gap-x-[15px]  md:p-[30px] p-[15px] bg-white">
+              <div className="border border-[#397CCA] group-hover:text-white rounded-[8px] grid grid-cols-[50px_1fr] group   hover:bg-[#397CCA]  w-full items-center  4)] md:gap-x-[20px] gap-x-[15px]  md:p-[30px] p-[15px] bg-white">
                 <div className="bg-[#397CCA] group-hover:bg-white p-[12px] rounded-[4px] flex justify-center items-center">
                   <MdOutlineEmail
                     className="text-white group-hover:text-[#397CCA]"
@@ -131,10 +131,10 @@ const ContactBanner = () => {
                   />
                 </div>
                 <div>
-                  <h1 className="pb-[12px] text-[#0B0B0B] menuText font-outfit font-medium">
+                  <h1 className="pb-[12px] group-hover:text-white text-[#0B0B0B] menuText font-outfit font-medium">
                     Email
                   </h1>
-                  <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal break-all overflow-wrap-break">
+                  <p className="pb-[5px] group-hover:text-white/[.8] text-[#0B0B0BCC]/[.8] bodyText font-normal break-all overflow-wrap-break">
                     info@abaconsulting.org
                   </p>
                   {/* <p className="pb-[5px]  text-[#0B0B0BCC]/[.8] bodyText font-normal break-all overflow-wrap-break">

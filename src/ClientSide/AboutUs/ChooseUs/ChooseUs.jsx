@@ -117,7 +117,7 @@ h-[420px] flex justify-center items-center"
             </div>
 
             <div className="bg-[#FFFFFF] px-4 h-[350px] lg:h-[450px] rounded-[8px] text-center  relative overflow-hidden py-[50px]  flex justify-center items-center">
-              {/* <div>
+              <div>
                 <div className=" h-[50px] w-[50px] mx-auto pb-[20px]   flex justify-center items-center z-10">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -136,7 +136,7 @@ h-[420px] flex justify-center items-center"
                   We manage onboarding, affiliations, and administrative tasks,
                   allowing you to focus on providing exceptional care.
                 </p>
-              </div> */}
+              </div>
             </div>
             {/* <div className="bg-[#FFFFFF] rounded-[8px] text-center  relative overflow-hidden py-[50px]">
               <div className=" h-[50px] w-[50px] mx-auto pb-[20px]   flex justify-center items-center z-10">
