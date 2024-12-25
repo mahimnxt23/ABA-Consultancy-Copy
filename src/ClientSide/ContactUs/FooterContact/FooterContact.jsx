@@ -372,16 +372,14 @@ const FooterContact = () => {
           </div>
         </div>
 
-        <div className="py-4 flex-col justify-start items-center gap-10 flex">
-          <div className="self-stretch absolute inset-x-0 h-[0px] border border-white/40"></div>
+        <div className="py-4 flex-col justify-start items-center gap-10 flex mt-[40px] lg:mt-[0px]">
+          <div className="self-stretch absolute inset-x-0  h-[0px] border border-white/40"></div>
           <div className="self-stretch text-center text-white/80 ">
             <p className="bodyText font-inter pt-4">
-              {" "}
-              Ⓒ 2024 –{" "}
+              Copyright ABA consulting, designed and developed by
               <a href="https://fowzimedia.com">
-                <span className="font-bold font-outfit">Fowzi Media</span>
+                <span className="font-bold font-outfit"> Fowzi Media</span>
               </a>
-              . All Rights Are Reserved
             </p>
           </div>
         </div>
