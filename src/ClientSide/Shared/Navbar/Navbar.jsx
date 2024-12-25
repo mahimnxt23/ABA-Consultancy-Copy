@@ -364,7 +364,7 @@ const Navbar = () => {
             isOpen ? "translate-y-0" : "-translate-y-full"
           }`}
         >
-          <div className="px-[30px] menuText md:px-[32px] pt-2 pb-3 flex flex-col gap-[10px] py-4 lg:mt-20 mt-28">
+          <div className="px-[30px] menuText md:px-[32px] pt-2 pb-5 flex flex-col gap-[10px] py-4 lg:mt-20 mt-28">
             {navLinks.map((link) => (
               <NavLink
                 key={link.name}
