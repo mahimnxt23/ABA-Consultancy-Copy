@@ -303,7 +303,7 @@ const Navbar = () => {
                     >
                       <FaChevronDown className="ml-1 text-sm hover:text-blue-600 transition-transform hover:rotate-180 cursor-pointer" />
                       {openDropdown === link.name && (
-                        <ul className="absolute top-full left-0 bg-white shadow-lg rounded-md py-2 w-48 z-10">
+                        <ul className="absolute top-10 left-[-100px] bg-white shadow-lg rounded-md py-2 w-48 z-10">
                           {link.subLinks.map((subLink) => (
                             <li key={subLink.name}>
                               <Link
@@ -383,7 +383,7 @@ const Navbar = () => {
                     >
                       <FaChevronDown className="ml-1 text-sm hover:text-blue-600 transition-transform hover:rotate-180 cursor-pointer" />
                       {openDropdown === link.name && (
-                        <ul className="absolute top-0 left-10 bg-white shadow-lg rounded-md py-2 w-48 z-10">
+                        <ul className="absolute top-7 left-[-100px] bg-white shadow-lg rounded-md py-2 w-48 z-10">
                           {link.subLinks.map((subLink) => (
                             <li key={subLink.name}>
                               <Link
