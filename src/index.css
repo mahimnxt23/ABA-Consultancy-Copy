@@ -29,7 +29,7 @@
 
 .menuText {
   @apply text-[18px] leading-[22px]
-  2xl:text-[24px] 2xl:leading-[22px]
+  2xl:text-[20px] 2xl:leading-[22px]
    font-inter font-semibold;
 }
 
