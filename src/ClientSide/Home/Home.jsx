@@ -191,8 +191,9 @@ const Home = () => {
             </div>
           </div>
         </div>
+
         {/*chooseUs  */}
-        <div className="sectionGap">
+        {/* <div className="sectionGap">
           <div className="whychooseus grid grid-cols-1 lg:grid-cols-2 items-center lg:justify-between  gap-[80px]">
             <div className="">
               <SectionIndicator status={"Choose us"} />
@@ -259,7 +260,8 @@ const Home = () => {
               />
             </div>
           </div>
-        </div>
+        </div> */}
+
         <Faq />
         {/* <div className="sectionGap">
           <div className="ourservices max-w-[900px]">
