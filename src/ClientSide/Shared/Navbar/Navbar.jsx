@@ -290,7 +290,7 @@ const Navbar = () => {
                 to={link.href}
                 className="relative group menuText"
               >
-                <div className="flex items-center gap-[6px] menuText">
+                <div className="flex items-center gap-[10px] menuText">
                   <a className="text-gray-700 hover:text-blue-600">
                     {link.name}
                   </a>
@@ -371,7 +371,7 @@ const Navbar = () => {
                 to={link.href}
                 className="relative group menuText"
               >
-                <div className="flex items-center gap-[6px] menuText">
+                <div className="flex items-center gap-[10px] menuText">
                   <a className="text-gray-700 menuText hover:text-blue-600">
                     {link.name}
                   </a>
