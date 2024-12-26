@@ -325,7 +325,7 @@ const Navbar = () => {
 
           {/* Button */}
           <div
-            className="hidden lg:flex justify-center bg-blue-500 min-w-[270px]
+            className="hidden lg:flex justify-center items-center bg-blue-500 min-w-[274px] h-[48px]
           hover:bg-blue-600 transition duration-300 ease-in-out hover:scale-105 shadow rounded-md p-2"
           >
             <Link to="/consultation">
