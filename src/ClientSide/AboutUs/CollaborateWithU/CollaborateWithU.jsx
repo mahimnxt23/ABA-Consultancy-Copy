@@ -2,10 +2,10 @@ const CollaborateWithU = () => {
   return (
     <div className="sectionGap ">
       <div className="grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center">
-        <div className=" overflow-hidden lg:h-[442px]  pb-[20px]   flex justify-center items-center z-10">
+        <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
           <img
             src="/images/ribbon.png"
-            className="w-full h-full object-cover "
+            className="w-full h-full object-cover  rounded-[16px]"
             alt=""
           />
         </div>
