@@ -93,7 +93,7 @@ const Home = () => {
             <div className=" grid grid-cols-1  lg:grid-cols-2 items-center  gap-[80px]  ">
               <div className="   ">
                 <img
-                  src="https://i.ibb.co.com/b1DGfRm/consultant.jpg"
+                  src="https://i.ibb.co.com/t2CdShr/home.png"
                   className="w-full rounded-md"
                 />
               </div>
@@ -151,7 +151,7 @@ const Home = () => {
           <div className=" lg:hidden block ">
             <div className=" gap-2">
               <img
-                src="https://i.ibb.co.com/b1DGfRm/consultant.jpg"
+                src="https://i.ibb.co.com/t2CdShr/home.png"
                 className="w-full rounded-md"
               />
             </div>
