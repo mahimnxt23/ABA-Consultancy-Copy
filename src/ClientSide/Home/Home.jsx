@@ -54,7 +54,7 @@ const Home = () => {
                     <img
                       src="https://i.ibb.co.com/wMhTbtJ/ABA-image-Website-2.png"
                       alt="watchvideo"
-                      className="max-w-[233px] mx-auto object-cover"
+                      className="max-w-[233px] mx-auto object-cover rounded-t-[16px]"
                     />
                     <div
                       className="rounded-b-[16px] py-[14px] bg-white"
