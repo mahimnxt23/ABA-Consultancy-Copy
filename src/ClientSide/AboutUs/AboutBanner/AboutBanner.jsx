@@ -85,8 +85,8 @@ h-[420px] flex justify-center items-center"
         ></div>
 
         <div
-          className="absolute inset-0 flex flex-col  justify-center max-w-[750px] px-[30px]
- lg:max-w-[1200px]   md:px-[32px] lg:px-[80px]  xl:px-[100px]  2xl:px-[150px] 
+          className="absolute inset-0 flex flex-col  justify-center  px-[30px]
+ max-w-[750px] lg:max-w-[1200px]   md:px-[32px] lg:px-[80px]  xl:px-[100px]  2xl:px-[150px] 
         "
         >
           <h1 className="headTwo text-white pb-[12px] font-semibold">

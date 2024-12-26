@@ -23,7 +23,7 @@ h-[420px] flex justify-center items-center"
               Why Choose Aba Consultation
             </h1>
 
-            <p className=" bodyText text-white md:max-w-[550px] font-normal">
+            <p className=" bodyText text-white  font-normal">
               At ABA Consulting, . Our mission is to equip autism centers with
               innovative strategies, expert guidance, and tailored resources
               that drive impactful outcomes.

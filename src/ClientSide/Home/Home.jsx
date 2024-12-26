@@ -17,12 +17,12 @@ const Home = () => {
    2xl:px-[150px] 2xl:mt-[100px] pt-[30px] text-[#0E0D0D]"
           >
             <div className=" ">
-              <h1 className="headOne mb-[20px] font-outfit text-[#0E0D0D] max-w-[996px] 2xl:max-w-auto font-semibold">
+              <h1 className="headOne mb-[20px] font-outfit text-[#0E0D0D] max-w-[750px] lg:max-w-[1200px] 2xl:max-w-auto font-semibold">
                 Helping You Give <br /> Therapy Beyond Belief
               </h1>
               <div className="flex justify-between flex-col md:flex-row gap-2">
                 <div>
-                  <p className="max-w-[864px] bodyText">
+                  <p className=" bodyText">
                     At the core of our identity is a resolute commitment to
                     enhancing the lives of individuals with ASD through the
                     power of ABA. We believe in fostering a world where every

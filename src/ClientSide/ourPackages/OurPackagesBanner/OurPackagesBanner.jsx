@@ -93,7 +93,7 @@ h-[420px] flex justify-center items-center"
             Our Packages
           </h1>
 
-          <p className=" bodyText text-white md:max-w-[550px] font-normal">
+          <p className=" bodyText text-white  font-normal">
             Tailored solutions to enhance compliance, optimize operations, and
             improve care quality. Explore our options to find the perfect fit
             for your agency’s needs.iance, streamline operations, and enhance
