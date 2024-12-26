@@ -50,7 +50,7 @@ h-[420px] flex justify-center items-center"
           </div>
 
           <div className="grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center">
-            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px] pb-[20px]   flex justify-center items-center z-10">
+            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px] pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/h8ytJRR/Dorothea-image.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"
@@ -95,9 +95,9 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[100px]  grid-cols-1  grid  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[150px]  grid-cols-1  grid  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/vLKSs5p/Barry-Image.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"
@@ -124,7 +124,7 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className="hidden md:hidden lg:block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className="hidden md:hidden lg:block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/vLKSs5p/Barry-Image.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"
@@ -137,9 +137,9 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/wdLPjwr/Fue-Headshot.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"
@@ -183,9 +183,9 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/w0w6LVp/Emily.jpg"
                 className="w-full h-full object-cover rounded-[16px]"
@@ -217,7 +217,7 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className=" hidden md:hidden lg:block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" hidden md:hidden lg:block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/w0w6LVp/Emily.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"
@@ -227,7 +227,7 @@ h-[420px] flex justify-center items-center"
           </div>
 
           <div className="grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center">
-            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/4PJ51j8/Geoffrey.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"
@@ -266,9 +266,9 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[100px]  grid-cols-1  grid  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[150px]  grid-cols-1  grid  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/TYDpgsJ/Jessica-image.jpg"
                 className="w-full h-full object-cover rounded-[16px]"
@@ -298,7 +298,7 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className="hidden md:hidden lg:block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className="hidden md:hidden lg:block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/TYDpgsJ/Jessica-image.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"
@@ -311,9 +311,9 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/S3vX3dN/Marie.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"
@@ -350,9 +350,9 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/JyHwBZN/Marina.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"
@@ -382,7 +382,7 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className=" hidden md:hidden lg:block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" hidden md:hidden lg:block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/JyHwBZN/Marina.jpg"
                 className="w-full h-full object-cover rounded-[16px]"
@@ -394,9 +394,9 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/R6jLf6Y/Sharleen-image.jpg"
                 className="w-full h-full object-cover rounded-[16px]"
@@ -430,9 +430,9 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/t23dvPD/Teddy.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"
@@ -478,7 +478,7 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className=" hidden md:hidden lg:block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[900px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" hidden md:hidden lg:block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/t23dvPD/Teddy.jpg"
                 className="w-full h-full object-cover  rounded-[16px]"

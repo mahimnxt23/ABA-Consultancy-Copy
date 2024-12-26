@@ -20,7 +20,7 @@ const ServiceBanner = () => {
             Service
           </h1>
 
-          <p className=" bodyText text-white md:max-w-[550px] font-normal">
+          <p className=" bodyText text-white  font-normal">
             Never ever think of giving up. Winners never quit and quitters never
             win. Take all negative words out of your mental dictionary.
           </p>
