@@ -86,14 +86,14 @@ h-[420px] flex justify-center items-center"
 
         <div
           className="absolute inset-0 flex flex-col  justify-center max-w-[750px] px-[30px]
-    md:px-[32px] lg:px-[80px]  xl:px-[100px]  2xl:px-[150px] 
+ lg:max-w-[1200px]   md:px-[32px] lg:px-[80px]  xl:px-[100px]  2xl:px-[150px] 
         "
         >
           <h1 className="headTwo text-white pb-[12px] font-semibold">
             About us
           </h1>
 
-          <p className=" bodyText text-white md:max-w-[550px] font-normal">
+          <p className=" bodyText text-white  font-normal">
             At ABA Consulting, our mission is to empower autism centers with the
             tools, resources, and expertise they need to deliver life-changing
             therapy. With a steadfast commitment to supporting individuals with
