@@ -12,6 +12,8 @@ import ContactUs from "./ClientSide/ContactUs/ContactUs";
 import ConsultationForm from "./ClientSide/BookConsultancy/BookConsultaion";
 import ChooseUs from "./ClientSide/AboutUs/ChooseUs/ChooseUs";
 import Team from "./ClientSide/AboutUs/Team/Team";
+import OurPackagesBanner from "./ClientSide/ourPackages/OurPackagesBanner/ourPackagesBanner";
+import OurPackages from "./ClientSide/ourPackages/ourPackages";
 
 // Parent Layout Component
 
@@ -48,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/ourTeam",
         element: <Team></Team>,
+      },
+      {
+        path: "/ourPackages",
+        element: <OurPackages></OurPackages>,
       },
     ],
   },

@@ -52,9 +52,9 @@ const Home = () => {
                 <div className="flex md:block w-full md:w-auto mt-4 md:mt-10 flex-col justify-center md:justify-normal">
                   <div className="max-w-[233px] lg:mx-auto">
                     <img
-                      src="/images/home/hero/watchvideo.png"
+                      src="https://i.ibb.co.com/wMhTbtJ/ABA-image-Website-2.png"
                       alt="watchvideo"
-                      className="max-w-[233px] mx-auto"
+                      className="max-w-[233px] mx-auto object-cover"
                     />
                     <div
                       className="rounded-b-[16px] py-[14px] bg-white"
@@ -91,10 +91,10 @@ const Home = () => {
         <div className=" sectionGap ">
           <div className="lg:block hidden">
             <div className=" grid grid-cols-1  lg:grid-cols-2 items-center  gap-[80px]  ">
-              <div className=" 2xl:min-w-[700px] gap-2">
+              <div className="   ">
                 <img
-                  src="/images/home/hero/consulting.png"
-                  className="w-full "
+                  src="https://i.ibb.co.com/b1DGfRm/consultant.jpg"
+                  className="w-full rounded-md"
                 />
               </div>
               <div className=" ">
@@ -150,7 +150,10 @@ const Home = () => {
           {/* phone tab */}
           <div className=" lg:hidden block ">
             <div className=" gap-2">
-              <img src="/images/home/hero/consulting.png" className="w-full " />
+              <img
+                src="https://i.ibb.co.com/b1DGfRm/consultant.jpg"
+                className="w-full rounded-md"
+              />
             </div>
             <div className="mt-[30px] ">
               <div>

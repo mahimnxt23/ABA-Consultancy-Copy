@@ -324,9 +324,9 @@ const Navbar = () => {
           </div>
 
           {/* Button */}
-          <div className="hidden lg:flex justify-end min-w-[273px]">
+          <div className="hidden lg:flex justify-center bg-blue-500 min-w-[270px] rounded-md p-2">
             <Link to="/consultation">
-              <button className=" bg-blue-500 menuText text-white px-2 py-2 gap-1 flex items-center rounded-md shadow hover:bg-blue-600 transition duration-300 ease-in-out hover:scale-105">
+              <button className="  menuText   text-white   flex items-center justify-center  shadow hover:bg-blue-600 transition duration-300 ease-in-out hover:scale-105">
                 Book a Free Consultation
                 <img
                   src="/images/home/hero/material-symbols_arrow-insert (1).svg"
