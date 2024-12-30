@@ -34,7 +34,7 @@
 }
 
 .bodyText {
-  @apply text-[16px] leading-[20px] md:text-[16px] md:leading-[24px] 2xl:text-[18px] 2xl:leading-[34px]
+  @apply text-[16px] leading-[20px] md:text-[16px] md:leading-[24px] 2xl:text-[20px] 2xl:leading-[34px]
   
   font-inter;
 }

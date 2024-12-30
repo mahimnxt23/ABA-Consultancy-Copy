@@ -12,7 +12,7 @@ const ServiceBanner = () => {
         ></div>
 
         <div
-          className="absolute inset-0 flex flex-col  justify-center max-w-[750px] lg:max-w-[1200px] px-[30px]
+          className="absolute inset-0 flex flex-col  justify-center max-w-[750px] px-[30px]
       md:px-[32px] lg:px-[80px]  xl:px-[100px]  2xl:px-[150px] 
           "
         >
@@ -20,7 +20,7 @@ const ServiceBanner = () => {
             Service
           </h1>
 
-          <p className=" bodyText text-white  font-normal">
+          <p className=" bodyText text-white md:max-w-[550px] font-normal">
             Never ever think of giving up. Winners never quit and quitters never
             win. Take all negative words out of your mental dictionary.
           </p>

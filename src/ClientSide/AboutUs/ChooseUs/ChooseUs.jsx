@@ -15,7 +15,7 @@ h-[420px] flex justify-center items-center"
           ></div>
 
           <div
-            className="absolute inset-0 flex flex-col  justify-center max-w-[750px] lg:max-w-[1200px] px-[30px]
+            className="absolute inset-0 flex flex-col  justify-center max-w-[750px] px-[30px]
     md:px-[32px] lg:px-[80px]  xl:px-[100px]  2xl:px-[150px] 
         "
           >
@@ -23,7 +23,7 @@ h-[420px] flex justify-center items-center"
               Why Choose Aba Consultation
             </h1>
 
-            <p className=" bodyText text-white  font-normal">
+            <p className=" bodyText text-white md:max-w-[550px] font-normal">
               At ABA Consulting, . Our mission is to equip autism centers with
               innovative strategies, expert guidance, and tailored resources
               that drive impactful outcomes.

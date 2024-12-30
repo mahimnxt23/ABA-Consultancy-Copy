@@ -63,12 +63,12 @@ const ContactBanner = () => {
         ></div>
 
         <div
-          className="absolute inset-0 flex flex-col justify-center max-w-[750px] lg:max-w-[1200px] px-[30px]
+          className="absolute inset-0 flex flex-col justify-center max-w-[750px] px-[30px]
             md:px-[32px] lg:px-[80px] xl:px-[100px] 2xl:px-[150px]"
         >
           <h1 className="headTwo text-white pb-[12px]">Contact us</h1>
 
-          <p className="bodyText text-white ">
+          <p className="bodyText text-white md:max-w-[550px]">
             If you have any questions, feedback, or need assistance, don’t
             hesitate to reach out. Our team is dedicated to providing you with
             the support you need. Fill out the form below or contact us

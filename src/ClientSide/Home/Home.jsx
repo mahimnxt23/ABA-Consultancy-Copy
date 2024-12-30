@@ -17,12 +17,12 @@ const Home = () => {
    2xl:px-[150px] 2xl:mt-[100px] pt-[30px] text-[#0E0D0D]"
           >
             <div className=" ">
-              <h1 className="headOne mb-[20px] font-outfit text-[#0E0D0D] max-w-[750px] lg:max-w-[1200px] 2xl:max-w-auto font-semibold">
+              <h1 className="headOne mb-[20px] font-outfit text-[#0E0D0D] max-w-[996px] 2xl:max-w-auto font-semibold">
                 Helping You Give <br /> Therapy Beyond Belief
               </h1>
               <div className="flex justify-between flex-col md:flex-row gap-2">
                 <div>
-                  <p className=" bodyText">
+                  <p className="max-w-[864px] bodyText">
                     At the core of our identity is a resolute commitment to
                     enhancing the lives of individuals with ASD through the
                     power of ABA. We believe in fostering a world where every
@@ -54,7 +54,7 @@ const Home = () => {
                     <img
                       src="https://i.ibb.co.com/wMhTbtJ/ABA-image-Website-2.png"
                       alt="watchvideo"
-                      className="max-w-[233px] mx-auto object-cover rounded-t-[16px]"
+                      className="max-w-[233px] mx-auto object-cover"
                     />
                     <div
                       className="rounded-b-[16px] py-[14px] bg-white"
@@ -93,7 +93,7 @@ const Home = () => {
             <div className=" grid grid-cols-1  lg:grid-cols-2 items-center  gap-[80px]  ">
               <div className="   ">
                 <img
-                  src="https://i.ibb.co.com/t2CdShr/home.png"
+                  src="https://i.ibb.co.com/b1DGfRm/consultant.jpg"
                   className="w-full rounded-md"
                 />
               </div>
@@ -151,7 +151,7 @@ const Home = () => {
           <div className=" lg:hidden block ">
             <div className=" gap-2">
               <img
-                src="https://i.ibb.co.com/t2CdShr/home.png"
+                src="https://i.ibb.co.com/b1DGfRm/consultant.jpg"
                 className="w-full rounded-md"
               />
             </div>

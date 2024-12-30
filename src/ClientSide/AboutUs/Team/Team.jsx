@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Footer from "../../Shared/Footer/Footer";
 
 const Team = () => {
@@ -15,7 +16,7 @@ h-[420px] flex justify-center items-center"
           ></div>
 
           <div
-            className="absolute inset-0 flex flex-col  justify-center max-w-[750px] lg:max-w-[1200px] px-[30px]
+            className="absolute inset-0 flex flex-col  justify-center max-w-[750px] px-[30px]
     md:px-[32px] lg:px-[80px]  xl:px-[100px]  2xl:px-[150px] 
         "
           >
@@ -23,7 +24,7 @@ h-[420px] flex justify-center items-center"
               Meet Our Team
             </h1>
 
-            <p className=" bodyText text-white  font-normal">
+            <p className=" bodyText text-white md:max-w-[550px] font-normal">
               At ABA Consulting, our team works collaboratively to deliver
               exceptional guidance, innovative solutions, and personalized care
               to empower autism centers and their communities.
@@ -49,11 +50,17 @@ h-[420px] flex justify-center items-center"
             </div>
           </div>
 
-          <div className="grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center">
-            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px] pb-[20px]   flex justify-center items-center z-10">
+          <div
+            className="mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px]  lg:gap-[100px] justify-center items-center"
+          >
+            <div className=" overflow-hidden pb-[20px] lg:h-[700px] 2xl:h-[1000px] flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/h8ytJRR/Dorothea-image.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -95,12 +102,13 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[150px]  grid-cols-1  grid  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[100px]  grid-cols-1  grid  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden  pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/vLKSs5p/Barry-Image.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -124,10 +132,11 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className="hidden md:hidden lg:block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className="hidden md:hidden lg:block  overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/vLKSs5p/Barry-Image.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -137,12 +146,13 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" overflow-hidden  pb-[20px]  lg:h-[700px] 2xl:h-[1000px] flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/wdLPjwr/Fue-Headshot.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -183,12 +193,13 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden  pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/w0w6LVp/Emily.jpg"
-                className="w-full h-full object-cover rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -217,48 +228,58 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className=" hidden md:hidden lg:block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" hidden md:hidden lg:block overflow-hidden  pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/w0w6LVp/Emily.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
           </div>
 
-          <div className="grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center">
-            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
-              <img
-                src="https://i.ibb.co.com/4PJ51j8/Geoffrey.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
-                alt=""
-              />
-            </div>
+          <div
+            className="mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px]"
+          >
+            <div className="grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center">
+              <div className=" overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
+                <img
+                  src="https://i.ibb.co.com/4PJ51j8/Geoffrey.jpg"
+                  // className="w-full max-h-[450px] object-contain"
+                  className="w-full h-full object-cover rounded-[8px]"
+                  alt=""
+                />
+              </div>
 
-            <div>
-              <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
-                Geoffrey. Z
-                <span className="text-[#FF8C00] font-normal menuText">
-                  {" "}
-                  <br />– Clinical Director, LICSW, QSP
-                </span>
-              </h1>
-              <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
-                After his military career with the U.S. Marines was unexpectedly
-                cut short due to a brain injury, he redirected his focus to
-                academics, earning a BA in Psychology. He then pursued graduate
-                studies in Human Development and Family Science at NDSU, where
-                he specialized in parental interaction, psychosocial development
-                deviations, and prevention strategies. Driven by a desire to
-                further his expertise, he completed a Master's in Social Work
-                with a concentration in advanced clinical practice. His career
-                in behavioral health has spanned various Minnesota programs,
-                working with both adults and children. Ultimately, he found his
-                true passion in the EIDBI field, where he now dedicates himself
-                to early intervention and setting the foundation for successful
-                and productive lives for children and families facing
-                neurodevelopmental and neurodivergent challenges.
-              </p>
+              <div>
+                <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
+                  Geoffrey. Z
+                  <span className="text-[#FF8C00] font-normal menuText">
+                    {" "}
+                    <br />– Clinical Director, LICSW, QSP
+                  </span>
+                </h1>
+                <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
+                  After his military career with the U.S. Marines was
+                  unexpectedly cut short due to a brain injury, he redirected
+                  his focus to academics, earning a BA in Psychology. He then
+                  pursued graduate studies in Human Development and Family
+                  Science at NDSU, where he specialized in parental interaction,
+                  psychosocial development deviations, and prevention
+                  strategies. Driven by a desire to further his expertise, he
+                  completed a Master's in Social Work with a concentration in
+                  advanced clinical practice. His career in behavioral health
+                  has spanned various Minnesota programs, working with both
+                  adults and children. Ultimately, he found his true passion in
+                  the EIDBI field, where he now dedicates himself to early
+                  intervention and setting the foundation for successful and
+                  productive lives for children and families facing
+                  neurodevelopmental and neurodivergent challenges.
+                </p>
+              </div>
             </div>
           </div>
 
@@ -266,12 +287,13 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[150px]  grid-cols-1  grid  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[100px]  grid-cols-1  grid  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/TYDpgsJ/Jessica-image.jpg"
-                className="w-full h-full object-cover rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -298,10 +320,11 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className="hidden md:hidden lg:block  overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className="hidden md:hidden lg:block  overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/TYDpgsJ/Jessica-image.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -311,12 +334,14 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" overflow-hidden   pb-[20px]  lg:h-[700px] 2xl:h-[1000px] flex justify-center items-center z-10">
               <img
-                src="https://i.ibb.co.com/S3vX3dN/Marie.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
+                src="https://i.ibb.co.com/kGjDsFr/Marie-2.png"
+                // src="./images/Marie.jpg"
+                // className="w-[315px] md:w-full max-h-[450px] md:object-contain object:cover "
+                className="w-full 2xl:w-[760px] h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -350,12 +375,13 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden  lg:h-[700px] 2xl:h-[1000px] pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/JyHwBZN/Marina.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -382,10 +408,11 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className=" hidden md:hidden lg:block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" hidden md:hidden lg:block overflow-hidden lg:h-[700px] 2xl:h-[1000px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/JyHwBZN/Marina.jpg"
-                className="w-full h-full object-cover rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -394,12 +421,13 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/R6jLf6Y/Sharleen-image.jpg"
-                className="w-full h-full object-cover rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -430,12 +458,13 @@ h-[420px] flex justify-center items-center"
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
-   2xl:mt-[150px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden lg:h-[700px] 2xl:h-[1000px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/t23dvPD/Teddy.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover  rounded-[8px]"
                 alt=""
               />
             </div>
@@ -478,12 +507,54 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className=" hidden md:hidden lg:block overflow-hidden 2xl:h-[950px] xl:h-[650px] lg:h-[442px]  h-[800px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" hidden md:hidden lg:block overflow-hidden lg:h-[700px] 2xl:h-[1000px]  pb-[20px]   flex justify-center items-center z-10">
               <img
                 src="https://i.ibb.co.com/t23dvPD/Teddy.jpg"
-                className="w-full h-full object-cover  rounded-[16px]"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover  rounded-[8px]"
                 alt=""
               />
+            </div>
+          </div>
+
+          <div
+            className=" mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+          >
+            <div className=" overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
+              <img
+                src="https://i.ibb.co.com/6vTCNtv/Deshaa.png"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover  rounded-[8px]"
+                alt=""
+              />
+            </div>
+
+            <div>
+              <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
+                Dee’Sha. S
+                <span className="text-[#FF8C00] font-normal menuText">
+                  {" "}
+                  <br />– Vice President of Construction
+                </span>
+              </h1>
+              <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
+                With a Bachelor of Arts in Sociology from the University of
+                Texas at San Antonio and a Master’s in Applied Behavior Analysis
+                from National University in San Diego, Dee’Sha has dedicated her
+                career to serving children with special needs across diverse
+                settings. Dee’Sha has experience working with children aged 2 to
+                16 in the community, school, home, and clinic environments.
+                Currently, she focuses on early intervention in a clinic
+                setting, where she is committed to providing high-quality care
+                to help her patients reach their full potential. She is
+                passionate about continuing her professional growth within the
+                field and making a meaningful impact in the lives of those she
+                serves. Dee’Sha looks forward to the opportunity to serve your
+                family!
+              </p>
             </div>
           </div>
         </div>
