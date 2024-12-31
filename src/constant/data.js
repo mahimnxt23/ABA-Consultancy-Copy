@@ -6,6 +6,7 @@ export const navLinks = [
     subLinks: [
       { name: "Why Choose Us", href: "/ChooseUs" },
       { name: "Meet Our Team", href: "/ourTeam" },
+      { name: "Our packages", href: "/ourPackages" },
     ],
   },
   { name: "Services", href: "/Service" },

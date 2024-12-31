@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Footer from "../../Shared/Footer/Footer";
 
 const Team = () => {
@@ -49,35 +50,50 @@ h-[420px] flex justify-center items-center"
             </div>
           </div>
 
-          <div className="grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center">
-            <div className=" overflow-hidden lg:h-[442px]  pb-[20px]   flex justify-center items-center z-10">
+          <div
+            className="mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px]  lg:gap-[100px] justify-center items-center"
+          >
+            <div className=" overflow-hidden pb-[20px] lg:h-[700px] 2xl:h-[1000px] flex justify-center items-center z-10">
               <img
-                src="/images/Team1.jpg"
-                className="w-full h-full object-cover "
+                src="https://i.ibb.co.com/h8ytJRR/Dorothea-image.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
 
             <div>
               <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
-                Anne Stephenson
+                Dorothea. H
                 <span className="text-[#FF8C00] font-normal menuText">
                   {" "}
-                  <br />– General Counsel & COO
+                  <br />– QSP
                 </span>
               </h1>
               <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
-                With over 15 years of experience within the real estate
-                development industry; Anne was a natural fit as General Counsel
-                & COO for ABA Consultancy. Anne is known for ensuring each
-                project receives the thoroughness and efficiency it deserves.
-                Her expertise in multifamily, student housing, hospitality and
-                commercial developments add value and momentum to each of the
-                projects. Anne’s comprehensive knowledge of the industry and her
-                drive for results allow us to maintain their forward momentum.
-                In 2015, Anne was named one of the Top Women in Finance by
-                Finance and Commerce. In 2019 she received an In House Counsel
-                Award from Finance & Commerce.
+                Dorothea is a proud Minnesota native with an in-depth
+                understanding of the state's health disparities. A passionate
+                advocate, she has been instrumental in championing
+                person-centered care training for service providers and
+                healthcare professionals. Widely recognized by state
+                policymakers as an authority on the design and implementation of
+                culturally specific services, Dorothea has been pivotal in
+                advancing culturally responsive care for diverse ethnic
+                communities. She holds both a bachelor's and a master's degree
+                from Augsburg University in Minnesota, where she specialized in
+                the Diversity Social Work Advancement Program (DSWAP). As a
+                Licensed Independent Clinical Social Worker, her expertise has
+                been dedicated to expanding access to licensed mental health
+                services, particularly for culturally and linguistically diverse
+                communities, including people of color, immigrants, refugees,
+                and LGBTQ+ individuals. Dorothea is privileged to join a
+                distinguished team of health professionals committed to
+                providing medically necessary, early, and intensive
+                interventions for individuals with Autism Spectrum Disorder and
+                related conditions.
               </p>
             </div>
           </div>
@@ -88,16 +104,17 @@ h-[420px] flex justify-center items-center"
    xl:mt-[100px]
    2xl:mt-[100px]  grid-cols-1  grid  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden lg:h-[442px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden  pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
               <img
-                src="/images/Team2.jpg"
-                className="w-full h-full object-cover "
+                src="https://i.ibb.co.com/vLKSs5p/Barry-Image.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
             <div>
               <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
-                Paul Keenan
+                Barry
                 <span className="text-[#FF8C00] font-normal menuText">
                   {" "}
                   <br />– Vice President of Development
@@ -115,10 +132,287 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
 
-            <div className="hidden md:hidden lg:block  overflow-hidden lg:h-[442px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className="hidden md:hidden lg:block  overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
               <img
-                src="/images/Team2.jpg"
-                className="w-full h-full object-cover "
+                src="https://i.ibb.co.com/vLKSs5p/Barry-Image.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            className=" mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+          >
+            <div className=" overflow-hidden  pb-[20px]  lg:h-[700px] 2xl:h-[1000px] flex justify-center items-center z-10">
+              <img
+                src="https://i.ibb.co.com/wdLPjwr/Fue-Headshot.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
+                alt=""
+              />
+            </div>
+
+            <div>
+              <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
+                Fue. V
+                <span className="text-[#FF8C00] font-normal menuText">
+                  {" "}
+                  <br />– QSP
+                </span>
+              </h1>
+              <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
+                Fue is a first-generation Hmong American who was born and raised
+                in Saint Paul, MN. Being a first-generation Hmong American, Fue
+                has had both personal and professional experience in the
+                disparities of mental health within minority/immigrant
+                populations. Fue received his Bachelors of Psychology from
+                Gustavus Adolphus College in Saint Peter Minnesota in 2007. In
+                2014, he got married and his first daughter was born. Motivated
+                by his growing family and cultural focus towards family, Fue
+                pursued his master’s in clinical psychology and in 2020 obtained
+                it from Crown College in Minnesota. Now that he is a father of
+                4, he understands, more than ever, the importance of early
+                behavioral interventions/teaching/education and the profound
+                impact that it has on the development of children. As a licensed
+                professional clinical counselor, Fue has had experience working
+                with various populations that struggle with a variety of mental
+                health disorders. Fue understands that everyone’s’ life stories
+                are unique, and because of this, he truly believes that an
+                individualized, culturally responsive, & person-centered
+                approach is the best approach to meeting the needs of his
+                clients.
+              </p>
+            </div>
+          </div>
+          <div
+            className=" mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+          >
+            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden  pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
+              <img
+                src="https://i.ibb.co.com/w0w6LVp/Emily.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
+                alt=""
+              />
+            </div>
+            <div>
+              <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
+                Emme. B
+                <span className="text-[#FF8C00] font-normal menuText">
+                  {" "}
+                  <br />– Speech Therapy Program Director
+                </span>
+              </h1>
+              <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
+                Emme received her bachelor’s and master’s degree in
+                Speech-Language Pathology at the University of Minnesota - Twin
+                Cities and has been providing speech and language therapy since
+                2020. Her credentials include a Minnesota state speech therapy
+                license, the American Speech-Language-Hearing Association's
+                certificate of clinical competence, as well as certification in
+                the Picture Exchange Communication System (PECS) and the Beckman
+                Oral Motor Protocol. Emme specializes in providing services to
+                children with ASD in the areas of: receptive-expressive language
+                development, speech sound production, motor speech disorders,
+                alternative and augmentative communication, feeding, and more.
+                The foundation of her clinical approach is helping individuals
+                find their voice through child- and family-centered care.
+              </p>
+            </div>
+
+            <div className=" hidden md:hidden lg:block overflow-hidden  pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
+              <img
+                src="https://i.ibb.co.com/w0w6LVp/Emily.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            className="mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px]"
+          >
+            <div className="grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center">
+              <div className=" overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
+                <img
+                  src="https://i.ibb.co.com/4PJ51j8/Geoffrey.jpg"
+                  // className="w-full max-h-[450px] object-contain"
+                  className="w-full h-full object-cover rounded-[8px]"
+                  alt=""
+                />
+              </div>
+
+              <div>
+                <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
+                  Geoffrey. Z
+                  <span className="text-[#FF8C00] font-normal menuText">
+                    {" "}
+                    <br />– Clinical Director, LICSW, QSP
+                  </span>
+                </h1>
+                <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
+                  After his military career with the U.S. Marines was
+                  unexpectedly cut short due to a brain injury, he redirected
+                  his focus to academics, earning a BA in Psychology. He then
+                  pursued graduate studies in Human Development and Family
+                  Science at NDSU, where he specialized in parental interaction,
+                  psychosocial development deviations, and prevention
+                  strategies. Driven by a desire to further his expertise, he
+                  completed a Master's in Social Work with a concentration in
+                  advanced clinical practice. His career in behavioral health
+                  has spanned various Minnesota programs, working with both
+                  adults and children. Ultimately, he found his true passion in
+                  the EIDBI field, where he now dedicates himself to early
+                  intervention and setting the foundation for successful and
+                  productive lives for children and families facing
+                  neurodevelopmental and neurodivergent challenges.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            className=" mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px]  grid-cols-1  grid  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+          >
+            <div className=" lg:hidden xl:hidden 2xl:hidden block  overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
+              <img
+                src="https://i.ibb.co.com/TYDpgsJ/Jessica-image.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
+                alt=""
+              />
+            </div>
+            <div>
+              <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
+                Jessica. N
+                <span className="text-[#FF8C00] font-normal menuText">
+                  {" "}
+                  <br />– BCBA
+                </span>
+              </h1>
+              <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
+                Jessica has been a BCBA for four years and in the field of
+                Applied Behavioral Analysis for 8 years. She attended the
+                University of Houston where she received her Bachelors in
+                Science in Psychology. She received her Masters degree at
+                Arizona State University for Special Education (Applied
+                Behavioral Analysis). Jessica has always had a passion for
+                working with children. She has worked with individuals from 2
+                years old to 22 years old during her time in ABA. Jessica has
+                experience delivering services in a variety of settings such as
+                in home, in clinic, and through telehealth. She is always
+                learning to grow and learn alongside her clients!
+              </p>
+            </div>
+
+            <div className="hidden md:hidden lg:block  overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
+              <img
+                src="https://i.ibb.co.com/TYDpgsJ/Jessica-image.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            className=" mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+          >
+            <div className=" overflow-hidden   pb-[20px]  lg:h-[700px] 2xl:h-[1000px] flex justify-center items-center z-10">
+              <img
+                src="https://i.ibb.co.com/kGjDsFr/Marie-2.png"
+                // src="./images/Marie.jpg"
+                // className="w-[315px] md:w-full max-h-[450px] md:object-contain object:cover "
+                className="w-full 2xl:w-[760px] h-full object-cover rounded-[8px]"
+                alt=""
+              />
+            </div>
+
+            <div>
+              <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
+                Marie. H
+                <span className="text-[#FF8C00] font-normal menuText">
+                  {" "}
+                  <br />– BCBA
+                </span>
+              </h1>
+              <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
+                Marie graduated with a Bachelor of Science in Psychology from
+                McNeese State University in Lake Charles, Louisiana. She
+                discovered Applied Behavior Analysis through internships, which
+                led her to become a behavior therapist in 2014 at St. Nicholas
+                Center for Children. Her passion for the field grew quickly,
+                prompting her to pursue a Master's in Applied Behavior Analysis
+                in 2017 at the Florida Institute of Technology. In 2018, she
+                returned to Minnesota, where she continued her career path and
+                became a Board Certified Behavior Analyst while working in
+                schools in the Anoka-Hennepin area. Marie has always had a deep
+                appreciation for the clinical and behavioral aspects of behavior
+                analysis, especially in center-based therapy, and she has since
+                returned to this focus.
+              </p>
+            </div>
+          </div>
+          <div
+            className=" mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+          >
+            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden  lg:h-[700px] 2xl:h-[1000px] pb-[20px]   flex justify-center items-center z-10">
+              <img
+                src="https://i.ibb.co.com/JyHwBZN/Marina.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
+                alt=""
+              />
+            </div>
+            <div>
+              <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
+                Marina. P
+                <span className="text-[#FF8C00] font-normal menuText">
+                  {" "}
+                  <br />– SLP
+                </span>
+              </h1>
+              <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
+                Marina is a Speech-Language Pathologist (SLP). She received her
+                Bachelor's Degree in Communication Sciences and Disorders from
+                UW - Eau Claire in 2017 and completed her Master's in
+                Speech-Language Pathology from UW - River Falls in 2019. In
+                2020, Marina moved to the Twin Cities area, where she spent over
+                three years working at an autism center, providing
+                Speech-Language Therapy to individuals aged 2 to 21. She has a
+                passion for working with and educating others about Augmentative
+                and Alternative Communication (AAC). Outside of her professional
+                life, Marina enjoys spending time outdoors during the summer,
+                hiking with her husband and dog, and relaxing with a good book.
+              </p>
+            </div>
+
+            <div className=" hidden md:hidden lg:block overflow-hidden lg:h-[700px] 2xl:h-[1000px]  pb-[20px]   flex justify-center items-center z-10">
+              <img
+                src="https://i.ibb.co.com/JyHwBZN/Marina.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
@@ -129,17 +423,18 @@ h-[420px] flex justify-center items-center"
    xl:mt-[100px]
    2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" overflow-hidden lg:h-[442px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
               <img
-                src="/images/Team3.jpg"
-                className="w-full h-full object-cover "
+                src="https://i.ibb.co.com/R6jLf6Y/Sharleen-image.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover rounded-[8px]"
                 alt=""
               />
             </div>
 
             <div>
               <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
-                Kris Ikeler
+                Sharleen
                 <span className="text-[#FF8C00] font-normal menuText">
                   {" "}
                   <br />– Vice President of Construction
@@ -158,44 +453,108 @@ h-[420px] flex justify-center items-center"
               </p>
             </div>
           </div>
+
           <div
             className=" mt-[80px]  md:mt-[80px] 
     lg:mt-[80px]
    xl:mt-[100px]
    2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
           >
-            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden lg:h-[442px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" lg:hidden xl:hidden 2xl:hidden block overflow-hidden lg:h-[700px] 2xl:h-[1000px]  pb-[20px]   flex justify-center items-center z-10">
               <img
-                src="/images/Team4.jpg"
-                className="w-full h-full object-cover "
+                src="https://i.ibb.co.com/t23dvPD/Teddy.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover  rounded-[8px]"
                 alt=""
               />
             </div>
             <div>
               <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
-                Kelley Egan-Wittrock
+                Teddy. S
                 <span className="text-[#FF8C00] font-normal menuText">
                   {" "}
-                  <br />– Construction Manager
+                  <br />– Clinical Lead- Aspring BCBA
                 </span>
               </h1>
               <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
-                Kelley joined ABA Consultancy with over 8 years of experience in
-                the industry, specializing in multi-family and medical office
-                buildings. Her love for bringing ideas to reality and her focus
-                on relationships empower Kelley to hold each project to the
-                highest standards. Her passion and attention to detail keeps
-                projects running smoothly and guarantees they receive the time
-                and dedication they deserve.
+                Teddy earned a Bachelor of Arts in Sociology from the University
+                of North Dakota in 2019. Following his graduation, he was
+                employed as a special education para in the Anoka-Hennepin Area
+                until 2020, where he gained exposure to Applied Behavior
+                Analysis (ABA) at Comfort Autism Center. Subsequently, he
+                pursued a Master's of Education in Applied Behavior Analysis,
+                culminating in his graduation in 2023, and is presently
+                undergoing the BCBA certification process. As an accomplished
+                EI-EIDBI Clinical Supervisor, Teddy posits extensive proficiency
+                in early intervention, developmental, and behavioral
+                intervention. His background in nurturing developmental
+                milestones and enriching children's communication aptitudes
+                enables him to offer substantial support to the vibrant clinical
+                team at Sensory Speech & OT Therapy. With his ongoing pursuit of
+                BCBA certification, Teddy remains steadfast in his dedication to
+                evidence-based practices and comprehensive care. He specializes
+                in devising tailored treatment plans, conducting comprehensive
+                assessments, and executing effective interventions that
+                seamlessly intertwine with speech and occupational therapy aims
+                within broader developmental strategies. This methodology
+                ensures an integrated and collaborative milieu that optimizes
+                therapeutic results. At Sensory Speech & OT Therapy, Teddy is
+                resolutely committed to harnessing his specialized expertise to
+                enhance therapeutic outcomes and client contentment. By
+                fostering a nurturing context that prioritizes advancement and
+                progress, he aims to empower both children and their families in
+                realizing substantial developmental milestones.
               </p>
             </div>
 
-            <div className=" hidden md:hidden lg:block overflow-hidden lg:h-[442px]  pb-[20px]   flex justify-center items-center z-10">
+            <div className=" hidden md:hidden lg:block overflow-hidden lg:h-[700px] 2xl:h-[1000px]  pb-[20px]   flex justify-center items-center z-10">
               <img
-                src="/images/Team4.jpg"
-                className="w-full h-full object-cover "
+                src="https://i.ibb.co.com/t23dvPD/Teddy.jpg"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover  rounded-[8px]"
                 alt=""
               />
+            </div>
+          </div>
+
+          <div
+            className=" mt-[80px]  md:mt-[80px] 
+    lg:mt-[80px]
+   xl:mt-[100px]
+   2xl:mt-[100px] grid grid-cols-1  lg:grid-cols-2 gap-[30px] lg:gap-[100px] justify-center items-center"
+          >
+            <div className=" overflow-hidden   pb-[20px] lg:h-[700px] 2xl:h-[1000px]  flex justify-center items-center z-10">
+              <img
+                src="https://i.ibb.co.com/6vTCNtv/Deshaa.png"
+                // className="w-full max-h-[450px] object-contain"
+                className="w-full h-full object-cover  rounded-[8px]"
+                alt=""
+              />
+            </div>
+
+            <div>
+              <h1 className="headTwo text-[#0E0D0D] pb-[20px] font-semibold">
+                Dee’Sha. S
+                <span className="text-[#FF8C00] font-normal menuText">
+                  {" "}
+                  <br />– Vice President of Construction
+                </span>
+              </h1>
+              <p className="bodyText text-[#0E0D0DCC]/[.8] font-normal">
+                With a Bachelor of Arts in Sociology from the University of
+                Texas at San Antonio and a Master’s in Applied Behavior Analysis
+                from National University in San Diego, Dee’Sha has dedicated her
+                career to serving children with special needs across diverse
+                settings. Dee’Sha has experience working with children aged 2 to
+                16 in the community, school, home, and clinic environments.
+                Currently, she focuses on early intervention in a clinic
+                setting, where she is committed to providing high-quality care
+                to help her patients reach their full potential. She is
+                passionate about continuing her professional growth within the
+                field and making a meaningful impact in the lives of those she
+                serves. Dee’Sha looks forward to the opportunity to serve your
+                family!
+              </p>
             </div>
           </div>
         </div>
