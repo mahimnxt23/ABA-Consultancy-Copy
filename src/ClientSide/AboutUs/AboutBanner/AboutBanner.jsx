@@ -1,77 +1,78 @@
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./AboutBanner.css";
 
-const joyItems = [
-	{
-		imgSrc: "https://i.ibb.co/fDZTC6q/wdw-1142-66c25b7e935d6.webp",
-		LgImg: "/images/aboutB1.webp",
-	},
-	{
-		imgSrc: "https://i.ibb.co/XtSvxZh/WDW-0921-1.webp",
-		LgImg: "/images/aboutB2.webp",
-	},
+// const joyItems = [
+// 	{
+// 		imgSrc: "https://i.ibb.co/fDZTC6q/wdw-1142-66c25b7e935d6.webp",
+// 		LgImg: "/images/aboutB1.webp",
+// 	},
+// 	{
+// 		imgSrc: "https://i.ibb.co/XtSvxZh/WDW-0921-1.webp",
+// 		LgImg: "/images/aboutB2.webp",
+// 	},
 
-	{
-		imgSrc: "https://i.ibb.co/Tv7T8ms/ent.webp",
-		LgImg: "/images/aboutB1.webp",
-	},
-	{
-		imgSrc: "https://i.ibb.co/x69TdwQ/A7406038-1.webp",
-		LgImg: "/images/aboutB2.webp",
-	},
-	{
-		imgSrc: "https://i.ibb.co/g6jTWB4/IMG-2009.webp",
-		LgImg: "/images/aboutB1.webp",
-	},
+// 	{
+// 		imgSrc: "https://i.ibb.co/Tv7T8ms/ent.webp",
+// 		LgImg: "/images/aboutB1.webp",
+// 	},
+// 	{
+// 		imgSrc: "https://i.ibb.co/x69TdwQ/A7406038-1.webp",
+// 		LgImg: "/images/aboutB2.webp",
+// 	},
+// 	{
+// 		imgSrc: "https://i.ibb.co/g6jTWB4/IMG-2009.webp",
+// 		LgImg: "/images/aboutB1.webp",
+// 	},
 
-	{
-		imgSrc: "https://i.ibb.co/PrnyML3/A7405947.webp",
-		LgImg: "/images/aboutB2.webp",
-	},
-];
+// 	{
+// 		imgSrc: "https://i.ibb.co/PrnyML3/A7405947.webp",
+// 		LgImg: "/images/aboutB2.webp",
+// 	},
+// ];
 
 const AboutBanner = () => {
-	const settings = {
-		dots: false,
-		infinite: true,
-		autoplay: true,
-		speed: 500,
-		slidesToShow: 3,
-		slidesToScroll: 1,
-		responsive: [
-			{
-				breakpoint: 425,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-				},
-			},
-			{
-				breakpoint: 768,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1,
-				},
-			},
-			{
-				breakpoint: 1024,
-				settings: {
-					slidesToShow: 2,
-					slidesToScroll: 1,
-				},
-			},
+	// const settings = {
+	// 	dots: false,
+	// 	infinite: true,
+	// 	autoplay: true,
+	// 	speed: 500,
+	// 	slidesToShow: 3,
+	// 	slidesToScroll: 1,
+	// 	responsive: [
+	// 		{
+	// 			breakpoint: 425,
+	// 			settings: {
+	// 				slidesToShow: 1,
+	// 				slidesToScroll: 1,
+	// 			},
+	// 		},
+	// 		{
+	// 			breakpoint: 768,
+	// 			settings: {
+	// 				slidesToShow: 2,
+	// 				slidesToScroll: 1,
+	// 			},
+	// 		},
+	// 		{
+	// 			breakpoint: 1024,
+	// 			settings: {
+	// 				slidesToShow: 2,
+	// 				slidesToScroll: 1,
+	// 			},
+	// 		},
 
-			{
-				breakpoint: 1440,
-				settings: {
-					slidesToShow: 3,
-					slidesToScroll: 1,
-				},
-			},
-		],
-	};
+	// 		{
+	// 			breakpoint: 1440,
+	// 			settings: {
+	// 				slidesToShow: 3,
+	// 				slidesToScroll: 1,
+	// 			},
+	// 		},
+	// 	],
+	// };
+
 	return (
 		<div className="  ">
 			<div className="relative">
@@ -105,8 +106,7 @@ h-[420px] flex justify-center items-center"
 			</div>
 
 			{/* slider */}
-
-			<div className="slider-container  relative top-[-50px]">
+			{/* <div className="slider-container  relative top-[-50px]">
 				<Slider {...settings}>
 					{joyItems.map((item, index) => (
 						<div key={index} className="px-2">
@@ -122,7 +122,7 @@ h-[420px] flex justify-center items-center"
 						</div>
 					))}
 				</Slider>
-			</div>
+			</div> */}
 		</div>
 	);
 };
